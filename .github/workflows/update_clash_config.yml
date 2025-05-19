@@ -1,6 +1,9 @@
 name: Update Clash Config
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 每2小时运行一次
     - cron: '0 */2 * * *'
