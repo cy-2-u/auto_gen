@@ -5,25 +5,25 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: SS-FKKmG
+- name: SS-nP5Vy
   type: ss
   server: 195.154.54.171
   port: 13355
   cipher: aes-256-gcm
   password: dongtaiwang.com
-- name: SS-bbKgL
+- name: SS-tydr5
   type: ss
   server: series-a1.samanehha.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-- name: SS-x1KCh
+- name: SS-Xvhux
   type: ss
   server: 85.210.120.237
   port: 443
   cipher: chacha20-ietf-poly1305
   password: Bog0ELmMM9DSxDdQ
-- name: SSR-DhM2Y
+- name: SSR-V4z9G
   type: ssr
   server: dongtaiwang5.com
   port: 43000
@@ -31,7 +31,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-OPTiQ
+- name: VMESS-yJpNI
   type: vmess
   server: 195.154.40.247
   port: 38952
@@ -44,33 +44,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-Sg6z6
-  type: vmess
-  server: 120.198.71.216
-  port: 46759
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-OOr8t
-  type: vmess
-  server: tk.hzlt.tkddns.xyz
-  port: 22641
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zxjp-a.tkong.cc
-- name: VMESS-GKYuU
+- name: VMESS-ERFbd
   type: vmess
   server: us01.sh-cloudflare.sbs
   port: 8443
@@ -83,46 +57,20 @@ proxies:
     path: /
     headers:
       Host: us01.sh-cloudflare.sbs
-- name: VMESS-xsvoC
+- name: VMESS-6PLLS
   type: vmess
-  server: 111.26.109.79
-  port: 30828
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-7EUa7
-  type: vmess
-  server: www.hdmoli.com
-  port: 80
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  server: 120.198.71.216
+  port: 46759
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
   cipher: none
   tls: false
-  network: ws
-  ws-opts:
-    path: /rongseven?ed=2048
-    headers:
-      Host: fr.freeyyds.dpdns.org
-- name: VMESS-6Ga9D
-  type: vmess
-  server: cs.flha.ru
-  port: 2082
-  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
-  alterId: 0
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
+  network: tcp
+  tcp-opts:
     path: /
     headers:
-      Host: cs.flha.ru
-- name: VMESS-tLRIU
+      Host: ''
+- name: VMESS-dZ48B
   type: vmess
   server: v12.heduian.link
   port: 30812
@@ -135,124 +83,176 @@ proxies:
     path: /oooo
     headers:
       Host: ocbc.com
-- name: Trojan-jYPw0
+- name: VMESS-K5aGQ
+  type: vmess
+  server: 111.26.109.79
+  port: 30828
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-6nHNf
+  type: vmess
+  server: cs.flha.ru
+  port: 2082
+  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cs.flha.ru
+- name: VMESS-NGdSy
+  type: vmess
+  server: www.hdmoli.com
+  port: 80
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /rongseven?ed=2048
+    headers:
+      Host: fr.freeyyds.dpdns.org
+- name: VMESS-xhe4T
+  type: vmess
+  server: tk.hzlt.tkddns.xyz
+  port: 22641
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zxjp-a.tkong.cc
+- name: Trojan-rKq5R
   type: trojan
   server: 104.17.147.22
   port: 80
   password: auto
   params: 'security: none, type: ws, host: floral-shadow-a524.bestmanvpn2020.workers.dev,
     path: /floral-shadow-a524.bestmanvpn2020.workers.dev/?ed=2560'
-- name: Trojan-FY1P6
+- name: Trojan-s4Klr
+  type: trojan
+  server: 13.39.249.145
+  port: 22222
+  password: telegram-id-privatevpns
+  params: 'security: tls, sni: trojan.burgerip.co.uk'
+- name: Trojan-BWPoa
+  type: trojan
+  server: gzyd.cg.xxality.cn
+  port: 35000
+  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
+  params: 'allowInsecure: 0, sni: cgsg2.hysality.com'
+- name: Trojan-OrVIs
+  type: trojan
+  server: 45.192.222.112
+  port: 8443
+  password: trojan
+  params: 'security: tls, sni: store.timimi.dpdns.org, type: ws, host: store.timimi.dpdns.org'
+- name: Trojan-VVuvE
   type: trojan
   server: 198.62.62.4
   port: 443
   password: '12345678'
   params: 'security: tls, sni: 7bdfb97a.ikl.pages.dev, type: ws, host: 7bdfb97a.ikl.pages.dev,
     path: /7bdfb97a.ikl.pages.dev'
-- name: Trojan-jZyIQ
+- name: Trojan-GlTMq
   type: trojan
-  server: 13.39.249.145
-  port: 22222
-  password: telegram-id-privatevpns
-  params: 'security: tls, sni: trojan.burgerip.co.uk'
-- name: Trojan-P2CHW
-  type: trojan
-  server: 45.192.222.112
-  port: 8443
-  password: trojan
-  params: 'security: tls, sni: store.timimi.dpdns.org, type: ws, host: store.timimi.dpdns.org'
-- name: Trojan-fMcfT
-  type: trojan
-  server: 63.178.81.232
-  port: 22222
-  password: telegram-id-privatevpns
-  params: 'security: tls, sni: trojan.burgerip.co.uk'
-- name: Trojan-G9o0q
-  type: trojan
-  server: 104.26.4.60
-  port: 443
-  password: bpb-trojan
-  params: 'security: tls, sni: zamim340.ggff.net, type: ws, host: zamim340.ggff.net,
-    path: /tr?ed=2560, allowInsecure: 1'
-- name: Trojan-U2ijr
+  server: dozo01.flztjc.top
+  port: 8313
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  params: 'sni: hk-13-568.flztjc.net, allowInsecure: 1, fp: chrome'
+- name: Trojan-RD6ra
   type: trojan
   server: 104.26.3.223
   port: 443
   password: vip
   params: 'security: tls, sni: heihu880.pages.dev, type: ws, host: heihu880.pages.dev'
-- name: Trojan-2lYTI
+- name: Trojan-uzW2F
   type: trojan
   server: 216.24.57.30
   port: 443
   password: tg-fq521free
   params: 'security: tls, sni: torjan.xn--xhq44j.eu.org, type: ws, host: torjan.xn--xhq44j.eu.org,
     path: /'
-- name: Trojan-xp3bJ
+- name: Trojan-2OtUK
   type: trojan
-  server: gzyd.cg.xxality.cn
-  port: 35000
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  params: 'allowInsecure: 0, sni: cgsg2.hysality.com'
-- name: Trojan-1tsEJ
+  server: 104.26.4.60
+  port: 443
+  password: bpb-trojan
+  params: 'security: tls, sni: zamim340.ggff.net, type: ws, host: zamim340.ggff.net,
+    path: /tr?ed=2560, allowInsecure: 1'
+- name: Trojan-lH7Qh
   type: trojan
-  server: dozo01.flztjc.top
-  port: 8313
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  params: 'sni: hk-13-568.flztjc.net, allowInsecure: 1, fp: chrome'
+  server: 63.178.81.232
+  port: 22222
+  password: telegram-id-privatevpns
+  params: 'security: tls, sni: trojan.burgerip.co.uk'
 proxy-groups:
 - name: 自动选择
   type: url-test
   url: https://www.google.com
   interval: 300
   proxies:
-  - SS-FKKmG
-  - SS-bbKgL
-  - SS-x1KCh
-  - SSR-DhM2Y
-  - VMESS-OPTiQ
-  - VMESS-Sg6z6
-  - VMESS-OOr8t
-  - VMESS-GKYuU
-  - VMESS-xsvoC
-  - VMESS-7EUa7
-  - VMESS-6Ga9D
-  - VMESS-tLRIU
-  - Trojan-jYPw0
-  - Trojan-FY1P6
-  - Trojan-jZyIQ
-  - Trojan-P2CHW
-  - Trojan-fMcfT
-  - Trojan-G9o0q
-  - Trojan-U2ijr
-  - Trojan-2lYTI
-  - Trojan-xp3bJ
-  - Trojan-1tsEJ
+  - SS-nP5Vy
+  - SS-tydr5
+  - SS-Xvhux
+  - SSR-V4z9G
+  - VMESS-yJpNI
+  - VMESS-ERFbd
+  - VMESS-6PLLS
+  - VMESS-dZ48B
+  - VMESS-K5aGQ
+  - VMESS-6nHNf
+  - VMESS-NGdSy
+  - VMESS-xhe4T
+  - Trojan-rKq5R
+  - Trojan-s4Klr
+  - Trojan-BWPoa
+  - Trojan-OrVIs
+  - Trojan-VVuvE
+  - Trojan-GlTMq
+  - Trojan-RD6ra
+  - Trojan-uzW2F
+  - Trojan-2OtUK
+  - Trojan-lH7Qh
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
-  - SS-FKKmG
-  - SS-bbKgL
-  - SS-x1KCh
-  - SSR-DhM2Y
-  - VMESS-OPTiQ
-  - VMESS-Sg6z6
-  - VMESS-OOr8t
-  - VMESS-GKYuU
-  - VMESS-xsvoC
-  - VMESS-7EUa7
-  - VMESS-6Ga9D
-  - VMESS-tLRIU
-  - Trojan-jYPw0
-  - Trojan-FY1P6
-  - Trojan-jZyIQ
-  - Trojan-P2CHW
-  - Trojan-fMcfT
-  - Trojan-G9o0q
-  - Trojan-U2ijr
-  - Trojan-2lYTI
-  - Trojan-xp3bJ
-  - Trojan-1tsEJ
+  - SS-nP5Vy
+  - SS-tydr5
+  - SS-Xvhux
+  - SSR-V4z9G
+  - VMESS-yJpNI
+  - VMESS-ERFbd
+  - VMESS-6PLLS
+  - VMESS-dZ48B
+  - VMESS-K5aGQ
+  - VMESS-6nHNf
+  - VMESS-NGdSy
+  - VMESS-xhe4T
+  - Trojan-rKq5R
+  - Trojan-s4Klr
+  - Trojan-BWPoa
+  - Trojan-OrVIs
+  - Trojan-VVuvE
+  - Trojan-GlTMq
+  - Trojan-RD6ra
+  - Trojan-uzW2F
+  - Trojan-2OtUK
+  - Trojan-lH7Qh
 - name: 国外媒体
   type: select
   proxies:
