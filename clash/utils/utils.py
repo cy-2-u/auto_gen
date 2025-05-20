@@ -19,10 +19,8 @@ def get_random_name(prefix):
     )
 
 
-def generate_clash_config(ss_configs, ssr_configs, vmess_configs, trojan_configs):
+def generate_clash_config(nodes):
     """生成Clash配置文件"""
-
-    # 基础配置
     yaml_config = {
         "port": 7890,
         "socks-port": 7891,
@@ -55,19 +53,9 @@ def generate_clash_config(ss_configs, ssr_configs, vmess_configs, trojan_configs
             "MATCH,节点选择",
         ],
     }
-
-    # 添加节点
-    def add_proxys(configs):
-        for config in configs:
-            # 移除花括号并按逗号分割
-            yaml_config["proxies"].append(config)
-            yaml_config["proxy-groups"][0]["proxies"].append(config["name"])
-            yaml_config["proxy-groups"][1]["proxies"].append(config["name"])
-
-    # 添加所有代理节点
-    add_proxys(ss_configs)
-    add_proxys(ssr_configs)
-    add_proxys(vmess_configs)
-    add_proxys(trojan_configs)
+    for config in nodes:
+        yaml_config["proxies"].append(config)
+        yaml_config["proxy-groups"][0]["proxies"].append(config["name"])
+        yaml_config["proxy-groups"][1]["proxies"].append(config["name"])
 
     return yaml.dump(yaml_config, allow_unicode=True, sort_keys=False)

@@ -2,6 +2,9 @@
 
 这个工具可以自动从网络上爬取可用的VPN节点信息，并生成可用于Clash的配置文件。
 
+## 订阅地址
+> https://proxy.v2gh.com/https://raw.githubusercontent.com/YangLang116/auto_gen/refs/heads/master/clash/gen_clash_config.yaml
+
 ## 功能特性
 
 - 支持多种VPN协议：SS、SSR、VMess、Trojan
