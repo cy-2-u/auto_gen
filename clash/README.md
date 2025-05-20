@@ -23,19 +23,7 @@ pip install -r requirements.txt
 python generator.py
 ```
 
-这将在当前目录下生成一个`config.yaml`文件，可以直接用于Clash.
-
-## 文件说明
-
-- `app.py`: 抓取节点信息的主程序
-- `generate_config.py`: 生成Clash配置文件的程序
-- `protocol/`: 各种VPN协议的解析模块
-  - `vpn_ss.py`: SS协议解析
-  - `vpn_ssr.py`: SSR协议解析
-  - `vpn_vmess.py`: VMess协议解析
-  - `vpn_trojan.py`: Trojan协议解析
-- `utils/`: 工具函数
-  - `http_downloader.py`: HTTP下载工具
+这将在当前目录下生成一个`gen_clash_config.yaml`文件，可以直接用于Clash.
 
 ## 注意事项
 
