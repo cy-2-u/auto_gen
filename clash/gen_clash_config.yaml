@@ -5,13 +5,13 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: SS-dsjk2
+- name: SS-PaMEL
   type: ss
   server: 195.154.32.37
   port: 13355
   cipher: aes-256-gcm
   password: dongtaiwang.com
-- name: SSR-Z7CLH
+- name: SSR-wGJ6N
   type: ssr
   server: dongtaiwang5.com
   port: 43000
@@ -19,7 +19,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-a9orq
+- name: VMESS-eafTq
   type: vmess
   server: 195.154.40.247
   port: 42678
@@ -32,496 +32,457 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: SS-PEBSX
-  type: ss
-  server: freea.glyphara.com
-  port: 36241
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-ETjUI
-  type: ss
-  server: freem.vidalith.com
-  port: 31371
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-vHxwR
-  type: ss
-  server: 156.146.40.194
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: SS-2WX4d
-  type: ss
-  server: freem.vidalith.com
-  port: 31171
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-d87IB
-  type: ss
-  server: freem.vidalith.com
-  port: 31215
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-kVMtn
-  type: ss
-  server: freem.vidalith.com
-  port: 31245
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-Rwnwj
-  type: ss
-  server: freea.glyphara.com
-  port: 36721
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-8FMzZ
-  type: ss
-  server: freea.glyphara.com
-  port: 36731
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-jxLIW
-  type: ss
-  server: freem.vidalith.com
-  port: 31721
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-9pLJ3
-  type: ss
-  server: 125.141.31.72
-  port: 15098
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: SS-nUNoS
-  type: ss
-  server: freea.glyphara.com
-  port: 36671
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-SDPmm
-  type: ss
-  server: freea.glyphara.com
-  port: 36611
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-iU1fi
-  type: ss
-  server: freea.glyphara.com
-  port: 36213
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-3TnMw
-  type: ss
-  server: freem.vidalith.com
-  port: 31571
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-2tVvP
-  type: ss
-  server: freem.vidalith.com
-  port: 31145
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-76NE3
-  type: ss
-  server: freem.vidalith.com
-  port: 31141
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-35aYt
-  type: ss
-  server: freem.vidalith.com
-  port: 31313
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-VUuO8
-  type: ss
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  port: 15010
-  cipher: aes-256-gcm
-  password: ENYGONDU94UW1G6X
-- name: SS-ZU25B
-  type: ss
-  server: freem.vidalith.com
-  port: 31243
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-cSCZh
-  type: ss
-  server: freea.glyphara.com
-  port: 36722
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-3AbVv
-  type: ss
-  server: freea.glyphara.com
-  port: 36741
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-Jepse
-  type: ss
-  server: freem.vidalith.com
-  port: 31511
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-1iv7U
-  type: ss
-  server: freem.vidalith.com
-  port: 31641
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-6w8Iv
-  type: ss
-  server: freem.vidalith.com
-  port: 31311
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-X7kBA
-  type: ss
-  server: freea.glyphara.com
-  port: 36211
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-rdkbb
-  type: ss
-  server: freem.vidalith.com
-  port: 31741
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-vfqkJ
-  type: ss
-  server: 125.141.26.12
-  port: 4857
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: SS-UKL7j
-  type: ss
-  server: freea.glyphara.com
-  port: 36677
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-MD04X
-  type: ss
-  server: freem.vidalith.com
-  port: 31211
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-gpf2r
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8774
-  cipher: rc4-md5
-  password: efanccyun
-- name: SS-OG9uL
-  type: ss
-  server: freem.vidalith.com
-  port: 31611
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-X5wGD
-  type: ss
-  server: freea.glyphara.com
-  port: 36411
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-PhCQc
-  type: ss
-  server: freem.vidalith.com
-  port: 31411
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-i9Koo
-  type: ss
-  server: freea.glyphara.com
-  port: 36171
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-ky7gm
-  type: ss
-  server: cm55-zz.moonwang.xyz
-  port: 54322
-  cipher: chacha20-ietf-poly1305
-  password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
-- name: SS-F7EjL
-  type: ss
-  server: freea.glyphara.com
-  port: 36371
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-zpdPU
-  type: ss
-  server: freea.glyphara.com
-  port: 36441
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-SZe71
-  type: ss
-  server: freem.vidalith.com
-  port: 31173
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-2qKVf
-  type: ss
-  server: freea.glyphara.com
-  port: 36243
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-HlN04
-  type: ss
-  server: freea.glyphara.com
-  port: 36471
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-BETMk
-  type: ss
-  server: freem.vidalith.com
-  port: 31341
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-NvRie
-  type: ss
-  server: freea.glyphara.com
-  port: 36115
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-bVmke
-  type: ss
-  server: freem.vidalith.com
-  port: 31143
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-YnNei
-  type: ss
-  server: 43.226.17.17
-  port: 50494
-  cipher: chacha20-ietf-poly1305
-  password: 2e96aa2f3054
-- name: SS-n0rX9
-  type: ss
-  server: freea.glyphara.com
-  port: 36571
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-BkUFm
-  type: ss
-  server: freem.vidalith.com
-  port: 31677
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-7x28c
-  type: ss
-  server: freea.glyphara.com
-  port: 36641
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-5NzgF
-  type: ss
-  server: freem.vidalith.com
-  port: 31115
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-IRLRH
-  type: ss
-  server: freem.vidalith.com
-  port: 31671
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-LOghI
+- name: SS-ilKxq
   type: ss
   server: freem.vidalith.com
   port: 31241
   cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-QmySx
-  type: ss
-  server: freea.glyphara.com
-  port: 36173
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-hapfY
-  type: ss
-  server: 103.186.154.29
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: SS-ki4IH
-  type: ss
-  server: freem.vidalith.com
-  port: 31541
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-EZQFO
-  type: ss
-  server: 43.203.240.196
-  port: 443
-  cipher: aes-256-cfb
-  password: yijian0503
-- name: SS-OUjFV
-  type: ss
-  server: freea.glyphara.com
-  port: 36143
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-LZmbc
-  type: ss
-  server: freea.glyphara.com
-  port: 36245
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-x0PHc
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-RM4Yd
   type: ss
   server: 8tv68qhq.slashdevslashnetslashtun.net
   port: 16005
   cipher: aes-256-gcm
   password: PIPLH14SPUJNGOS8
-- name: SS-SndsJ
-  type: ss
-  server: freea.glyphara.com
-  port: 36113
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-aqFcM
-  type: ss
-  server: freea.glyphara.com
-  port: 36511
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-iWYQ8
-  type: ss
-  server: freea.glyphara.com
-  port: 36215
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-pHsVL
-  type: ss
-  server: jg647hf446ghvw.gym0boy.com
-  port: 32875
-  cipher: chacha20-ietf-poly1305
-  password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
-- name: SS-56dLy
+- name: SS-y7oO5
   type: ss
   server: freem.vidalith.com
-  port: 31441
+  port: 31173
   cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-kfl4C
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-qWGb8
   type: ss
   server: freem.vidalith.com
-  port: 31175
+  port: 31115
   cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-i6B2p
-  type: ss
-  server: freem.vidalith.com
-  port: 31113
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-yA8ED
-  type: ss
-  server: freea.glyphara.com
-  port: 36111
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-ioz3v
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-lNRGt
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8766
+  port: 8774
   cipher: rc4-md5
   password: efanccyun
-- name: SS-sVt10
-  type: ss
-  server: freem.vidalith.com
-  port: 31111
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-zQumh
-  type: ss
-  server: freem.vidalith.com
-  port: 31471
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-t3l8Y
-  type: ss
-  server: freem.vidalith.com
-  port: 31722
-  cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-eb46N
-  type: ss
-  server: freea.glyphara.com
-  port: 36145
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-BQ3w3
-  type: ss
-  server: freea.glyphara.com
-  port: 36311
-  cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-S7yrT
+- name: SS-Eu28q
   type: ss
   server: freem.vidalith.com
   port: 31213
   cipher: chacha20-ietf-poly1305
-  password: ac265364-574c-4a25-93b3-e1d78b29ce89
-- name: SS-EP3Np
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-w45GG
   type: ss
   server: freea.glyphara.com
-  port: 36341
+  port: 36471
   cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-tQm5a
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-Raylg
+  type: ss
+  server: freea.glyphara.com
+  port: 36241
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-OCY83
+  type: ss
+  server: freea.glyphara.com
+  port: 36722
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-mgH23
+  type: ss
+  server: freem.vidalith.com
+  port: 31441
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-gI9v5
+  type: ss
+  server: freea.glyphara.com
+  port: 36721
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-GBrKq
+  type: ss
+  server: freea.glyphara.com
+  port: 36411
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-6u0mG
+  type: ss
+  server: freem.vidalith.com
+  port: 31541
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-xPCs8
+  type: ss
+  server: freem.vidalith.com
+  port: 31215
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-TyBnh
+  type: ss
+  server: freea.glyphara.com
+  port: 36731
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-ttulq
+  type: ss
+  server: 125.141.31.72
+  port: 15098
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: SS-gcKBz
+  type: ss
+  server: freem.vidalith.com
+  port: 31113
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-wnxA8
+  type: ss
+  server: freem.vidalith.com
+  port: 31471
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-QdfCz
+  type: ss
+  server: freem.vidalith.com
+  port: 31143
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-G3jdv
+  type: ss
+  server: freea.glyphara.com
+  port: 36671
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-hn0BE
+  type: ss
+  server: freem.vidalith.com
+  port: 31141
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-zVULe
+  type: ss
+  server: freea.glyphara.com
+  port: 36111
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-m7jII
+  type: ss
+  server: freem.vidalith.com
+  port: 31721
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-Bal6r
+  type: ss
+  server: freem.vidalith.com
+  port: 31371
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-kKnEE
+  type: ss
+  server: freea.glyphara.com
+  port: 36115
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-QmNRt
+  type: ss
+  server: freea.glyphara.com
+  port: 36741
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-AeFST
+  type: ss
+  server: freea.glyphara.com
+  port: 36113
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-P3yN5
+  type: ss
+  server: freem.vidalith.com
+  port: 31145
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-JI5mS
+  type: ss
+  server: freem.vidalith.com
+  port: 31677
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-zIn5s
+  type: ss
+  server: freem.vidalith.com
+  port: 31641
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-i7JJR
+  type: ss
+  server: freea.glyphara.com
+  port: 36243
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-5DKob
+  type: ss
+  server: freea.glyphara.com
+  port: 36213
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-FGCvu
+  type: ss
+  server: freea.glyphara.com
+  port: 36371
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-N47TP
+  type: ss
+  server: freea.glyphara.com
+  port: 36211
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-9PPSL
   type: ss
   server: freea.glyphara.com
   port: 36141
   cipher: chacha20-ietf-poly1305
-  password: 500befe4-6703-4eb2-b1db-9bc88fb3761b
-- name: SS-oCZ69
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-6U6k3
+  type: ss
+  server: freem.vidalith.com
+  port: 31243
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-aTMIg
+  type: ss
+  server: freem.vidalith.com
+  port: 31111
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-xcFtl
+  type: ss
+  server: 103.186.154.29
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: SS-hPAdh
+  type: ss
+  server: freea.glyphara.com
+  port: 36677
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-aVyJt
+  type: ss
+  server: freem.vidalith.com
+  port: 31313
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-Q92tC
+  type: ss
+  server: freea.glyphara.com
+  port: 36341
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-7J7w7
+  type: ss
+  server: freea.glyphara.com
+  port: 36173
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-Gwt4V
+  type: ss
+  server: 43.226.17.17
+  port: 50494
+  cipher: chacha20-ietf-poly1305
+  password: 2e96aa2f3054
+- name: SS-n5OPy
+  type: ss
+  server: freem.vidalith.com
+  port: 31175
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-wNcbh
+  type: ss
+  server: freem.vidalith.com
+  port: 31411
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-38jmw
+  type: ss
+  server: freem.vidalith.com
+  port: 31311
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-xRHjA
+  type: ss
+  server: freea.glyphara.com
+  port: 36571
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-7Rc1M
+  type: ss
+  server: freem.vidalith.com
+  port: 31245
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-Qoc3d
+  type: ss
+  server: freem.vidalith.com
+  port: 31211
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-Pj6ZR
+  type: ss
+  server: freem.vidalith.com
+  port: 31671
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-RnzUh
+  type: ss
+  server: 125.141.26.12
+  port: 4857
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: SS-18vfk
+  type: ss
+  server: freem.vidalith.com
+  port: 31511
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-JcFPZ
+  type: ss
+  server: freea.glyphara.com
+  port: 36511
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-gwIFX
+  type: ss
+  server: freea.glyphara.com
+  port: 36611
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-Fc434
+  type: ss
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 15010
+  cipher: aes-256-gcm
+  password: ENYGONDU94UW1G6X
+- name: SS-jABBA
+  type: ss
+  server: 43.203.240.196
+  port: 443
+  cipher: aes-256-cfb
+  password: yijian0503
+- name: SS-aucya
+  type: ss
+  server: freem.vidalith.com
+  port: 31571
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-2fEJE
+  type: ss
+  server: freem.vidalith.com
+  port: 31722
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-puVrv
   type: ss
   server: hkkh11v1.xpmc.cc
   port: 34566
   cipher: chacha20-ietf-poly1305
   password: 91a41f4e02dc
-- name: VMESS-Aa8al
-  type: vmess
-  server: v12.heduian.link
-  port: 30812
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-R7xGw
-  type: vmess
-  server: 8.211.154.107
-  port: 50951
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-wRgOq
-  type: vmess
-  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-  port: 17233
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-D4wB9
+- name: SS-llOv7
+  type: ss
+  server: freem.vidalith.com
+  port: 31171
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-yLovD
+  type: ss
+  server: freea.glyphara.com
+  port: 36441
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-nBaSe
+  type: ss
+  server: freea.glyphara.com
+  port: 36171
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-Cx3Yq
+  type: ss
+  server: freea.glyphara.com
+  port: 36641
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-Osrdq
+  type: ss
+  server: freea.glyphara.com
+  port: 36311
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-9PSBz
+  type: ss
+  server: freem.vidalith.com
+  port: 31741
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-b6SVk
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8766
+  cipher: rc4-md5
+  password: efanccyun
+- name: SS-CYsSw
+  type: ss
+  server: freea.glyphara.com
+  port: 36245
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-jSo6V
+  type: ss
+  server: freem.vidalith.com
+  port: 31341
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-V1gZH
+  type: ss
+  server: cm55-zz.moonwang.xyz
+  port: 54322
+  cipher: chacha20-ietf-poly1305
+  password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
+- name: SS-pQxfx
+  type: ss
+  server: freea.glyphara.com
+  port: 36145
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-VChGW
+  type: ss
+  server: freea.glyphara.com
+  port: 36215
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-vHwYc
+  type: ss
+  server: freem.vidalith.com
+  port: 31611
+  cipher: chacha20-ietf-poly1305
+  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+- name: SS-GxmsN
+  type: ss
+  server: freea.glyphara.com
+  port: 36143
+  cipher: chacha20-ietf-poly1305
+  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
+- name: SS-XVp9F
+  type: ss
+  server: 156.146.40.194
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: SS-JxOh1
+  type: ss
+  server: jg647hf446ghvw.gym0boy.com
+  port: 32875
+  cipher: chacha20-ietf-poly1305
+  password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
+- name: VMESS-FdXDa
   type: vmess
   server: de.vmess.comnpmjs.com
   port: 443
@@ -534,85 +495,7 @@ proxies:
     path: vmess-grpc
     headers:
       Host: N/A
-- name: VMESS-2yW26
-  type: vmess
-  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-  port: 17233
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-ZLogz
-  type: vmess
-  server: 183.236.51.38
-  port: 49302
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-6zT08
-  type: vmess
-  server: sslvpn.51job.com
-  port: 1443
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /634c5c4f9782
-    headers:
-      Host: centos7
-- name: VMESS-zk3dE
-  type: vmess
-  server: v32.heduian.link
-  port: 30832
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-No7xS
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-ArdAb
-  type: vmess
-  server: 120.232.153.40
-  port: 31209
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-Ap6Az
+- name: VMESS-JTI6y
   type: vmess
   server: 120.232.153.40
   port: 52182
@@ -625,23 +508,10 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-EnQlg
+- name: VMESS-Y1Gjn
   type: vmess
-  server: 38.47.96.30
-  port: 443
-  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /lzjjj
-    headers:
-      Host: th.lzj520hxw.dpdns.org
-- name: VMESS-xZySr
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
+  server: v12.heduian.link
+  port: 30812
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
@@ -651,46 +521,7 @@ proxies:
     path: /oooo
     headers:
       Host: ocbc.com
-- name: VMESS-1QCvs
-  type: vmess
-  server: 183.236.51.38
-  port: 49302
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-dK8Mn
-  type: vmess
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  port: 8080
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-zOIlk
-  type: vmess
-  server: 183.236.51.38
-  port: 49291
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-OVoGv
+- name: VMESS-63iwt
   type: vmess
   server: 111.26.109.79
   port: 30828
@@ -703,7 +534,150 @@ proxies:
     path: /oooo
     headers:
       Host: ocbc.com
-- name: VMESS-F9jVf
+- name: VMESS-g91aS
+  type: vmess
+  server: v32.heduian.link
+  port: 30832
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-4r5nb
+  type: vmess
+  server: 183.236.51.38
+  port: 49302
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-uEzmO
+  type: vmess
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  port: 8080
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-6FMYS
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-37QuT
+  type: vmess
+  server: 120.232.153.40
+  port: 31209
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-mwfY3
+  type: vmess
+  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
+  port: 17233
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-sZko3
+  type: vmess
+  server: 183.236.51.38
+  port: 49291
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-xA9Sa
+  type: vmess
+  server: 183.236.51.38
+  port: 49302
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-GgdLs
+  type: vmess
+  server: 8.211.154.107
+  port: 50951
+  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: kcp
+  kcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-pNYln
+  type: vmess
+  server: 38.47.96.30
+  port: 443
+  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /lzjjj
+    headers:
+      Host: th.lzj520hxw.dpdns.org
+- name: VMESS-MeHWs
+  type: vmess
+  server: 120.232.153.40
+  port: 31209
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-lmCoo
   type: vmess
   server: 120.232.153.40
   port: 52182
@@ -716,12 +690,38 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-8ATV2
+- name: VMESS-A7FWS
   type: vmess
-  server: 120.232.153.40
-  port: 31209
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: sslvpn.51job.com
+  port: 1443
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
   alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /634c5c4f9782
+    headers:
+      Host: centos7
+- name: VMESS-IR0DB
+  type: vmess
+  server: v29.heduian.link
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-cIc5F
+  type: vmess
+  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
+  port: 17233
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  alterId: 0
   cipher: auto
   tls: false
   network: tcp
@@ -729,45 +729,174 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: Trojan-LqqCD
+- name: Trojan-Gd067
+  type: trojan
+  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+  port: 15229
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  params: 'allowInsecure: 0, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net'
+- name: Trojan-U6lZF
   type: trojan
   server: 154.211.8.240
   port: 443
   password: Aimer
   params: 'allowInsecure: 0, sni: epme.ambercc.filegear-sg.me, type: ws, host: epme.ambercc.filegear-sg.me,
     path: /'
-- name: Trojan-tcpH2
-  type: trojan
-  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
-  port: 15229
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  params: 'allowInsecure: 0, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net'
-- name: Trojan-txrM2
-  type: trojan
-  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
-  port: 15229
-  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
-  params: 'allowInsecure: 1, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net'
-- name: Trojan-TUUbp
-  type: trojan
-  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
-  port: 15229
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  params: 'allowInsecure: 0'
-- name: Trojan-IG8Bm
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  params: 'allowInsecure: 0, sni: usla.mjt000.com'
-- name: Trojan-dPve7
+- name: Trojan-3WtNu
   type: trojan
   server: 103.116.7.248
   port: 443
   password: Aimer
   params: 'allowInsecure: 0, sni: epme.ambercc.filegear-sg.me, type: ws, host: epme.ambercc.filegear-sg.me,
     path: /?ed=2560'
-- name: VMESS-XItiE
+- name: Trojan-ZkHIQ
+  type: trojan
+  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+  port: 15229
+  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+  params: 'allowInsecure: 1, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net'
+- name: Trojan-cReHb
+  type: trojan
+  server: usla.mjt000.com
+  port: 443
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  params: 'allowInsecure: 0, sni: usla.mjt000.com'
+- name: Trojan-d56Dl
+  type: trojan
+  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
+  port: 15229
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  params: 'allowInsecure: 0'
+- name: SS-QBUCQ
+  type: ss
+  server: 193.243.147.128
+  port: 40368
+  cipher: aes-256-gcm
+  password: 7BcLdsO1WweoGD0X
+- name: SS-HmNft
+  type: ss
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 18008
+  cipher: aes-256-gcm
+  password: 6EZ5QKFX60AVSUYT
+- name: VMESS-4BMRC
+  type: vmess
+  server: 183.236.51.38
+  port: 30052
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: none
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-SFlOO
+  type: vmess
+  server: v32.heduian.link
+  port: 30832
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-PUtfm
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: server26.beheshtbaneh.com
+- name: VMESS-btPvV
+  type: vmess
+  server: 120.232.153.40
+  port: 43292
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: none
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-ihlTU
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /@forwardv2ray
+    headers:
+      Host: sahand.serveminecraft.net
+- name: VMESS-SBpQF
+  type: vmess
+  server: xxxsde4.freevpnatm2025.dpdns.org
+  port: 80
+  uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /10W6SJaK0F0oVXeNU6S2RVRP
+    headers:
+      Host: ''
+- name: VMESS-sIhxc
+  type: vmess
+  server: 172.67.154.84
+  port: 443
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: irvideo.cfd
+- name: VMESS-kHjvz
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-PytmM
+  type: vmess
+  server: 120.234.102.229
+  port: 49174
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: none
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-n0sCk
   type: vmess
   server: 142.4.116.177
   port: 50009
@@ -777,65 +906,39 @@ proxies:
   tls: false
   network: tcp
   tcp-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
-- name: VMESS-fTiio
+- name: VMESS-m8Tgn
   type: vmess
-  server: v8.heduian.link
-  port: 30808
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: 104.21.73.59
+  port: 80
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  alterId: 0
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /oooo
+    path: /rongseven?ed=2048
     headers:
-      Host: v8.heduian.link
-- name: VMESS-ywEMU
+      Host: hk.freeyyds.dpdns.org
+- name: VMESS-aO9a3
   type: vmess
-  server: 154.26.153.161
-  port: 21759
-  uuid: e5f16fad-f9c3-452b-8e71-bc9504e29fc9
+  server: 120.198.71.219
+  port: 49355
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
   cipher: none
   tls: false
   network: tcp
   tcp-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: VMESS-cBusF
-  type: vmess
-  server: www.visa.com.tw
-  port: 443
-  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /aa
-    headers:
-      Host: tw.insbot.filegear-sg.me
-- name: VMESS-U1Hzw
-  type: vmess
-  server: us01.sh-cloudflare.sbs
-  port: 8443
-  uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
     path: /
     headers:
-      Host: us01.sh-cloudflare.sbs
-- name: VMESS-JAMcW
+      Host: ''
+- name: VMESS-GKJpW
   type: vmess
-  server: v12.heduian.link
-  port: 30812
+  server: 111.26.109.79
+  port: 30828
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: none
@@ -845,364 +948,268 @@ proxies:
     path: /oooo
     headers:
       Host: ocbc.com
-- name: VMESS-sTTBy
-  type: vmess
-  server: 120.232.153.63
-  port: 37805
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-gd8Rh
-  type: vmess
-  server: hk2.lrzdx.uk
-  port: 443
-  uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /register
-    headers:
-      Host: ''
-- name: VMESS-n2aSc
-  type: vmess
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
-  port: 17232
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-YFZo3
-  type: vmess
-  server: 120.232.153.41
-  port: 41491
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-A0k9Y
-  type: vmess
-  server: 183.237.84.53
-  port: 55002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-7vqQZ
-  type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /@forwardv2ray
-    headers:
-      Host: irsoft.sytes.net
-- name: VMESS-JSHq2
-  type: vmess
-  server: 120.232.153.40
-  port: 31209
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: Trojan-ZmDdr
+- name: Trojan-S3gLb
   type: trojan
-  server: 172.67.204.120
-  port: 443
-  password: 4a3ee276-f50f-46f6-ba4d-13571732ab70
-  params: 'sni: ddcDe.890603.XYz, type: ws, path: /COp52Dbu3dvwvDWUxOqxq, host: ddcde.890603.xyz'
-- name: Trojan-7UvBz
+  server: 35.180.72.238
+  port: 22223
+  password: telegram-id-directvpn
+  params: 'sni: trojan.burgerip.co.uk'
+- name: Trojan-mNyxo
   type: trojan
-  server: 103.116.7.248
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 0, sni: epme.ambercc.filegear-sg.me, type: ws, host: epme.ambercc.filegear-sg.me,
-    path: /?ed=2560'
-- name: Trojan-IdhBb
-  type: trojan
-  server: 158fbba2-sx4v40-t8dih2-9kd8.cm5.cnkuaishou.com
-  port: 27231
-  password: 8bd4eef0-e4ad-11ef-b717-f23c913c8d2b
-  params: 'sni: 158fbba2-sx4v40-t8dih2-9kd8.cm5.cnkuaishou.com'
+  server: 36.151.251.62
+  port: 3330
+  password: RlzoEILU
+  params: 'allowInsecure: 0, sni: cdn.egvra.cn'
 proxy-groups:
 - name: 自动选择
   type: url-test
   url: https://www.google.com
   interval: 300
   proxies:
-  - SS-dsjk2
-  - SSR-Z7CLH
-  - VMESS-a9orq
-  - SS-PEBSX
-  - SS-ETjUI
-  - SS-vHxwR
-  - SS-2WX4d
-  - SS-d87IB
-  - SS-kVMtn
-  - SS-Rwnwj
-  - SS-8FMzZ
-  - SS-jxLIW
-  - SS-9pLJ3
-  - SS-nUNoS
-  - SS-SDPmm
-  - SS-iU1fi
-  - SS-3TnMw
-  - SS-2tVvP
-  - SS-76NE3
-  - SS-35aYt
-  - SS-VUuO8
-  - SS-ZU25B
-  - SS-cSCZh
-  - SS-3AbVv
-  - SS-Jepse
-  - SS-1iv7U
-  - SS-6w8Iv
-  - SS-X7kBA
-  - SS-rdkbb
-  - SS-vfqkJ
-  - SS-UKL7j
-  - SS-MD04X
-  - SS-gpf2r
-  - SS-OG9uL
-  - SS-X5wGD
-  - SS-PhCQc
-  - SS-i9Koo
-  - SS-ky7gm
-  - SS-F7EjL
-  - SS-zpdPU
-  - SS-SZe71
-  - SS-2qKVf
-  - SS-HlN04
-  - SS-BETMk
-  - SS-NvRie
-  - SS-bVmke
-  - SS-YnNei
-  - SS-n0rX9
-  - SS-BkUFm
-  - SS-7x28c
-  - SS-5NzgF
-  - SS-IRLRH
-  - SS-LOghI
-  - SS-QmySx
-  - SS-hapfY
-  - SS-ki4IH
-  - SS-EZQFO
-  - SS-OUjFV
-  - SS-LZmbc
-  - SS-x0PHc
-  - SS-SndsJ
-  - SS-aqFcM
-  - SS-iWYQ8
-  - SS-pHsVL
-  - SS-56dLy
-  - SS-kfl4C
-  - SS-i6B2p
-  - SS-yA8ED
-  - SS-ioz3v
-  - SS-sVt10
-  - SS-zQumh
-  - SS-t3l8Y
-  - SS-eb46N
-  - SS-BQ3w3
-  - SS-S7yrT
-  - SS-EP3Np
-  - SS-tQm5a
-  - SS-oCZ69
-  - VMESS-Aa8al
-  - VMESS-R7xGw
-  - VMESS-wRgOq
-  - VMESS-D4wB9
-  - VMESS-2yW26
-  - VMESS-ZLogz
-  - VMESS-6zT08
-  - VMESS-zk3dE
-  - VMESS-No7xS
-  - VMESS-ArdAb
-  - VMESS-Ap6Az
-  - VMESS-EnQlg
-  - VMESS-xZySr
-  - VMESS-1QCvs
-  - VMESS-dK8Mn
-  - VMESS-zOIlk
-  - VMESS-OVoGv
-  - VMESS-F9jVf
-  - VMESS-8ATV2
-  - Trojan-LqqCD
-  - Trojan-tcpH2
-  - Trojan-txrM2
-  - Trojan-TUUbp
-  - Trojan-IG8Bm
-  - Trojan-dPve7
-  - VMESS-XItiE
-  - VMESS-fTiio
-  - VMESS-ywEMU
-  - VMESS-cBusF
-  - VMESS-U1Hzw
-  - VMESS-JAMcW
-  - VMESS-sTTBy
-  - VMESS-gd8Rh
-  - VMESS-n2aSc
-  - VMESS-YFZo3
-  - VMESS-A0k9Y
-  - VMESS-7vqQZ
-  - VMESS-JSHq2
-  - Trojan-ZmDdr
-  - Trojan-7UvBz
-  - Trojan-IdhBb
+  - SS-PaMEL
+  - SSR-wGJ6N
+  - VMESS-eafTq
+  - SS-ilKxq
+  - SS-RM4Yd
+  - SS-y7oO5
+  - SS-qWGb8
+  - SS-lNRGt
+  - SS-Eu28q
+  - SS-w45GG
+  - SS-Raylg
+  - SS-OCY83
+  - SS-mgH23
+  - SS-gI9v5
+  - SS-GBrKq
+  - SS-6u0mG
+  - SS-xPCs8
+  - SS-TyBnh
+  - SS-ttulq
+  - SS-gcKBz
+  - SS-wnxA8
+  - SS-QdfCz
+  - SS-G3jdv
+  - SS-hn0BE
+  - SS-zVULe
+  - SS-m7jII
+  - SS-Bal6r
+  - SS-kKnEE
+  - SS-QmNRt
+  - SS-AeFST
+  - SS-P3yN5
+  - SS-JI5mS
+  - SS-zIn5s
+  - SS-i7JJR
+  - SS-5DKob
+  - SS-FGCvu
+  - SS-N47TP
+  - SS-9PPSL
+  - SS-6U6k3
+  - SS-aTMIg
+  - SS-xcFtl
+  - SS-hPAdh
+  - SS-aVyJt
+  - SS-Q92tC
+  - SS-7J7w7
+  - SS-Gwt4V
+  - SS-n5OPy
+  - SS-wNcbh
+  - SS-38jmw
+  - SS-xRHjA
+  - SS-7Rc1M
+  - SS-Qoc3d
+  - SS-Pj6ZR
+  - SS-RnzUh
+  - SS-18vfk
+  - SS-JcFPZ
+  - SS-gwIFX
+  - SS-Fc434
+  - SS-jABBA
+  - SS-aucya
+  - SS-2fEJE
+  - SS-puVrv
+  - SS-llOv7
+  - SS-yLovD
+  - SS-nBaSe
+  - SS-Cx3Yq
+  - SS-Osrdq
+  - SS-9PSBz
+  - SS-b6SVk
+  - SS-CYsSw
+  - SS-jSo6V
+  - SS-V1gZH
+  - SS-pQxfx
+  - SS-VChGW
+  - SS-vHwYc
+  - SS-GxmsN
+  - SS-XVp9F
+  - SS-JxOh1
+  - VMESS-FdXDa
+  - VMESS-JTI6y
+  - VMESS-Y1Gjn
+  - VMESS-63iwt
+  - VMESS-g91aS
+  - VMESS-4r5nb
+  - VMESS-uEzmO
+  - VMESS-6FMYS
+  - VMESS-37QuT
+  - VMESS-mwfY3
+  - VMESS-sZko3
+  - VMESS-xA9Sa
+  - VMESS-GgdLs
+  - VMESS-pNYln
+  - VMESS-MeHWs
+  - VMESS-lmCoo
+  - VMESS-A7FWS
+  - VMESS-IR0DB
+  - VMESS-cIc5F
+  - Trojan-Gd067
+  - Trojan-U6lZF
+  - Trojan-3WtNu
+  - Trojan-ZkHIQ
+  - Trojan-cReHb
+  - Trojan-d56Dl
+  - SS-QBUCQ
+  - SS-HmNft
+  - VMESS-4BMRC
+  - VMESS-SFlOO
+  - VMESS-PUtfm
+  - VMESS-btPvV
+  - VMESS-ihlTU
+  - VMESS-SBpQF
+  - VMESS-sIhxc
+  - VMESS-kHjvz
+  - VMESS-PytmM
+  - VMESS-n0sCk
+  - VMESS-m8Tgn
+  - VMESS-aO9a3
+  - VMESS-GKJpW
+  - Trojan-S3gLb
+  - Trojan-mNyxo
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
-  - SS-dsjk2
-  - SSR-Z7CLH
-  - VMESS-a9orq
-  - SS-PEBSX
-  - SS-ETjUI
-  - SS-vHxwR
-  - SS-2WX4d
-  - SS-d87IB
-  - SS-kVMtn
-  - SS-Rwnwj
-  - SS-8FMzZ
-  - SS-jxLIW
-  - SS-9pLJ3
-  - SS-nUNoS
-  - SS-SDPmm
-  - SS-iU1fi
-  - SS-3TnMw
-  - SS-2tVvP
-  - SS-76NE3
-  - SS-35aYt
-  - SS-VUuO8
-  - SS-ZU25B
-  - SS-cSCZh
-  - SS-3AbVv
-  - SS-Jepse
-  - SS-1iv7U
-  - SS-6w8Iv
-  - SS-X7kBA
-  - SS-rdkbb
-  - SS-vfqkJ
-  - SS-UKL7j
-  - SS-MD04X
-  - SS-gpf2r
-  - SS-OG9uL
-  - SS-X5wGD
-  - SS-PhCQc
-  - SS-i9Koo
-  - SS-ky7gm
-  - SS-F7EjL
-  - SS-zpdPU
-  - SS-SZe71
-  - SS-2qKVf
-  - SS-HlN04
-  - SS-BETMk
-  - SS-NvRie
-  - SS-bVmke
-  - SS-YnNei
-  - SS-n0rX9
-  - SS-BkUFm
-  - SS-7x28c
-  - SS-5NzgF
-  - SS-IRLRH
-  - SS-LOghI
-  - SS-QmySx
-  - SS-hapfY
-  - SS-ki4IH
-  - SS-EZQFO
-  - SS-OUjFV
-  - SS-LZmbc
-  - SS-x0PHc
-  - SS-SndsJ
-  - SS-aqFcM
-  - SS-iWYQ8
-  - SS-pHsVL
-  - SS-56dLy
-  - SS-kfl4C
-  - SS-i6B2p
-  - SS-yA8ED
-  - SS-ioz3v
-  - SS-sVt10
-  - SS-zQumh
-  - SS-t3l8Y
-  - SS-eb46N
-  - SS-BQ3w3
-  - SS-S7yrT
-  - SS-EP3Np
-  - SS-tQm5a
-  - SS-oCZ69
-  - VMESS-Aa8al
-  - VMESS-R7xGw
-  - VMESS-wRgOq
-  - VMESS-D4wB9
-  - VMESS-2yW26
-  - VMESS-ZLogz
-  - VMESS-6zT08
-  - VMESS-zk3dE
-  - VMESS-No7xS
-  - VMESS-ArdAb
-  - VMESS-Ap6Az
-  - VMESS-EnQlg
-  - VMESS-xZySr
-  - VMESS-1QCvs
-  - VMESS-dK8Mn
-  - VMESS-zOIlk
-  - VMESS-OVoGv
-  - VMESS-F9jVf
-  - VMESS-8ATV2
-  - Trojan-LqqCD
-  - Trojan-tcpH2
-  - Trojan-txrM2
-  - Trojan-TUUbp
-  - Trojan-IG8Bm
-  - Trojan-dPve7
-  - VMESS-XItiE
-  - VMESS-fTiio
-  - VMESS-ywEMU
-  - VMESS-cBusF
-  - VMESS-U1Hzw
-  - VMESS-JAMcW
-  - VMESS-sTTBy
-  - VMESS-gd8Rh
-  - VMESS-n2aSc
-  - VMESS-YFZo3
-  - VMESS-A0k9Y
-  - VMESS-7vqQZ
-  - VMESS-JSHq2
-  - Trojan-ZmDdr
-  - Trojan-7UvBz
-  - Trojan-IdhBb
+  - SS-PaMEL
+  - SSR-wGJ6N
+  - VMESS-eafTq
+  - SS-ilKxq
+  - SS-RM4Yd
+  - SS-y7oO5
+  - SS-qWGb8
+  - SS-lNRGt
+  - SS-Eu28q
+  - SS-w45GG
+  - SS-Raylg
+  - SS-OCY83
+  - SS-mgH23
+  - SS-gI9v5
+  - SS-GBrKq
+  - SS-6u0mG
+  - SS-xPCs8
+  - SS-TyBnh
+  - SS-ttulq
+  - SS-gcKBz
+  - SS-wnxA8
+  - SS-QdfCz
+  - SS-G3jdv
+  - SS-hn0BE
+  - SS-zVULe
+  - SS-m7jII
+  - SS-Bal6r
+  - SS-kKnEE
+  - SS-QmNRt
+  - SS-AeFST
+  - SS-P3yN5
+  - SS-JI5mS
+  - SS-zIn5s
+  - SS-i7JJR
+  - SS-5DKob
+  - SS-FGCvu
+  - SS-N47TP
+  - SS-9PPSL
+  - SS-6U6k3
+  - SS-aTMIg
+  - SS-xcFtl
+  - SS-hPAdh
+  - SS-aVyJt
+  - SS-Q92tC
+  - SS-7J7w7
+  - SS-Gwt4V
+  - SS-n5OPy
+  - SS-wNcbh
+  - SS-38jmw
+  - SS-xRHjA
+  - SS-7Rc1M
+  - SS-Qoc3d
+  - SS-Pj6ZR
+  - SS-RnzUh
+  - SS-18vfk
+  - SS-JcFPZ
+  - SS-gwIFX
+  - SS-Fc434
+  - SS-jABBA
+  - SS-aucya
+  - SS-2fEJE
+  - SS-puVrv
+  - SS-llOv7
+  - SS-yLovD
+  - SS-nBaSe
+  - SS-Cx3Yq
+  - SS-Osrdq
+  - SS-9PSBz
+  - SS-b6SVk
+  - SS-CYsSw
+  - SS-jSo6V
+  - SS-V1gZH
+  - SS-pQxfx
+  - SS-VChGW
+  - SS-vHwYc
+  - SS-GxmsN
+  - SS-XVp9F
+  - SS-JxOh1
+  - VMESS-FdXDa
+  - VMESS-JTI6y
+  - VMESS-Y1Gjn
+  - VMESS-63iwt
+  - VMESS-g91aS
+  - VMESS-4r5nb
+  - VMESS-uEzmO
+  - VMESS-6FMYS
+  - VMESS-37QuT
+  - VMESS-mwfY3
+  - VMESS-sZko3
+  - VMESS-xA9Sa
+  - VMESS-GgdLs
+  - VMESS-pNYln
+  - VMESS-MeHWs
+  - VMESS-lmCoo
+  - VMESS-A7FWS
+  - VMESS-IR0DB
+  - VMESS-cIc5F
+  - Trojan-Gd067
+  - Trojan-U6lZF
+  - Trojan-3WtNu
+  - Trojan-ZkHIQ
+  - Trojan-cReHb
+  - Trojan-d56Dl
+  - SS-QBUCQ
+  - SS-HmNft
+  - VMESS-4BMRC
+  - VMESS-SFlOO
+  - VMESS-PUtfm
+  - VMESS-btPvV
+  - VMESS-ihlTU
+  - VMESS-SBpQF
+  - VMESS-sIhxc
+  - VMESS-kHjvz
+  - VMESS-PytmM
+  - VMESS-n0sCk
+  - VMESS-m8Tgn
+  - VMESS-aO9a3
+  - VMESS-GKJpW
+  - Trojan-S3gLb
+  - Trojan-mNyxo
 - name: 国外媒体
   type: select
   proxies:
