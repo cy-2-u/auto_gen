@@ -3,7 +3,18 @@
 这个工具可以自动从网络上爬取可用的VPN节点信息，并生成可用于Clash的配置文件。
 
 ## 订阅地址
+
+#### 地址一:
+> https://cdn.jsdelivr.net/gh/YangLang116/auto_gen@master/clash/gen_clash_config.yaml
+
+<img src="qr/jsdelivr.png" width="120px" height="120px"/>
+
+#### 地址二：
+
 > https://proxy.v2gh.com/https://raw.githubusercontent.com/YangLang116/auto_gen/refs/heads/master/clash/gen_clash_config.yaml
+
+<img src="qr/v2gh.png"  width="120px" height="120px"/>
+
 
 ## 功能特性
 
