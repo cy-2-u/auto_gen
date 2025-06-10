@@ -21,38 +21,8 @@ def get_random_name(prefix):
 
 def generate_clash_config(nodes):
     """生成Clash配置文件"""
-    yaml_config = {
-        "port": 7890,
-        "socks-port": 7891,
-        "allow-lan": True,
-        "mode": "Rule",
-        "log-level": "info",
-        "external-controller": "127.0.0.1:9090",
-        "proxies": [],
-        "proxy-groups": [
-            {
-                "name": "自动选择",
-                "type": "url-test",
-                "url": "https://www.google.com",
-                "interval": 300,
-                "proxies": [],
-            },
-            {"name": "节点选择", "type": "select", "proxies": ["自动选择"]},
-            {"name": "国外媒体", "type": "select", "proxies": ["节点选择", "自动选择"]},
-            {"name": "国内媒体", "type": "select", "proxies": ["DIRECT", "节点选择"]},
-        ],
-        "rules": [
-            "DOMAIN-SUFFIX,facebook.com,节点选择",
-            "DOMAIN-SUFFIX,twitter.com,节点选择",
-            "DOMAIN-SUFFIX,youtube.com,国外媒体",
-            "DOMAIN-SUFFIX,netflix.com,国外媒体",
-            "DOMAIN-SUFFIX,bilibili.com,国内媒体",
-            "DOMAIN-SUFFIX,iqiyi.com,国内媒体",
-            "DOMAIN-SUFFIX,cn,DIRECT",
-            "GEOIP,CN,DIRECT",
-            "MATCH,节点选择",
-        ],
-    }
+    with open('template.yaml', 'r', encoding='utf-8') as f:
+        yaml_config = yaml.safe_load(f)
     for config in nodes:
         yaml_config["proxies"].append(config)
         yaml_config["proxy-groups"][0]["proxies"].append(config["name"])
