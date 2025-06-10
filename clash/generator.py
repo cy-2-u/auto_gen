@@ -1,6 +1,6 @@
 import os
 from utils.utils import generate_clash_config
-from fetcher import search_nodes
+from fetcher import get_nodes
 
 
 def _save_configs(clash_config):
@@ -22,7 +22,8 @@ def _filter_nodes(nodes):
 
 
 if __name__ == "__main__":
-    nodes = search_nodes()
+    nodes = get_nodes()
     nodes = _filter_nodes(nodes)
+    print(f"获取到的节点数量: {len(nodes)}")
     clash_config = generate_clash_config(nodes)
     _save_configs(clash_config)
