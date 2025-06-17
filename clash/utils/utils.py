@@ -26,6 +26,5 @@ def generate_clash_config(nodes):
     for config in nodes:
         yaml_config["proxies"].append(config)
         yaml_config["proxy-groups"][0]["proxies"].append(config["name"])
-        yaml_config["proxy-groups"][1]["proxies"].append(config["name"])
 
     return yaml.dump(yaml_config, allow_unicode=True, sort_keys=False)

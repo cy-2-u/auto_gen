@@ -6,182 +6,412 @@ log-level: info
 external-controller: 127.0.0.1:9090
 dns:
   enable: true
-  listen: "0.0.0.0:53"
   ipv6: false
-  default-nameserver:
-  - "223.5.5.5"
-  - "114.114.114.114"
-  nameserver:
-  - "223.5.5.5"
-  - "114.114.114.114"
-  - "119.29.29.29"
-  - "180.76.76.76"
-  enhanced-mode: "fake-ip"
-  fake-ip-range: "198.18.0.1/16"
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
   fake-ip-filter:
-  - "*.lan"
-  - "*.localdomain"
-  - "*.example"
-  - "*.invalid"
-  - "*.localhost"
-  - "*.test"
-  - "*.local"
-  - "*.home.arpa"
-  - "router.asus.com"
-  - "localhost.sec.qq.com"
-  - "localhost.ptlogin2.qq.com"
-  - "+.msftconnecttest.com"
+    - "*.lan"
+    - "localhost.ptlogin2.qq.com"
+    - "+.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "xbox.*.microsoft.com"
+    - "+.xboxlive.com"
+    - "*.msftncsi.com"
+    - "*.msftconnecttest.com"
+    - "lens.l.google.com"
+    - "+.qq.com"
+    - "+.music.163.com"
+    - "localhost"
+    - "+.local"
+    - "+.internal"
+    - "*.aliyuncs.com"
+    - "stun.*.*"
+    - "stun.*.*.*"
+    - "+.cdn.jsdelivr.net"
+  nameservers:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - tls://dns.rubyfish.cn:853
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - tls://1.1.1.1:853
+    - tls://8.8.8.8:853
+    - 1.1.1.1
+    - 8.8.8.8
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+
 proxies: []
+
 proxy-groups:
-- name: "♻️ 自动选择"
-  type: "url-test"
-  url: "https://www.google.com"
-  interval: 300
-  tolerance: 100
-  proxies: ["DIRECT"]
-- name: "🚀 节点选择"
-  type: "select"
-  proxies: ["DIRECT"]
-- name: "🌍 国外媒体"
-  type: "select"
-  proxies:
-  - "🚀 节点选择"
-  - "♻️ 自动选择"
-- name: "📲 电报信息"
-  type: "select"
-  proxies:
-  - "🚀 节点选择"
-  - "♻️ 自动选择"
-- name: "Ⓜ️ 微软服务"
-  type: "select"
-  proxies:
-  - "DIRECT"
-  - "🚀 节点选择"
-  - "♻️ 自动选择"
-- name: "🍎 苹果服务"
-  type: "select"
-  proxies:
-  - "DIRECT"
-  - "🚀 节点选择"
-  - "♻️ 自动选择"
-- name: "🎯 全球直连"
-  type: "select"
-  proxies:
-  - "DIRECT"
-  - "🚀 节点选择"
-  - "♻️ 自动选择"
-- name: "🛑 全球拦截"
-  type: "select"
-  proxies:
-  - "REJECT"
-  - "DIRECT"
-- name: "🍃 应用净化"
-  type: "select"
-  proxies:
-  - "REJECT"
-  - "DIRECT"
-- name: "🐟 漏网之鱼"
-  type: "select"
-  proxies:
-  - "DIRECT"
-  - "♻️ 自动选择"
-rule-providers:
-  Apple:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/Apple.list"
-  Telegram:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/Telegram.list"
-  ProxyLite:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ProxyLite.list"
-  ChinaDomain:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ChinaDomain.list"
-  ChinaCompanyIp:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ChinaCompanyIp.list"
-  ProxyMedia:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/ProxyMedia.list"
-  LocalAreaNetwork:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/LocalAreaNetwork.list"
-  Microsoft:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/Microsoft.list"
-  GoogleCN:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/GoogleCN.list"
-  BanAD:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/BanAD.list"
-  BanProgramAD:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/BanProgramAD.list"
-  SteamCN:
-    type: "http"
-    behavior: "classical"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
-    format: "text"
-    interval: 3600
-    path: "./Clash/SteamCN.list"
+  - name: "♻️ 自动选择"
+    type: url-test
+    proxies: []
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+  - name: "🌍 国外媒体"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: "Ⓜ️ 微软服务"
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 自动选择
+  - name: "🍎 苹果服务"
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 自动选择
+  - name: "📲 电报信息"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: "🎮 游戏平台"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: "🎬 YouTube"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: "🎥 Netflix"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: "🔍 学术搜索"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: "🛑 全球拦截"
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: "🐟 漏网之鱼"
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+
 rules:
-- "RULE-SET,LocalAreaNetwork,🎯 全球直连"
-- "RULE-SET,BanAD,🛑 全球拦截"
-- "RULE-SET,BanProgramAD,🍃 应用净化"
-- "RULE-SET,GoogleCN,🎯 全球直连"
-- "RULE-SET,SteamCN,🎯 全球直连"
-- "RULE-SET,Microsoft,Ⓜ️ 微软服务"
-- "RULE-SET,Apple,🍎 苹果服务"
-- "RULE-SET,ProxyMedia,🌍 国外媒体"
-- "RULE-SET,Telegram,📲 电报信息"
-- "RULE-SET,ProxyLite,🚀 节点选择"
-- "RULE-SET,ChinaDomain,🎯 全球直连"
-- "RULE-SET,ChinaCompanyIp,🎯 全球直连"
-- "GEOIP,CN,🎯 全球直连"
-- "MATCH,🐟 漏网之鱼"
+  # 直连规则
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
+  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
+  - DOMAIN-SUFFIX,lan,DIRECT
+  - DOMAIN-SUFFIX,localhost,DIRECT
+  - DOMAIN-SUFFIX,ir,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - DOMAIN,yacd.metacubex.one,DIRECT
+  - DOMAIN,clash.metacubex.one,DIRECT
+  
+  # Apple 服务
+  - DOMAIN-KEYWORD,apple,🍎 苹果服务
+  - DOMAIN-KEYWORD,icloud,🍎 苹果服务
+  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
+  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+  
+  # 微软服务
+  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,xbox.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,xboxlive.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,microsoftonline.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,microsoft365.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+  
+  # 广告拦截
+  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
+  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
+  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+  - DOMAIN-KEYWORD,analytics,🛑 全球拦截
+  - DOMAIN-KEYWORD,duomeng,🛑 全球拦截
+  - DOMAIN-KEYWORD,dwtrack,🛑 全球拦截
+  - DOMAIN-KEYWORD,guanggao,🛑 全球拦截
+  - DOMAIN-KEYWORD,lianmeng,🛑 全球拦截
+  - DOMAIN-KEYWORD,mopub,🛑 全球拦截
+  - DOMAIN-KEYWORD,omgmta,🛑 全球拦截
+  - DOMAIN-KEYWORD,openx,🛑 全球拦截
+  - DOMAIN-KEYWORD,partnerad,🛑 全球拦截
+  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
+  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+  - DOMAIN-KEYWORD,tracking,🛑 全球拦截
+  - DOMAIN-KEYWORD,uedas,🛑 全球拦截
+  - DOMAIN-KEYWORD,umeng,🛑 全球拦截
+  - DOMAIN-KEYWORD,usage,🛑 全球拦截
+  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
+  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
+  - DOMAIN-SUFFIX,adjust.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad.gt,🛑 全球拦截
+  - DOMAIN-SUFFIX,adcolony.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adform.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,admob.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adnxs.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ads-twitter.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsafeprotected.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsrvr.org,🛑 全球拦截
+  - DOMAIN-SUFFIX,appsflyer.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,doubleclick.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,googleadservices.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,googletagmanager.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,googletagservices.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
+  
+  # Telegram 服务
+  - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+  - DOMAIN-SUFFIX,telegram.org,📲 电报信息
+  - DOMAIN-SUFFIX,telegram.me,📲 电报信息
+  - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+  - DOMAIN-SUFFIX,t.me,📲 电报信息
+  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+  - DOMAIN-SUFFIX,telegramdownload.com,📲 电报信息
+  - IP-CIDR,91.108.4.0/22,📲 电报信息,no-resolve
+  - IP-CIDR,91.108.8.0/22,📲 电报信息,no-resolve
+  - IP-CIDR,91.108.12.0/22,📲 电报信息,no-resolve
+  - IP-CIDR,91.108.16.0/22,📲 电报信息,no-resolve
+  - IP-CIDR,91.108.56.0/22,📲 电报信息,no-resolve
+  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+  - IP-CIDR,2001:b28:f23d::/48,📲 电报信息,no-resolve
+  - IP-CIDR,2001:b28:f23f::/48,📲 电报信息,no-resolve
+  - IP-CIDR,2001:67c:4e8::/48,📲 电报信息,no-resolve
+  
+  # 游戏平台
+  - DOMAIN-SUFFIX,steamcontent.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,valvesoftware.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam-chat.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,epicgames.dev,🎮 游戏平台
+  - DOMAIN-SUFFIX,unrealengine.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstationnetwork.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,sony.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xbox.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xboxlive.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,ea.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,origin.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ubisoft.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ubi.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,battle.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzard.com,🎮 游戏平台
+  
+  # YouTube 服务
+  - DOMAIN-SUFFIX,youtube.com,🎬 YouTube
+  - DOMAIN-SUFFIX,ytimg.com,🎬 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,🎬 YouTube
+  - DOMAIN-SUFFIX,youtu.be,🎬 YouTube
+  - DOMAIN-SUFFIX,yt.be,🎬 YouTube
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🎬 YouTube
+  - DOMAIN-SUFFIX,youtubeeducation.com,🎬 YouTube
+  - DOMAIN-SUFFIX,youtubegaming.com,🎬 YouTube
+  - DOMAIN-SUFFIX,youtubekids.com,🎬 YouTube
+  
+  # Netflix 服务
+  - DOMAIN-SUFFIX,netflix.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflix.net,🎥 Netflix
+  - DOMAIN-SUFFIX,nflxext.com,🎥 Netflix
+  - DOMAIN-SUFFIX,nflximg.com,🎥 Netflix
+  - DOMAIN-SUFFIX,nflximg.net,🎥 Netflix
+  - DOMAIN-SUFFIX,nflxso.net,🎥 Netflix
+  - DOMAIN-SUFFIX,nflxvideo.net,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 Netflix
+  
+  # 学术搜索
+  - DOMAIN-SUFFIX,scholar.google.com,🔍 学术搜索
+  - DOMAIN-SUFFIX,scholar.googleusercontent.com,🔍 学术搜索
+  - DOMAIN-SUFFIX,scholarcdn.net,🔍 学术搜索
+  - DOMAIN-SUFFIX,sci-hub.tw,🔍 学术搜索
+  - DOMAIN-SUFFIX,sci-hub.st,🔍 学术搜索
+  - DOMAIN-SUFFIX,sci-hub.se,🔍 学术搜索
+  - DOMAIN-SUFFIX,sci-hub.ren,🔍 学术搜索
+  - DOMAIN-SUFFIX,sci-hub.ru,🔍 学术搜索
+  - DOMAIN-SUFFIX,researchgate.net,🔍 学术搜索
+  - DOMAIN-SUFFIX,springer.com,🔍 学术搜索
+  - DOMAIN-SUFFIX,sciencedirect.com,🔍 学术搜索
+  - DOMAIN-SUFFIX,acm.org,🔍 学术搜索
+  - DOMAIN-SUFFIX,ieee.org,🔍 学术搜索
+  - DOMAIN-SUFFIX,nature.com,🔍 学术搜索
+  - DOMAIN-SUFFIX,jstor.org,🔍 学术搜索
+  
+  # 国外媒体
+  - DOMAIN-SUFFIX,9cache.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,9gag.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,abc.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbc.co.uk,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbc.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,cnn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,discord.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,dropbox.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,facebook.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,fb.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,fbcdn.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,github.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,github.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,githubusercontent.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,instagram.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,pinterest.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,reddit.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,redditmedia.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,redditstatic.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tiktok.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,twitter.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,x.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,t.co,🌍 国外媒体
+  - DOMAIN-SUFFIX,medium.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,flickr.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,imgur.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,vimeo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tumblr.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,quora.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,reuters.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,nytimes.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,wsj.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,ft.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,theguardian.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,apnews.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,bloomberg.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,googleapis.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,gstatic.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,google.com,🌍 国外媒体
+  
+  # 国内直连
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,126.com,DIRECT
+  - DOMAIN-SUFFIX,126.net,DIRECT
+  - DOMAIN-SUFFIX,127.net,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+  - DOMAIN-SUFFIX,36kr.com,DIRECT
+  - DOMAIN-SUFFIX,alipay.com,DIRECT
+  - DOMAIN-SUFFIX,aliyun.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,amap.com,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,bdimg.com,DIRECT
+  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+  - DOMAIN-SUFFIX,csdn.net,DIRECT
+  - DOMAIN-SUFFIX,ctrip.com,DIRECT
+  - DOMAIN-SUFFIX,didi.com,DIRECT
+  - DOMAIN-SUFFIX,douban.com,DIRECT
+  - DOMAIN-SUFFIX,doubanio.com,DIRECT
+  - DOMAIN-SUFFIX,douyin.com,DIRECT
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,mi.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.net,DIRECT
+  - DOMAIN-SUFFIX,netease.com,DIRECT
+  - DOMAIN-SUFFIX,oschina.net,DIRECT
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,qqmail.com,DIRECT
+  - DOMAIN-SUFFIX,sina.com,DIRECT
+  - DOMAIN-SUFFIX,sinaimg.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,weibo.com,DIRECT
+  - DOMAIN-SUFFIX,wechat.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.com,DIRECT
+  - DOMAIN-SUFFIX,zhihu.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.net,DIRECT
+  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyipic.com,DIRECT
+  - DOMAIN-SUFFIX,acfun.cn,DIRECT
+  - DOMAIN-SUFFIX,aixifan.com,DIRECT
+  - DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
+  - DOMAIN-SUFFIX,xhscdn.com,DIRECT
+  - DOMAIN-SUFFIX,xiaomi.com,DIRECT
+  - DOMAIN-SUFFIX,xiaomiyoupin.com,DIRECT
+  - DOMAIN-SUFFIX,huawei.com,DIRECT
+  - DOMAIN-SUFFIX,hicloud.com,DIRECT
+  - DOMAIN-SUFFIX,vmall.com,DIRECT
+  - DOMAIN-SUFFIX,vivo.com,DIRECT
+  - DOMAIN-SUFFIX,oppo.com,DIRECT
+  - DOMAIN-SUFFIX,heytap.com,DIRECT
+  
+  # GeoIP 规则
+  - GEOIP,CN,DIRECT
+  
+  # 最终规则
+  - MATCH,🐟 漏网之鱼
+  

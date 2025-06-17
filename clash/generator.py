@@ -1,6 +1,6 @@
 import os
 from utils.utils import generate_clash_config
-from fetcher import get_nodes
+from utils.fetcher import get_nodes
 
 
 def _save_configs(clash_config):
