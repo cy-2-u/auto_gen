@@ -166,20 +166,20 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: /
+    path: /oooo
     headers:
       Host: broadcastlv.chat.bilibili.com
 - name: VMESS-SJFRD
   type: vmess
-  server: SssssssW.222560.XYz
-  port: 80
-  uuid: 393b1061-d615-459a-8616-3f9447bdff5a
-  alterId: 0
-  cipher: auto
+  server: v12.heduian.link
+  port: 30812
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
+    path: /oooo
     headers:
       Host: sssssssw.222560.xyz
 - name: VMESS-g4Kkd
@@ -340,19 +340,6 @@ proxies:
       Host: iiiii8.222560.xyz
 - name: VMESS-X4nQZ
   type: vmess
-  server: 8.219.72.131
-  port: 51713
-  uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-GpAz8
-  type: vmess
   server: 183.236.51.38
   port: 36519
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -364,12 +351,26 @@ proxies:
     path: N/A
     headers:
       Host: N/A
+- name: VMESS-GpAz8
+  type: vmess
+  server: twjxlnnoljxc.jkhkgj.xyz
+  port: 80
+  uuid: b0af4d14-db9d-4217-b010-5fd2a4b80590
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /market/tw?ed=512
+    headers:
+      Host: N/A
 - name: VMESS-saP9g
   type: vmess
   server: 111.26.109.79
   port: 30828
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
+  cipher: none
   cipher: none
   tls: false
   network: ws
@@ -418,14 +419,14 @@ proxies:
       Host: ocbc.com
 - name: VMESS-x3oK9
   type: vmess
-  server: 183.236.51.38
-  port: 49291
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  server: 43.99.247.11
+  port: 10655
+  uuid: cd9d6687-d1c0-49d9-89fa-2ac90940b17a
+  alterId: 0
   cipher: auto
   tls: false
-  network: tcp
-  tcp-opts:
+  network: kcp
+  kcp-opts:
     path: N/A
     headers:
       Host: N/A
@@ -509,15 +510,15 @@ proxies:
       Host: N/A
 - name: VMESS-4EiY1
   type: vmess
-  server: 45.159.50.131
-  port: 10331
-  uuid: 0a75ed35-1138-4991-88a0-9b2a59702fce
+  server: de.vmess.comnpmjs.com
+  port: 443
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
   alterId: 0
   cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
+  tls: true
+  network: grpc
+  grpc-opts:
+    path: vmess-grpc
     headers:
       Host: N/A
 - name: VMESS-XlcaM
@@ -548,8 +549,21 @@ proxies:
       Host: www.bing.com
 - name: VMESS-nvcVe
   type: vmess
-  server: 120.232.153.40
-  port: 50152
+  server: 111.26.109.79
+  port: 30828
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-1tGGX
+  type: vmess
+  server: 120.26.55.225
+  port: 50002
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 0
   cipher: auto
@@ -624,7 +638,19 @@ proxies:
   params: 'allowInsecure: 1, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net'
 - name: Trojan-7CPEE
   type: trojan
-  server: 113.99.140.184
+  server: 42.240.152.238
+  port: 8842
+  password: 1b4c16925f934c57b954a9f0f23dea33
+  params: 'allowInsecure: 1, sni: brwx.spvpv.com'
+- name: Trojan-hn2WE
+  type: trojan
+  server: 120.233.128.68
+  port: 39001
+  password: 85f133142f04dbf6547da33895cfabb3
+  params: 'allowInsecure: 1, sni: 120.233.128.68'
+- name: Trojan-k3Pu1
+  type: trojan
+  server: 203.156.253.12
   port: 39001
   password: 85f133142f04dbf6547da33895cfabb3
   params: 'allowInsecure: 1, sni: www.yrtok.com'
