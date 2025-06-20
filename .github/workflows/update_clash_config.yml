@@ -31,6 +31,8 @@ jobs:
         run: |
           cd clash
           python generator.py
+        env:
+          CLASH_DING_TOKEN: ${{ secrets.CLASH_DING_TOKEN }}
           
       - name: 配置Git
         run: |
