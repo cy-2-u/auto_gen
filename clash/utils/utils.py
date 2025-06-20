@@ -31,6 +31,7 @@ def generate_clash_config(nodes):
 
 
 def send_markdown_toDing(nodes):
+    base_url = "https://proxy.v2gh.com/https://raw.githubusercontent.com/YangLang116/auto_gen/master/clash"
     response = requests.request(
         "POST",
         "https://oapi.dingtalk.com/robot/send",
@@ -38,7 +39,7 @@ def send_markdown_toDing(nodes):
             "msgtype": "markdown",
             "markdown": {
                 "title": "VPN",
-                "text": f"- 更新节点数: {len(nodes)}\n- 订阅地址: https://cdn.jsdelivr.net/gh/YangLang116/auto_gen@master/clash/gen_clash_config.yaml\n![QR](https://proxy.v2gh.com/https://raw.githubusercontent.com/YangLang116/auto_gen/master/clash/qr/v2gh.png)",
+                "text": f"- 更新节点数: {len(nodes)}\n- 订阅地址: {base_url}/gen_clash_config.yaml\n![QR]({base_url}/qr/v2gh.png)",
             },
         },
         params={"access_token": os.environ["CLASH_DING_TOKEN"]},
