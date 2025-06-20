@@ -1,5 +1,5 @@
 import os
-from utils.utils import generate_clash_config
+from utils.utils import generate_clash_config, send_markdown_toDing
 from utils.fetcher import get_nodes
 
 
@@ -24,6 +24,7 @@ def _filter_nodes(nodes):
 if __name__ == "__main__":
     nodes = get_nodes()
     nodes = _filter_nodes(nodes)
-    print(f"获取到的节点数量: {len(nodes)}")
     clash_config = generate_clash_config(nodes)
+    send_markdown_toDing(nodes)
     _save_configs(clash_config)
+    
