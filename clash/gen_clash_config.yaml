@@ -58,37 +58,37 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-xpBmr
-  type: ss
-  server: 46.17.40.79
-  port: 38674
-  cipher: aes-256-gcm
-  password: dongtaiwang.com
-- name: SS-UzLyU
-  type: ss
-  server: pr.fastsoonlink.com
-  port: 40030
-  cipher: chacha20-ietf-poly1305
-  password: 7905a32b-012c-4711-89e2-73b6713eca75
-- name: SS-FdAuj
+- name: SS-ao3GH
   type: ss
   server: 222.112.15.140
   port: 56780
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: SS-RyrGK
+- name: SS-HCYh1
   type: ss
-  server: 156.226.173.104
-  port: 443
-  cipher: aes-128-gcm
-  password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=
-- name: SS-hVZLw
+  server: 120.233.128.98
+  port: 30015
+  cipher: aes-256-gcm
+  password: dwz1GtF7
+- name: SS-ntUMH
+  type: ss
+  server: 185.49.105.170
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: a7qmJCwiMc5yrVMUFwleDw
+- name: SS-TZnas
+  type: ss
+  server: 46.17.40.79
+  port: 38674
+  cipher: aes-256-gcm
+  password: dongtaiwang.com
+- name: SS-O1LUs
   type: ss
   server: 185.153.197.5
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: SSR-ZRO5m
+- name: SSR-s0V5s
   type: ssr
   server: dongtaiwang5.com
   port: 19000
@@ -96,20 +96,20 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-AFsWM
+- name: VMESS-tYLVL
   type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: de01.sh-cloudflare.sbs
+  port: 2096
+  uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8
+  alterId: 0
   cipher: none
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    path: /oooo
+    path: /
     headers:
-      Host: baidu.com
-- name: VMESS-hse3T
+      Host: de01.sh-cloudflare.sbs
+- name: VMESS-DTFX9
   type: vmess
   server: 111.26.109.79
   port: 30807
@@ -122,7 +122,33 @@ proxies:
     path: /oooo
     headers:
       Host: ocbc.com
-- name: VMESS-FHZ9J
+- name: VMESS-2rSpC
+  type: vmess
+  server: npmjs.com
+  port: 8080
+  uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /nasnet/cdn
+    headers:
+      Host: ke7hz36ewz-4515017473.mashallahbet.com
+- name: VMESS-0M1N8
+  type: vmess
+  server: v7.heduian.link
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: v7.heduian.link
+- name: VMESS-Dukb9
   type: vmess
   server: 0.0.0.0
   port: 1
@@ -135,7 +161,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-5KXNA
+- name: VMESS-29vnd
   type: vmess
   server: 195.154.40.247
   port: 40107
@@ -148,59 +174,20 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-DKGGu
+- name: VMESS-0Bn5a
   type: vmess
-  server: lt.fxlcn.com
-  port: 45276
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  server: 104.17.176.171
+  port: 8080
+  uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03
   alterId: 0
   cipher: none
   tls: false
-  network: tcp
-  tcp-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: VMESS-P8kqu
-  type: vmess
-  server: 104.19.173.68
-  port: 2086
-  uuid: dc33ccac-f27b-494d-98c0-553742e23268
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
   ws-opts:
-    path: /hkz7hea3xiaco2j/ca1
+    path: /nasnet/cdn
     headers:
-      Host: bpca1.catimecsgo.xyz
-- name: VMESS-J25p7
-  type: vmess
-  server: 0.0.0.0
-  port: 2
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-ypxfY
-  type: vmess
-  server: 104.21.64.1
-  port: 8443
-  uuid: f10598e2-c606-4945-bfde-e5730756a2dd
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us01.sh-cloudflare.sbs
-- name: VMESS-Cd6Pt
+      Host: ke7hz36ewz-4515017473.mashallahbet.com
+- name: VMESS-ABURL
   type: vmess
   server: v7.heduian.link
   port: 30807
@@ -213,68 +200,101 @@ proxies:
     path: /oooo
     headers:
       Host: v7.heduian.link
-- name: VMESS-FEfaB
+- name: VMESS-t7Gk3
   type: vmess
-  server: fa.fxlcn.com
-  port: 45237
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  server: 104.19.173.68
+  port: 2086
+  uuid: dc33ccac-f27b-494d-98c0-553742e23268
   alterId: 0
-  cipher: none
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /hkz7hea3xiaco2j/ca1
+    headers:
+      Host: bpca1.catimecsgo.xyz
+- name: VMESS-ViO5g
+  type: vmess
+  server: EeEDCFVg.999824.xYZ
+  port: 80
+  uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /9dZlJLjHHrL0VwSolbqFpg
+    headers:
+      Host: eeedcfvg.999824.xyz
+- name: VMESS-VUZQR
+  type: vmess
+  server: 0.0.0.0
+  port: 2
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
   tls: false
   network: tcp
   tcp-opts:
-    path: ''
+    path: N/A
     headers:
-      Host: fa.fxlcn.com
-- name: Trojan-6ahSd
-  type: trojan
-  server: 18.193.51.241
-  port: 22222
-  password: telegram-id-privatevpns
-  params: 'security: tls, sni: trojan.burgerip.co.uk, type: tcp, alpn: http/1.1'
-- name: Trojan-NGmaC
-  type: trojan
-  server: 104.17.128.1
-  port: 2096
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  params: 'sni: vle.amclubdns.dpdns.org, allowInsecure: 1, type: ws, path: /?ed=2560&PROT_TYPE=trojan,
-    host: vle.amclubdns.dpdns.org'
-- name: Trojan-48CLq
-  type: trojan
-  server: 35.181.29.16
-  port: 22222
-  password: telegram-id-privatevpns
-  params: 'security: tls, sni: trojan.burgerip.co.uk'
-- name: Trojan-4wpcA
+      Host: N/A
+- name: VMESS-FgZjo
+  type: vmess
+  server: SSxXZASw.999824.Xyz
+  port: 80
+  uuid: 512d9674-db12-44ca-a1b5-654244549b65
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm
+    headers:
+      Host: ssxxzasw.999824.xyz
+- name: Trojan-gOd9r
   type: trojan
   server: fc111582-syof40-t39hdu-1tf4x.cm5.cnkuaishou.com
   port: 27235
   password: 202c296a-f34a-11ef-80e5-f23c9164ca5d
   params: 'security: tls, sni: fc111582-syof40-t39hdu-1tf4x.cm5.cnkuaishou.com'
+- name: Trojan-GFieW
+  type: trojan
+  server: 35.181.29.16
+  port: 22223
+  password: telegram-id-directvpn
+  params: 'sni: trojan.burgerip.co.uk'
+- name: Trojan-wzXRO
+  type: trojan
+  server: 18.193.51.241
+  port: 22222
+  password: telegram-id-privatevpns
+  params: 'security: tls, sni: trojan.burgerip.co.uk, type: tcp, alpn: http/1.1'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-xpBmr
-  - SS-UzLyU
-  - SS-FdAuj
-  - SS-RyrGK
-  - SS-hVZLw
-  - SSR-ZRO5m
-  - VMESS-AFsWM
-  - VMESS-hse3T
-  - VMESS-FHZ9J
-  - VMESS-5KXNA
-  - VMESS-DKGGu
-  - VMESS-P8kqu
-  - VMESS-J25p7
-  - VMESS-ypxfY
-  - VMESS-Cd6Pt
-  - VMESS-FEfaB
-  - Trojan-6ahSd
-  - Trojan-NGmaC
-  - Trojan-48CLq
-  - Trojan-4wpcA
+  - SS-ao3GH
+  - SS-HCYh1
+  - SS-ntUMH
+  - SS-TZnas
+  - SS-O1LUs
+  - SSR-s0V5s
+  - VMESS-tYLVL
+  - VMESS-DTFX9
+  - VMESS-2rSpC
+  - VMESS-0M1N8
+  - VMESS-Dukb9
+  - VMESS-29vnd
+  - VMESS-0Bn5a
+  - VMESS-ABURL
+  - VMESS-t7Gk3
+  - VMESS-ViO5g
+  - VMESS-VUZQR
+  - VMESS-FgZjo
+  - Trojan-gOd9r
+  - Trojan-GFieW
+  - Trojan-wzXRO
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
