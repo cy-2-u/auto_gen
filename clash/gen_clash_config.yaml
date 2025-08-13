@@ -58,79 +58,85 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-RtfR9
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8774
-  cipher: rc4-md5
-  password: efanccyun
-- name: SS-Efw4V
-  type: ss
-  server: 103.103.245.158
-  port: 636
-  cipher: aes-256-gcm
-  password: 9bfdde71b4c0
-- name: SS-sANOl
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8766
-  cipher: rc4-md5
-  password: efanccyun
-- name: SS-cjlUV
-  type: ss
-  server: 15.188.74.209
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: SS-BZvHW
+- name: SS-5tPW6
   type: ss
   server: mm.huawei-api.top
   port: 19852
   cipher: chacha20-ietf-poly1305
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-- name: SS-IrDdE
-  type: ss
-  server: 154.3.8.151
-  port: 30067
-  cipher: aes-256-gcm
-  password: iUB0923RBA
-- name: SS-IqQET
-  type: ss
-  server: 185.231.233.112
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: SS-oOgEX
-  type: ss
-  server: 125.141.31.72
-  port: 15098
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: SS-MwY9u
-  type: ss
-  server: 92.118.205.61
-  port: 22222
-  cipher: aes-256-gcm
-  password: dongtaiwang.com
-- name: SS-2Z9fW
-  type: ss
-  server: 156.146.40.194
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: SS-BHTg4
+- name: SS-tugRW
   type: ss
   server: awes35lesl.blhao0o.dpdns.org
   port: 12014
   cipher: aes-128-gcm
   password: 01721e43-5389-4f97-b21c-900abb2bda9e
-- name: SS-IP2EL
+- name: SS-KF7Yw
+  type: ss
+  server: 92.118.205.61
+  port: 22222
+  cipher: aes-256-gcm
+  password: dongtaiwang.com
+- name: SS-yp69G
+  type: ss
+  server: 185.231.233.112
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: SS-8WAsm
+  type: ss
+  server: 154.3.8.151
+  port: 30067
+  cipher: aes-256-gcm
+  password: iUB0923RBA
+- name: SS-JtQjR
+  type: ss
+  server: 125.141.31.72
+  port: 15098
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: SS-JZesL
+  type: ss
+  server: mm.huawei-api.top
+  port: 19852
+  cipher: chacha20-ietf-poly1305
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+- name: SS-ws4Lj
+  type: ss
+  server: 156.146.40.194
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: SS-qfjb3
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8774
+  cipher: rc4-md5
+  password: efanccyun
+- name: SS-1WqIS
   type: ss
   server: 137.220.191.40
   port: 636
   cipher: aes-256-gcm
   password: 823e135ed103
-- name: SSR-Gg2Rw
+- name: SS-Dmjlo
+  type: ss
+  server: 103.103.245.158
+  port: 636
+  cipher: aes-256-gcm
+  password: 9bfdde71b4c0
+- name: SS-zHghV
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8766
+  cipher: rc4-md5
+  password: efanccyun
+- name: SS-fxMZU
+  type: ss
+  server: 15.188.74.209
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: SSR-yro3s
   type: ssr
   server: dongtaiwang5.com
   port: 33336
@@ -138,20 +144,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-MswhJ
-  type: vmess
-  server: cloudgetservice.mcloudservice.site
-  port: 443
-  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /linvkws
-    headers:
-      Host: Fra-Vp-123.BLaZECLOUD.Site
-- name: VMESS-ncvVX
+- name: VMESS-t0pme
   type: vmess
   server: 127.0.0.53
   port: 89
@@ -164,46 +157,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-CevLv
-  type: vmess
-  server: 47.243.135.47
-  port: 5225
-  uuid: e64f666d-4b75-473b-9cc2-aaf6f0bf0e33
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-JMDxS
-  type: vmess
-  server: 127.0.0.53
-  port: 86
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-WV1Xr
-  type: vmess
-  server: 127.0.0.53
-  port: 87
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-GDrqI
+- name: VMESS-qfsKX
   type: vmess
   server: 127.0.0.53
   port: 80
@@ -216,306 +170,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-G5gVz
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-xdnWq
-  type: vmess
-  server: hkt.gotochinatown.net
-  port: 80
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-5I4uh
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-PfcbV
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-pfQeu
-  type: vmess
-  server: csgo.com
-  port: 80
-  uuid: a134e3de-b25a-4020-9998-05fa6b715f1a
-  alterId: 0
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /profile/telegram@ssrsub
-    headers:
-      Host: cdn-node-oss-99.paofu.de
-- name: VMESS-93QK6
-  type: vmess
-  server: 127.0.0.53
-  port: 81
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-JTYCD
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-sXJj0
-  type: vmess
-  server: 43.247.135.176
-  port: 44470
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-7z0q9
-  type: vmess
-  server: 127.0.0.53
-  port: 83
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-4OLum
-  type: vmess
-  server: sslvpn.51job.com
-  port: 1443
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /634c5c4f9782
-    headers:
-      Host: centos7
-- name: VMESS-S3nFG
-  type: vmess
-  server: cpanel.erade32.ir
-  port: 100
-  uuid: 0888adea-086c-4783-9989-85df86819c1f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: uploadboy.com
-- name: VMESS-jjEO1
-  type: vmess
-  server: v36.heduian.link
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: v36.heduian.link
-- name: VMESS-vb7iV
-  type: vmess
-  server: 127.0.0.53
-  port: 84
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-0jcAv
-  type: vmess
-  server: 127.0.0.53
-  port: 85
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-Lgl7Y
-  type: vmess
-  server: 47.74.57.10
-  port: 37257
-  uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-D9kiN
-  type: vmess
-  server: v37.heduian.link
-  port: 30837
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: v37.heduian.link
-- name: VMESS-da1Kd
-  type: vmess
-  server: 38.47.96.30
-  port: 443
-  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /lzjjj
-    headers:
-      Host: th.lzj520hxw.dpdns.org
-- name: VMESS-z8mDl
-  type: vmess
-  server: dddfffvvbnhju.931.pp.ua
-  port: 443
-  uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /14Fziqw1hYgCXNutkS5H
-    headers:
-      Host: dddfffvvbnhju.931.pp.ua
-- name: VMESS-UB0H6
-  type: vmess
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  port: 8080
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-FFPK1
-  type: vmess
-  server: 195.154.40.247
-  port: 54155
-  uuid: 52883970-dcf8-47a1-9dae-b642fd34e02a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: www.bing.com
-- name: VMESS-uczE1
-  type: vmess
-  server: 127.0.0.53
-  port: 82
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-ZjL1p
-  type: vmess
-  server: v36.heduian.link
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: v36.heduian.link
-- name: VMESS-STfl7
-  type: vmess
-  server: de.vmess.comnpmjs.com
-  port: 443
-  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: grpc
-  grpc-opts:
-    path: vmess-grpc
-    headers:
-      Host: N/A
-- name: VMESS-Ll84o
+- name: VMESS-j7Uwg
   type: vmess
   server: 183.236.51.38
   port: 49291
@@ -528,7 +183,137 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-Hj39v
+- name: VMESS-k38x2
+  type: vmess
+  server: 127.0.0.53
+  port: 86
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-oRLfW
+  type: vmess
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  port: 8080
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-65HIp
+  type: vmess
+  server: 195.154.40.247
+  port: 54155
+  uuid: 52883970-dcf8-47a1-9dae-b642fd34e02a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: www.bing.com
+- name: VMESS-ryd4y
+  type: vmess
+  server: v29.heduian.link
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-VGiIV
+  type: vmess
+  server: de.vmess.comnpmjs.com
+  port: 443
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: grpc
+  grpc-opts:
+    path: vmess-grpc
+    headers:
+      Host: N/A
+- name: VMESS-s1TXK
+  type: vmess
+  server: 127.0.0.53
+  port: 82
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-dwnfy
+  type: vmess
+  server: 127.0.0.53
+  port: 85
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-uKfJF
+  type: vmess
+  server: 127.0.0.53
+  port: 83
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-3Pdo5
+  type: vmess
+  server: 47.243.135.47
+  port: 5225
+  uuid: e64f666d-4b75-473b-9cc2-aaf6f0bf0e33
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: kcp
+  kcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-mSCP7
+  type: vmess
+  server: sslvpn.51job.com
+  port: 1443
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /634c5c4f9782
+    headers:
+      Host: centos7
+- name: VMESS-zB3Jl
   type: vmess
   server: 43.247.135.176
   port: 44470
@@ -541,7 +326,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-Ww14k
+- name: VMESS-tgqh0
   type: vmess
   server: 127.0.0.53
   port: 88
@@ -554,769 +339,1016 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: Trojan-TdrLI
-  type: trojan
-  server: 135.84.64.36
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-XnT4Q
-  type: trojan
-  server: 188.164.159.138
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-fsboK
-  type: trojan
-  server: 162.120.94.232
-  port: 8443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-6Tkcx
-  type: trojan
-  server: 172.67.214.21
+- name: VMESS-lfjkM
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-mjjQ7
+  type: vmess
+  server: cloudgetservice.mcloudservice.site
   port: 443
-  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
-  params: 'sni: xXcdvFgt.191268.XYz, type: ws, host: xXcdvFgt.191268.XYz, path: /ctdmgeIg3NII3ibrzzKXJGy3S1'
-- name: Trojan-qtOOG
-  type: trojan
-  server: 86.38.214.186
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-Yh2WT
-  type: trojan
-  server: 27.50.49.37
+  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linvkws
+    headers:
+      Host: Fra-Vp-123.BLaZECLOUD.Site
+- name: VMESS-VIDb2
+  type: vmess
+  server: 104.21.3.189
   port: 2053
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-db4dn
-  type: trojan
-  server: 36.156.102.125
-  port: 447
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-W8utU
-  type: trojan
-  server: 92.243.74.3
-  port: 8443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-Egjfl
-  type: trojan
-  server: 92.243.74.239
-  port: 8443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-c4qSQ
-  type: trojan
-  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
-  port: 15229
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  params: 'allowInsecure: 0, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net'
-- name: Trojan-7CMKF
-  type: trojan
-  server: 211.57.146.108
-  port: 50000
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-uqaBS
-  type: trojan
-  server: 8.134.93.116
-  port: 25004
-  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
-  params: 'allowInsecure: 1'
-- name: Trojan-L1hhG
-  type: trojan
-  server: 154.211.8.227
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-3R97F
-  type: trojan
-  server: 27.50.49.136
+  uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cc2d4.89060004.xyz
+- name: VMESS-8vIZd
+  type: vmess
+  server: v29.heduian.link
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-TIYB4
+  type: vmess
+  server: 127.0.0.53
+  port: 81
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-I6AXS
+  type: vmess
+  server: v29.heduian.link
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-6rXtL
+  type: vmess
+  server: csgo.com
+  port: 80
+  uuid: a134e3de-b25a-4020-9998-05fa6b715f1a
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /profile/telegram@ssrsub
+    headers:
+      Host: cdn-node-oss-99.paofu.de
+- name: VMESS-FerL3
+  type: vmess
+  server: cpanel.erade32.ir
+  port: 100
+  uuid: 0888adea-086c-4783-9989-85df86819c1f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: /
+    headers:
+      Host: uploadboy.com
+- name: VMESS-nxr9v
+  type: vmess
+  server: v37.heduian.link
+  port: 30837
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: v37.heduian.link
+- name: VMESS-1Jgwc
+  type: vmess
+  server: 38.47.96.30
   port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-CdNJf
-  type: trojan
-  server: 161.145.150.29
+  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /lzjjj
+    headers:
+      Host: th.lzj520hxw.dpdns.org
+- name: VMESS-Rf3UU
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-3zGVG
+  type: vmess
+  server: rak1ding.89060004.xyz
   port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-PqYNy
-  type: trojan
-  server: 103.116.7.67
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-uyfBy
-  type: trojan
-  server: 46.254.93.251
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-7b6ZP
-  type: trojan
-  server: 188.164.159.91
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-T8R9e
+  uuid: 75d96365-1229-4fc4-dbda-855717f876cf
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rak1d3.988988.shop
+- name: VMESS-dXjOF
+  type: vmess
+  server: 47.74.57.10
+  port: 37257
+  uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: kcp
+  kcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-tyRE8
+  type: vmess
+  server: dddfffvvbnhju.931.pp.ua
+  port: 443
+  uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /14Fziqw1hYgCXNutkS5H
+    headers:
+      Host: dddfffvvbnhju.931.pp.ua
+- name: VMESS-p03oh
+  type: vmess
+  server: 127.0.0.53
+  port: 87
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-EfXnu
+  type: vmess
+  server: csgo.com
+  port: 80
+  uuid: a134e3de-b25a-4020-9998-05fa6b715f1a
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /profile/telegram@ssrsub
+    headers:
+      Host: cdn-node-oss-99.paofu.de
+- name: VMESS-RCej8
+  type: vmess
+  server: v36.heduian.link
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: v36.heduian.link
+- name: VMESS-pInn8
+  type: vmess
+  server: cf.fovi.tk
+  port: 443
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: ''
+  tls: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxpol.fovi.tk
+- name: VMESS-jiGDb
+  type: vmess
+  server: 43.247.135.176
+  port: 44470
+  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-AwBoH
+  type: vmess
+  server: 127.0.0.53
+  port: 84
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: Trojan-5z6CF
   type: trojan
   server: 220.72.106.154
   port: 12127
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-gQGCR
-  type: trojan
-  server: 199.34.228.71
-  port: 8443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-02E84
-  type: trojan
-  server: 36.156.102.125
-  port: 406
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-pL4p0
-  type: trojan
-  server: 192.210.207.89
-  port: 20080
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-og715
-  type: trojan
-  server: 46.254.92.142
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-uTKdF
-  type: trojan
-  server: 154.17.10.113
-  port: 12266
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-Z5nDf
-  type: trojan
-  server: 36.156.102.125
-  port: 444
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.ithome.com'
-- name: Trojan-63UAR
-  type: trojan
-  server: 108.165.152.1
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-mHAHh
-  type: trojan
-  server: 5.182.84.50
-  port: 2096
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-tRDpV
-  type: trojan
-  server: 115.22.115.218
-  port: 50000
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-xV8Xj
-  type: trojan
-  server: 5.182.85.255
-  port: 2096
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-BLMPx
-  type: trojan
-  server: 45.67.215.217
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-TdMHI
-  type: trojan
-  server: 155.46.213.38
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-tGl2I
-  type: trojan
-  server: 172.67.77.127
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-XisSI
-  type: trojan
-  server: 34.85.77.183
-  port: 8080
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-1NPAL
-  type: trojan
-  server: 154.197.64.219
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-ns5In
-  type: trojan
-  server: 210.222.78.191
-  port: 10240
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-J9xKR
-  type: trojan
-  server: 108.165.152.175
-  port: 2096
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-7Vss5
-  type: trojan
-  server: 154.23.172.19
-  port: 11000
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-ncfx9
-  type: trojan
-  server: 108.165.152.59
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-U0c11
-  type: trojan
-  server: 36.156.102.78
-  port: 409
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 1-dy.ixigua.com'
-- name: Trojan-OOywA
-  type: trojan
-  server: 74.176.199.245
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-cJKRk
-  type: trojan
-  server: 154.197.64.196
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-Vkbh7
-  type: trojan
-  server: 46.254.93.211
-  port: 2053
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-747Ma
-  type: trojan
-  server: 222.105.100.2
-  port: 12483
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-RNOM8
-  type: trojan
-  server: 31.43.179.27
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-8457d
-  type: trojan
-  server: 108.165.152.202
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-wO4P7
-  type: trojan
-  server: 121.167.146.253
-  port: 12902
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-6wIAZ
-  type: trojan
-  server: 103.116.7.67
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-pg66J
-  type: trojan
-  server: 104.19.60.99
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-Q2ukx
-  type: trojan
-  server: www.visa.com.sg
-  port: 2053
-  password: 0F22D008-24D4-4DFE-947B-8D2FD64CD24C
-  params: 'allowInsecure: 0, sni: t.hongkong6.qzz.io, type: ws, host: t.hongkong6.qzz.io,
-    path: /'
-- name: Trojan-wWcuH
-  type: trojan
-  server: 36.156.102.67
-  port: 22006
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-xCk5Q
-  type: trojan
-  server: 188.164.159.55
-  port: 2096
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-KM1TH
-  type: trojan
-  server: 46.254.93.211
-  port: 2053
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-FR7AZ
-  type: trojan
-  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
-  port: 15229
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  params: 'allowInsecure: 0'
-- name: Trojan-Lp5Ri
-  type: trojan
-  server: 67.226.221.102
-  port: 80
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-7vmgx
-  type: trojan
-  server: tr-1.stunnel.cc
-  port: 8441
-  password: tunnel-astrovpn_official-tr
-  params: 'security: tls, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir,
-    alpn: http/1.1, allowInsecure: 1, type: tcp, headerType: none, host: tr-1.stunnel.cc'
-- name: Trojan-WedKq
-  type: trojan
-  server: 172.64.35.66
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-tpmJm
-  type: trojan
-  server: 154.197.64.104
-  port: 8443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-dvdnX
-  type: trojan
-  server: 199.34.228.187
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-4p5Jd
-  type: trojan
-  server: 154.26.182.37
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-bAmOR
-  type: trojan
-  server: 59.16.25.39
-  port: 12288
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-BYMfp
-  type: trojan
-  server: 188.164.159.98
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-GGLuK
-  type: trojan
-  server: www.visa.com.sg
-  port: 2053
-  password: 0F22D008-24D4-4DFE-947B-8D2FD64CD24C
-  params: 'allowInsecure: 0, sni: t.hongkong6.qzz.io, type: ws, host: t.hongkong6.qzz.io,
-    path: /'
-- name: Trojan-lcGRq
-  type: trojan
-  server: 108.165.152.78
-  port: 2083
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-iSmVt
-  type: trojan
-  server: 154.197.64.233
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-YlhoV
-  type: trojan
-  server: 162.159.44.230
-  port: 2053
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-1qSiA
-  type: trojan
-  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
-  port: 15229
-  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
-  params: 'allowInsecure: 1, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net'
-- name: Trojan-ZFlr7
-  type: trojan
-  server: 172.67.214.21
-  port: 443
-  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
-  params: 'allowInsecure: 0, sni: xXcdvFgt.191268.XYz, type: ws, host: xXcdvFgt.191268.XYz,
-    path: /ctdmgeIg3NII3ibrzzKXJGy3S1'
-- name: Trojan-g1AIo
-  type: trojan
-  server: 36.156.102.125
-  port: 1256
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-OgShb
-  type: trojan
-  server: 175.212.51.220
-  port: 21301
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-4uUi4
-  type: trojan
-  server: 154.211.8.150
-  port: 2096
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-qEAiV
-  type: trojan
-  server: 8.148.194.255
-  port: 25010
-  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
-  params: 'allowInsecure: 1'
-- name: Trojan-WwTCo
-  type: trojan
-  server: 77.232.140.114
-  port: 2053
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-We0jJ
-  type: trojan
-  server: lynn.ns.cloudflare.com
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-rQmt5
-  type: trojan
-  server: 167.68.5.248
-  port: 2087
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-lVGmX
-  type: trojan
-  server: 36.156.102.125
-  port: 347
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-evQl5
-  type: trojan
-  server: 188.164.159.107
-  port: 2096
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-AF8j8
-  type: trojan
-  server: 47.79.38.17
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-Gs5jq
-  type: trojan
-  server: 199.34.228.50
-  port: 2053
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-I4Ogq
-  type: trojan
-  server: 188.164.159.18
-  port: 443
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-2YZ0P
-  type: trojan
-  server: 176.124.223.40
-  port: 2053
-  password: Aimer
-  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
-    path: /?ed=2560'
-- name: Trojan-hk0lO
+- name: Trojan-H3o8O
   type: trojan
   server: 107.173.111.232
   port: 20082
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-OZqXP
+- name: Trojan-vIWNx
+  type: trojan
+  server: 121.167.146.253
+  port: 12902
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-7sqi4
+  type: trojan
+  server: 36.156.102.125
+  port: 1256
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-Wb1ns
+  type: trojan
+  server: 92.243.74.3
+  port: 8443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-YfLrT
+  type: trojan
+  server: 108.165.152.202
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-jlPNO
   type: trojan
   server: 175.210.186.14
   port: 12562
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-raRdB
+- name: Trojan-l7qSI
   type: trojan
-  server: 188.164.159.43
-  port: 2083
+  server: 222.105.100.2
+  port: 12483
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-7HtIA
+- name: Trojan-AXUsF
+  type: trojan
+  server: 59.16.25.39
+  port: 12288
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-fsg3H
+  type: trojan
+  server: 36.156.102.78
+  port: 409
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 1-dy.ixigua.com'
+- name: Trojan-seuhE
+  type: trojan
+  server: 115.22.115.218
+  port: 50000
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-A7LkX
+  type: trojan
+  server: 36.156.102.67
+  port: 22006
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-NP7kr
+  type: trojan
+  server: 192.210.207.89
+  port: 20080
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-ierZw
+  type: trojan
+  server: 27.50.49.136
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-Dbptq
+  type: trojan
+  server: 27.50.49.37
+  port: 2053
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-bHjte
+  type: trojan
+  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
+  port: 15229
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  params: 'allowInsecure: 0'
+- name: Trojan-8sjnU
+  type: trojan
+  server: www.visa.com.sg
+  port: 2053
+  password: 0F22D008-24D4-4DFE-947B-8D2FD64CD24C
+  params: 'allowInsecure: 0, sni: t.hongkong6.qzz.io, type: ws, host: t.hongkong6.qzz.io,
+    path: /'
+- name: Trojan-thqzd
   type: trojan
   server: 175.212.51.220
   port: 21301
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-WBnWr
+- name: Trojan-Izo59
   type: trojan
   server: 92.243.74.23
   port: 2096
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-7mbiR
+- name: Trojan-DSHUo
   type: trojan
-  server: 211.224.100.145
-  port: 50000
+  server: 36.156.102.125
+  port: 406
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-nFP1P
+  type: trojan
+  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+  port: 15229
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  params: 'allowInsecure: 0, sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net'
+- name: Trojan-sND6z
+  type: trojan
+  server: tr-1.stunnel.cc
+  port: 8441
+  password: tunnel-astrovpn_official-tr
+  params: 'security: tls, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir,
+    alpn: http/1.1, allowInsecure: 1, type: tcp, headerType: none, host: tr-1.stunnel.cc'
+- name: Trojan-s8FoD
+  type: trojan
+  server: 46.254.93.251
+  port: 2087
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-Yv9HS
+- name: Trojan-7jEDX
+  type: trojan
+  server: 46.254.92.142
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-uEkjb
+  type: trojan
+  server: 188.164.159.91
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-G0Cj5
+  type: trojan
+  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+  port: 15229
+  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+  params: 'allowInsecure: 1, sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net'
+- name: Trojan-YjHmk
+  type: trojan
+  server: 188.164.159.138
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-Likxj
+  type: trojan
+  server: 161.145.150.29
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-T5bGC
+  type: trojan
+  server: 108.165.152.175
+  port: 2096
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-s0anw
+  type: trojan
+  server: 36.156.102.125
+  port: 461
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-933vt
+  type: trojan
+  server: 162.159.44.230
+  port: 2053
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-tPRBl
+  type: trojan
+  server: 162.159.44.230
+  port: 2053
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-WkAYt
+  type: trojan
+  server: 46.254.93.211
+  port: 2053
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-hrwii
+  type: trojan
+  server: lynn.ns.cloudflare.com
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-96Njl
+  type: trojan
+  server: 154.197.64.196
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-sv5YZ
+  type: trojan
+  server: 188.164.159.107
+  port: 2096
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-OycPz
+  type: trojan
+  server: 188.164.159.43
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-9aFkm
+  type: trojan
+  server: 103.116.7.67
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-O7dR7
+  type: trojan
+  server: 162.120.94.232
+  port: 8443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-fveiF
+  type: trojan
+  server: 45.67.215.217
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-wy024
   type: trojan
   server: 92.243.74.239
   port: 8443
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-k5kHT
+- name: Trojan-PykAY
   type: trojan
-  server: 31.43.179.27
+  server: 67.226.221.102
+  port: 80
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-i03ZW
+  type: trojan
+  server: 154.26.182.37
   port: 443
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-ZuqWR
+- name: Trojan-NeDaP
+  type: trojan
+  server: 167.68.5.248
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-qM3HF
+  type: trojan
+  server: 154.197.64.233
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-VduE9
+  type: trojan
+  server: 104.19.60.99
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-fbL08
+  type: trojan
+  server: 36.156.102.125
+  port: 444
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.ithome.com'
+- name: Trojan-uhqIu
+  type: trojan
+  server: 36.156.102.125
+  port: 347
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-2Euhz
+  type: trojan
+  server: 135.84.64.36
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-gOmMz
+  type: trojan
+  server: 155.46.213.38
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-JJ81L
   type: trojan
   server: 77.232.140.114
   port: 2053
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-lGFnF
+- name: Trojan-Kxycy
+  type: trojan
+  server: 36.156.102.125
+  port: 447
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-bGZjs
+  type: trojan
+  server: 211.57.146.108
+  port: 50000
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-mP9xu
+  type: trojan
+  server: 155.46.213.38
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-krSVZ
+  type: trojan
+  server: 8.148.194.255
+  port: 25010
+  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
+  params: 'allowInsecure: 1'
+- name: Trojan-htguq
+  type: trojan
+  server: 172.67.214.21
+  port: 443
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  params: 'allowInsecure: 0, sni: xXcdvFgt.191268.XYz, type: ws, host: xXcdvFgt.191268.XYz,
+    path: /ctdmgeIg3NII3ibrzzKXJGy3S1'
+- name: Trojan-a3FfC
+  type: trojan
+  server: 188.164.159.55
+  port: 2096
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-jAIwX
+  type: trojan
+  server: 47.79.38.17
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-K5kSu
+  type: trojan
+  server: 210.222.78.191
+  port: 10240
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-SH3j0
+  type: trojan
+  server: 77.232.140.114
+  port: 2053
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-lLTL6
+  type: trojan
+  server: 154.211.8.150
+  port: 2096
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-neGBS
+  type: trojan
+  server: 121.167.146.253
+  port: 12902
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-PlAoi
+  type: trojan
+  server: 172.67.77.127
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-bDyJo
+  type: trojan
+  server: 199.34.228.71
+  port: 8443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-zFEoF
+  type: trojan
+  server: 199.34.228.50
+  port: 2053
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-tlE8Z
+  type: trojan
+  server: 8.134.93.116
+  port: 25004
+  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
+  params: 'allowInsecure: 1'
+- name: Trojan-LqfXn
+  type: trojan
+  server: 172.67.214.21
+  port: 443
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  params: 'sni: xXcdvFgt.191268.XYz, type: ws, host: xXcdvFgt.191268.XYz, path: /ctdmgeIg3NII3ibrzzKXJGy3S1'
+- name: Trojan-e9Isv
+  type: trojan
+  server: 108.165.152.78
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-LeNoM
+  type: trojan
+  server: 154.17.10.113
+  port: 12266
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-EcOzq
+  type: trojan
+  server: 108.165.152.59
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-CSqPX
+  type: trojan
+  server: 34.85.77.183
+  port: 8080
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-BUNmR
+  type: trojan
+  server: 211.224.100.145
+  port: 50000
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-kgpOA
+  type: trojan
+  server: 188.164.159.98
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-TO8ee
+  type: trojan
+  server: 154.197.64.104
+  port: 8443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-6wclG
+  type: trojan
+  server: 199.34.228.187
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-9EA8h
+  type: trojan
+  server: 31.43.179.27
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-B4B8s
+  type: trojan
+  server: 154.211.8.227
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-GTIfF
+  type: trojan
+  server: 154.23.172.19
+  port: 11000
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-Tpxxs
+  type: trojan
+  server: 5.182.84.50
+  port: 2096
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-qztiu
+  type: trojan
+  server: 74.176.199.245
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-iPOYI
+  type: trojan
+  server: 172.64.35.66
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-XbAja
+  type: trojan
+  server: 108.165.152.1
+  port: 2087
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-zgA9s
+  type: trojan
+  server: 176.124.223.40
+  port: 2053
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-bQE2Y
+  type: trojan
+  server: 172.67.214.21
+  port: 443
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  params: 'sni: xXcdvFgt.191268.XYz, type: ws, host: xXcdvFgt.191268.XYz, path: /ctdmgeIg3NII3ibrzzKXJGy3S1'
+- name: Trojan-DOPcj
+  type: trojan
+  server: 188.164.159.18
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-GUuui
+  type: trojan
+  server: 86.38.214.186
+  port: 443
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-s6aN7
+  type: trojan
+  server: 154.197.64.219
+  port: 2083
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
+- name: Trojan-L8MmA
   type: trojan
   server: kip.ns.cloudflare.com
   port: 443
   password: Aimer
   params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
     path: /?ed=2560'
-- name: Trojan-Yvaay
+- name: Trojan-hLeXt
   type: trojan
-  server: 36.156.102.125
-  port: 461
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
+  server: 5.182.85.255
+  port: 2096
+  password: Aimer
+  params: 'allowInsecure: 1, sni: epgb.aimercc.dpdns.org, type: ws, host: epgb.aimercc.dpdns.org,
+    path: /?ed=2560'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-RtfR9
-  - SS-Efw4V
-  - SS-sANOl
-  - SS-cjlUV
-  - SS-BZvHW
-  - SS-IrDdE
-  - SS-IqQET
-  - SS-oOgEX
-  - SS-MwY9u
-  - SS-2Z9fW
-  - SS-BHTg4
-  - SS-IP2EL
-  - SSR-Gg2Rw
-  - VMESS-MswhJ
-  - VMESS-ncvVX
-  - VMESS-CevLv
-  - VMESS-JMDxS
-  - VMESS-WV1Xr
-  - VMESS-GDrqI
-  - VMESS-G5gVz
-  - VMESS-xdnWq
-  - VMESS-5I4uh
-  - VMESS-PfcbV
-  - VMESS-pfQeu
-  - VMESS-93QK6
-  - VMESS-JTYCD
-  - VMESS-sXJj0
-  - VMESS-7z0q9
-  - VMESS-4OLum
-  - VMESS-S3nFG
-  - VMESS-jjEO1
-  - VMESS-vb7iV
-  - VMESS-0jcAv
-  - VMESS-Lgl7Y
-  - VMESS-D9kiN
-  - VMESS-da1Kd
-  - VMESS-z8mDl
-  - VMESS-UB0H6
-  - VMESS-FFPK1
-  - VMESS-uczE1
-  - VMESS-ZjL1p
-  - VMESS-STfl7
-  - VMESS-Ll84o
-  - VMESS-Hj39v
-  - VMESS-Ww14k
-  - Trojan-TdrLI
-  - Trojan-XnT4Q
-  - Trojan-fsboK
-  - Trojan-6Tkcx
-  - Trojan-qtOOG
-  - Trojan-Yh2WT
-  - Trojan-db4dn
-  - Trojan-W8utU
-  - Trojan-Egjfl
-  - Trojan-c4qSQ
-  - Trojan-7CMKF
-  - Trojan-uqaBS
-  - Trojan-L1hhG
-  - Trojan-3R97F
-  - Trojan-CdNJf
-  - Trojan-PqYNy
-  - Trojan-uyfBy
-  - Trojan-7b6ZP
-  - Trojan-T8R9e
-  - Trojan-gQGCR
-  - Trojan-02E84
-  - Trojan-pL4p0
-  - Trojan-og715
-  - Trojan-uTKdF
-  - Trojan-Z5nDf
-  - Trojan-63UAR
-  - Trojan-mHAHh
-  - Trojan-tRDpV
-  - Trojan-xV8Xj
-  - Trojan-BLMPx
-  - Trojan-TdMHI
-  - Trojan-tGl2I
-  - Trojan-XisSI
-  - Trojan-1NPAL
-  - Trojan-ns5In
-  - Trojan-J9xKR
-  - Trojan-7Vss5
-  - Trojan-ncfx9
-  - Trojan-U0c11
-  - Trojan-OOywA
-  - Trojan-cJKRk
-  - Trojan-Vkbh7
-  - Trojan-747Ma
-  - Trojan-RNOM8
-  - Trojan-8457d
-  - Trojan-wO4P7
-  - Trojan-6wIAZ
-  - Trojan-pg66J
-  - Trojan-Q2ukx
-  - Trojan-wWcuH
-  - Trojan-xCk5Q
-  - Trojan-KM1TH
-  - Trojan-FR7AZ
-  - Trojan-Lp5Ri
-  - Trojan-7vmgx
-  - Trojan-WedKq
-  - Trojan-tpmJm
-  - Trojan-dvdnX
-  - Trojan-4p5Jd
-  - Trojan-bAmOR
-  - Trojan-BYMfp
-  - Trojan-GGLuK
-  - Trojan-lcGRq
-  - Trojan-iSmVt
-  - Trojan-YlhoV
-  - Trojan-1qSiA
-  - Trojan-ZFlr7
-  - Trojan-g1AIo
-  - Trojan-OgShb
-  - Trojan-4uUi4
-  - Trojan-qEAiV
-  - Trojan-WwTCo
-  - Trojan-We0jJ
-  - Trojan-rQmt5
-  - Trojan-lVGmX
-  - Trojan-evQl5
-  - Trojan-AF8j8
-  - Trojan-Gs5jq
-  - Trojan-I4Ogq
-  - Trojan-2YZ0P
-  - Trojan-hk0lO
-  - Trojan-OZqXP
-  - Trojan-raRdB
-  - Trojan-7HtIA
-  - Trojan-WBnWr
-  - Trojan-7mbiR
-  - Trojan-Yv9HS
-  - Trojan-k5kHT
-  - Trojan-ZuqWR
-  - Trojan-lGFnF
-  - Trojan-Yvaay
+  - SS-5tPW6
+  - SS-tugRW
+  - SS-KF7Yw
+  - SS-yp69G
+  - SS-8WAsm
+  - SS-JtQjR
+  - SS-JZesL
+  - SS-ws4Lj
+  - SS-qfjb3
+  - SS-1WqIS
+  - SS-Dmjlo
+  - SS-zHghV
+  - SS-fxMZU
+  - SSR-yro3s
+  - VMESS-t0pme
+  - VMESS-qfsKX
+  - VMESS-j7Uwg
+  - VMESS-k38x2
+  - VMESS-oRLfW
+  - VMESS-65HIp
+  - VMESS-ryd4y
+  - VMESS-VGiIV
+  - VMESS-s1TXK
+  - VMESS-dwnfy
+  - VMESS-uKfJF
+  - VMESS-3Pdo5
+  - VMESS-mSCP7
+  - VMESS-zB3Jl
+  - VMESS-tgqh0
+  - VMESS-lfjkM
+  - VMESS-mjjQ7
+  - VMESS-VIDb2
+  - VMESS-8vIZd
+  - VMESS-TIYB4
+  - VMESS-I6AXS
+  - VMESS-6rXtL
+  - VMESS-FerL3
+  - VMESS-nxr9v
+  - VMESS-1Jgwc
+  - VMESS-Rf3UU
+  - VMESS-3zGVG
+  - VMESS-dXjOF
+  - VMESS-tyRE8
+  - VMESS-p03oh
+  - VMESS-EfXnu
+  - VMESS-RCej8
+  - VMESS-pInn8
+  - VMESS-jiGDb
+  - VMESS-AwBoH
+  - Trojan-5z6CF
+  - Trojan-H3o8O
+  - Trojan-vIWNx
+  - Trojan-7sqi4
+  - Trojan-Wb1ns
+  - Trojan-YfLrT
+  - Trojan-jlPNO
+  - Trojan-l7qSI
+  - Trojan-AXUsF
+  - Trojan-fsg3H
+  - Trojan-seuhE
+  - Trojan-A7LkX
+  - Trojan-NP7kr
+  - Trojan-ierZw
+  - Trojan-Dbptq
+  - Trojan-bHjte
+  - Trojan-8sjnU
+  - Trojan-thqzd
+  - Trojan-Izo59
+  - Trojan-DSHUo
+  - Trojan-nFP1P
+  - Trojan-sND6z
+  - Trojan-s8FoD
+  - Trojan-7jEDX
+  - Trojan-uEkjb
+  - Trojan-G0Cj5
+  - Trojan-YjHmk
+  - Trojan-Likxj
+  - Trojan-T5bGC
+  - Trojan-s0anw
+  - Trojan-933vt
+  - Trojan-tPRBl
+  - Trojan-WkAYt
+  - Trojan-hrwii
+  - Trojan-96Njl
+  - Trojan-sv5YZ
+  - Trojan-OycPz
+  - Trojan-9aFkm
+  - Trojan-O7dR7
+  - Trojan-fveiF
+  - Trojan-wy024
+  - Trojan-PykAY
+  - Trojan-i03ZW
+  - Trojan-NeDaP
+  - Trojan-qM3HF
+  - Trojan-VduE9
+  - Trojan-fbL08
+  - Trojan-uhqIu
+  - Trojan-2Euhz
+  - Trojan-gOmMz
+  - Trojan-JJ81L
+  - Trojan-Kxycy
+  - Trojan-bGZjs
+  - Trojan-mP9xu
+  - Trojan-krSVZ
+  - Trojan-htguq
+  - Trojan-a3FfC
+  - Trojan-jAIwX
+  - Trojan-K5kSu
+  - Trojan-SH3j0
+  - Trojan-lLTL6
+  - Trojan-neGBS
+  - Trojan-PlAoi
+  - Trojan-bDyJo
+  - Trojan-zFEoF
+  - Trojan-tlE8Z
+  - Trojan-LqfXn
+  - Trojan-e9Isv
+  - Trojan-LeNoM
+  - Trojan-EcOzq
+  - Trojan-CSqPX
+  - Trojan-BUNmR
+  - Trojan-kgpOA
+  - Trojan-TO8ee
+  - Trojan-6wclG
+  - Trojan-9EA8h
+  - Trojan-B4B8s
+  - Trojan-GTIfF
+  - Trojan-Tpxxs
+  - Trojan-qztiu
+  - Trojan-iPOYI
+  - Trojan-XbAja
+  - Trojan-zgA9s
+  - Trojan-bQE2Y
+  - Trojan-DOPcj
+  - Trojan-GUuui
+  - Trojan-s6aN7
+  - Trojan-L8MmA
+  - Trojan-hLeXt
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
