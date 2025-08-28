@@ -58,55 +58,67 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-1PoEk
-  type: ss
-  server: 137.220.191.40
-  port: 636
-  cipher: aes-256-gcm
-  password: 823e135ed103
-- name: SS-cSASI
-  type: ss
-  server: 125.230.12.246
-  port: 10032
-  cipher: chacha20-ietf-poly1305
-  password: 72ba05a3-632e-490b-ad00-158578664c18
-- name: SS-ITxsm
-  type: ss
-  server: 62.210.25.13
-  port: 11111
-  cipher: aes-256-gcm
-  password: dongtaiwang.com
-- name: SS-IDnLF
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8766
-  cipher: rc4-md5
-  password: efanccyun
-- name: SS-nLvBZ
-  type: ss
-  server: 103.103.245.158
-  port: 636
-  cipher: aes-256-gcm
-  password: 9bfdde71b4c0
-- name: SS-HJCiL
+- name: SS-aNlkO
   type: ss
   server: cn01.efan8867801.xyz
   port: 8774
   cipher: rc4-md5
   password: efanccyun
-- name: SS-IKMMH
+- name: SS-ldG33
   type: ss
-  server: 125.229.88.58
-  port: 10121
+  server: 103.103.245.158
+  port: 636
+  cipher: aes-256-gcm
+  password: 9bfdde71b4c0
+- name: SS-A3b3Q
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8766
+  cipher: rc4-md5
+  password: efanccyun
+- name: SS-jG8bG
+  type: ss
+  server: 137.220.191.40
+  port: 636
+  cipher: aes-256-gcm
+  password: 823e135ed103
+- name: SS-BPnbI
+  type: ss
+  server: 36.234.110.22
+  port: 10044
   cipher: chacha20-ietf-poly1305
-  password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9
-- name: SS-bqrAE
+  password: 03b0e7a9-5b85-4bfd-8a02-35c724f55bca
+- name: SS-I9lJ2
+  type: ss
+  server: 1.170.61.218
+  port: 10084
+  cipher: chacha20-ietf-poly1305
+  password: 03b0e7a9-5b85-4bfd-8a02-35c724f55bca
+- name: SS-dHYCP
+  type: ss
+  server: 62.210.25.13
+  port: 11111
+  cipher: aes-256-gcm
+  password: dongtaiwang.com
+- name: SS-CWkAj
+  type: ss
+  server: 125.230.12.246
+  port: 10032
+  cipher: chacha20-ietf-poly1305
+  password: 72ba05a3-632e-490b-ad00-158578664c18
+- name: SS-ir0WB
   type: ss
   server: 108.129.163.206
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: SSR-ZXYlj
+- name: SS-zqznq
+  type: ss
+  server: 125.229.88.58
+  port: 10121
+  cipher: chacha20-ietf-poly1305
+  password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9
+- name: SSR-mMNsT
   type: ssr
   server: dongtaiwang5.com
   port: 33336
@@ -114,137 +126,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-jemLE
-  type: vmess
-  server: hkt.gotochinatown.net
-  port: 80
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hkt.gotochinatown.net
-- name: VMESS-F0zjj
-  type: vmess
-  server: 127.0.0.53
-  port: 83
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-5jW4Q
-  type: vmess
-  server: 127.0.0.53
-  port: 86
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-dmBgm
-  type: vmess
-  server: 47.239.183.87
-  port: 28590
-  uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-mpY4c
-  type: vmess
-  server: 127.0.0.53
-  port: 82
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-EoC7R
-  type: vmess
-  server: 47.74.57.10
-  port: 37257
-  uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-AZHJn
-  type: vmess
-  server: 127.0.0.53
-  port: 87
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-S2Kfo
-  type: vmess
-  server: 185.176.26.215
-  port: 8880
-  uuid: 0b67f537-9bdd-3c10-baa3-0554249bd788
-  alterId: 0
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-- name: VMESS-qJNT7
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-WUlRQ
-  type: vmess
-  server: 127.0.0.53
-  port: 84
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-n7jkS
+- name: VMESS-zPjQ3
   type: vmess
   server: 2001:bc8:32d7:30b::201
   port: 63115
@@ -257,72 +139,46 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-yUcDy
+- name: VMESS-5gPhq
   type: vmess
-  server: 127.0.0.53
-  port: 81
-  uuid: 88888888-8888-8888-8888-888888888888
+  server: 185.148.105.220
+  port: 8880
+  uuid: 470c6d0a-7ee5-3e9d-8f49-1c4e485fafc9
   alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-GPMMR
-  type: vmess
-  server: 127.0.0.53
-  port: 88
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-Ugtnl
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-BFTAv
-  type: vmess
-  server: v24.heduian.link
-  port: 30824
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /oooo
+    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
     headers:
-      Host: v24.heduian.link
-- name: VMESS-8Hvu4
+      Host: TG.WangCai2.s4.db-link02.top
+- name: VMESS-CDYGJ
   type: vmess
-  server: ssssssssssssfffffffgh.2032.pp.ua
+  server: 127.0.0.53
+  port: 86
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-suzIN
+  type: vmess
+  server: new1.huvicloud.com
   port: 443
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  uuid: 0f02e02f-418d-4434-b0cf-dbdd15892333
   alterId: 0
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /6We3U9Df1WGxgFnoFPw1
+    path: /0f02e02f-418d-4434-b0cf-dbdd15892333
     headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-- name: VMESS-GM2o6
+      Host: new1.huvicloud.com
+- name: VMESS-4iG3r
   type: vmess
   server: 127.0.0.53
   port: 85
@@ -335,7 +191,20 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-oYCFl
+- name: VMESS-AFsHc
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hkt.gotochinatown.net
+- name: VMESS-N82E9
   type: vmess
   server: 38.147.189.37
   port: 31552
@@ -348,36 +217,23 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-Ecaqp
+- name: VMESS-WJQFW
   type: vmess
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  port: 443
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  server: 47.74.57.10
+  port: 37257
+  uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
   alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /6We3U9Df1WGxgFnoFPw1
-    headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-- name: VMESS-Yrk4m
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
   tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
+  network: kcp
+  kcp-opts:
+    path: N/A
     headers:
-      Host: ocbc.com
-- name: VMESS-NzafG
+      Host: N/A
+- name: VMESS-1sh4h
   type: vmess
   server: 127.0.0.53
-  port: 89
+  port: 81
   uuid: 88888888-8888-8888-8888-888888888888
   alterId: 0
   cipher: auto
@@ -387,7 +243,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-lL5FU
+- name: VMESS-99SIY
   type: vmess
   server: 127.0.0.53
   port: 80
@@ -400,201 +256,344 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: Trojan-qwTcn
+- name: VMESS-S2YPc
+  type: vmess
+  server: 127.0.0.53
+  port: 82
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-oX68m
+  type: vmess
+  server: v29.heduian.link
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-olPpZ
+  type: vmess
+  server: cloudgetservice.mcloudservice.site
+  port: 443
+  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linvkws
+    headers:
+      Host: Fra-Vp-123.BLaZECLOUD.Site
+- name: VMESS-CV1dF
+  type: vmess
+  server: 127.0.0.53
+  port: 83
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-k3XUY
+  type: vmess
+  server: 127.0.0.53
+  port: 84
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-fkBXO
+  type: vmess
+  server: 127.0.0.53
+  port: 87
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-u9QzY
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-Uatn1
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: VMESS-R6UCN
+  type: vmess
+  server: 159.112.235.214
+  port: 8880
+  uuid: d1b75cc3-e618-37c4-9c55-ff11b4ed493b
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+- name: VMESS-XlvS4
+  type: vmess
+  server: 47.239.183.87
+  port: 28590
+  uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: kcp
+  kcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-1fGZ9
+  type: vmess
+  server: ssssssssssssfffffffgh.2032.pp.ua
+  port: 443
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /6We3U9Df1WGxgFnoFPw1
+    headers:
+      Host: ssssssssssssfffffffgh.2032.pp.ua
+- name: VMESS-Zgq5e
+  type: vmess
+  server: 38.147.189.37
+  port: 31552
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-GvuT9
+  type: vmess
+  server: 127.0.0.53
+  port: 88
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-pNrhK
+  type: vmess
+  server: v24.heduian.link
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: v24.heduian.link
+- name: VMESS-UNmjN
+  type: vmess
+  server: 127.0.0.53
+  port: 89
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: Trojan-TXfbN
   type: trojan
   server: 36.150.215.203
   port: 7177
   password: 253bc477d4e43c209f2d427272968280
   params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-hHylZ
+- name: Trojan-ESQp8
+  type: trojan
+  server: 45.67.215.95
+  port: 443
+  password: tg-fq521free
+  params: 'allowInsecure: 0, sni: torjan.xn--xhq44j.eu.org, type: ws, host: torjan.xn--xhq44j.eu.org,
+    path: /'
+- name: Trojan-aaSGy
   type: trojan
   server: 86.38.214.194
   port: 2096
   password: ttfang
   params: 'allowInsecure: 1, sni: ttfang.fange.me, type: ws, host: ttfang.fange.me,
     path: /TelegramU0001F1E8U0001F1F3'
-- name: Trojan-WnnFP
+- name: Trojan-K0gAr
   type: trojan
-  server: 43.199.63.145
-  port: 13345
+  server: 42.2.237.179
+  port: 443
   password: 253bc477d4e43c209f2d427272968280
   params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-9JybF
+- name: Trojan-hb0jf
+  type: trojan
+  server: 36.150.215.203
+  port: 3270
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-aY3AA
+  type: trojan
+  server: 36.150.215.203
+  port: 40950
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-ufdfS
+  type: trojan
+  server: 223.111.144.13
+  port: 6928
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-gJTDF
+  type: trojan
+  server: 36.150.215.203
+  port: 4801
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 36.156.102.116'
+- name: Trojan-GzNke
   type: trojan
   server: 198.62.62.67
   port: 443
   password: tg-fq521free
   params: 'allowInsecure: 0, sni: torjan.xn--xhq44j.eu.org, type: ws, host: torjan.xn--xhq44j.eu.org,
     path: /'
-- name: Trojan-cx1ko
+- name: Trojan-hS8aR
+  type: trojan
+  server: 36.150.215.203
+  port: 3043
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-GkP80
+  type: trojan
+  server: uk-03.allhubb.info
+  port: 8443
+  password: 1ce1df7962f71c6f
+  params: ''
+- name: Trojan-zAvvU
+  type: trojan
+  server: 36.150.215.203
+  port: 4397
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-oEGjE
   type: trojan
   server: 216.24.57.30
   port: 443
   password: tg-fq521free
   params: 'allowInsecure: 0, sni: torjan.xn--xhq44j.eu.org, type: ws, host: torjan.xn--xhq44j.eu.org,
     path: /'
-- name: Trojan-LFgog
-  type: trojan
-  server: 43.199.63.145
-  port: 5343
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-U2yKr
-  type: trojan
-  server: 43.199.63.145
-  port: 4801
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 36.156.102.116'
-- name: Trojan-CP1k2
-  type: trojan
-  server: 43.199.63.145
-  port: 2045
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-EIPE4
-  type: trojan
-  server: 223.111.144.13
-  port: 6928
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-b2z2a
-  type: trojan
-  server: 3.112.225.166
-  port: 443
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-YdXa1
-  type: trojan
-  server: 36.150.215.203
-  port: 3043
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-8leKy
-  type: trojan
-  server: 36.150.215.203
-  port: 4397
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-GLCnO
-  type: trojan
-  server: 36.150.215.203
-  port: 4801
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 36.156.102.116'
-- name: Trojan-EbmXW
-  type: trojan
-  server: 36.150.215.203
-  port: 3270
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-1zkhP
-  type: trojan
-  server: 45.67.215.95
-  port: 443
-  password: tg-fq521free
-  params: 'allowInsecure: 0, sni: torjan.xn--xhq44j.eu.org, type: ws, host: torjan.xn--xhq44j.eu.org,
-    path: /'
-- name: Trojan-5bbFG
-  type: trojan
-  server: 36.150.215.203
-  port: 40950
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-5U2AM
+- name: Trojan-5gCdx
   type: trojan
   server: 194.76.18.129
   port: 443
   password: tg-fq521free
   params: 'allowInsecure: 0, sni: torjan.xn--xhq44j.eu.org, type: ws, host: torjan.xn--xhq44j.eu.org,
     path: /'
-- name: Trojan-l7J7E
-  type: trojan
-  server: 43.199.63.145
-  port: 8116
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-y24ts
-  type: trojan
-  server: hxkad246454.nkrpjj.cn
-  port: 12221
-  password: 0042a837-cf5e-4d00-b31a-460677e68b6f
-  params: 'allowInsecure: 1, sni: nkrpjj.cn'
-- name: Trojan-FFeoy
-  type: trojan
-  server: 45.67.215.95
-  port: 443
-  password: tg-fq521free
-  params: 'allowInsecure: 0, sni: torjan.xn--xhq44j.eu.org, type: ws, host: torjan.xn--xhq44j.eu.org,
-    path: /'
-- name: Trojan-KZjIH
-  type: trojan
-  server: 43.199.63.145
-  port: 40950
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-wlSXJ
-  type: trojan
-  server: 42.2.237.179
-  port: 443
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.baidu.com'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-1PoEk
-  - SS-cSASI
-  - SS-ITxsm
-  - SS-IDnLF
-  - SS-nLvBZ
-  - SS-HJCiL
-  - SS-IKMMH
-  - SS-bqrAE
-  - SSR-ZXYlj
-  - VMESS-jemLE
-  - VMESS-F0zjj
-  - VMESS-5jW4Q
-  - VMESS-dmBgm
-  - VMESS-mpY4c
-  - VMESS-EoC7R
-  - VMESS-AZHJn
-  - VMESS-S2Kfo
-  - VMESS-qJNT7
-  - VMESS-WUlRQ
-  - VMESS-n7jkS
-  - VMESS-yUcDy
-  - VMESS-GPMMR
-  - VMESS-Ugtnl
-  - VMESS-BFTAv
-  - VMESS-8Hvu4
-  - VMESS-GM2o6
-  - VMESS-oYCFl
-  - VMESS-Ecaqp
-  - VMESS-Yrk4m
-  - VMESS-NzafG
-  - VMESS-lL5FU
-  - Trojan-qwTcn
-  - Trojan-hHylZ
-  - Trojan-WnnFP
-  - Trojan-9JybF
-  - Trojan-cx1ko
-  - Trojan-LFgog
-  - Trojan-U2yKr
-  - Trojan-CP1k2
-  - Trojan-EIPE4
-  - Trojan-b2z2a
-  - Trojan-YdXa1
-  - Trojan-8leKy
-  - Trojan-GLCnO
-  - Trojan-EbmXW
-  - Trojan-1zkhP
-  - Trojan-5bbFG
-  - Trojan-5U2AM
-  - Trojan-l7J7E
-  - Trojan-y24ts
-  - Trojan-FFeoy
-  - Trojan-KZjIH
-  - Trojan-wlSXJ
+  - SS-aNlkO
+  - SS-ldG33
+  - SS-A3b3Q
+  - SS-jG8bG
+  - SS-BPnbI
+  - SS-I9lJ2
+  - SS-dHYCP
+  - SS-CWkAj
+  - SS-ir0WB
+  - SS-zqznq
+  - SSR-mMNsT
+  - VMESS-zPjQ3
+  - VMESS-5gPhq
+  - VMESS-CDYGJ
+  - VMESS-suzIN
+  - VMESS-4iG3r
+  - VMESS-AFsHc
+  - VMESS-N82E9
+  - VMESS-WJQFW
+  - VMESS-1sh4h
+  - VMESS-99SIY
+  - VMESS-S2YPc
+  - VMESS-oX68m
+  - VMESS-olPpZ
+  - VMESS-CV1dF
+  - VMESS-k3XUY
+  - VMESS-fkBXO
+  - VMESS-u9QzY
+  - VMESS-Uatn1
+  - VMESS-R6UCN
+  - VMESS-XlvS4
+  - VMESS-1fGZ9
+  - VMESS-Zgq5e
+  - VMESS-GvuT9
+  - VMESS-pNrhK
+  - VMESS-UNmjN
+  - Trojan-TXfbN
+  - Trojan-ESQp8
+  - Trojan-aaSGy
+  - Trojan-K0gAr
+  - Trojan-hb0jf
+  - Trojan-aY3AA
+  - Trojan-ufdfS
+  - Trojan-gJTDF
+  - Trojan-GzNke
+  - Trojan-hS8aR
+  - Trojan-GkP80
+  - Trojan-zAvvU
+  - Trojan-oEGjE
+  - Trojan-5gCdx
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
