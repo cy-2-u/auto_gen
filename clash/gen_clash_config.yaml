@@ -58,61 +58,67 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-ahGY1
+- name: SS-0fTWS
   type: ss
   server: 59.126.32.59
   port: 10066
   cipher: chacha20-ietf-poly1305
-  password: 6b9e151f-10bb-4ef9-8607-fe3ad53f7dc1
-- name: SS-RGreo
-  type: ss
-  server: 156.251.179.135
-  port: 443
-  cipher: aes-256-gcm
-  password: 2b5fad3874e5
-- name: SS-dykpD
-  type: ss
-  server: 137.220.142.150
-  port: 443
-  cipher: aes-256-gcm
-  password: 8a6ca14c0936
-- name: SS-VXFLF
-  type: ss
-  server: 114.46.70.116
-  port: 10055
-  cipher: chacha20-ietf-poly1305
-  password: ed212b13-12b8-4ea2-9643-6658b18d5583
-- name: SS-FzY1W
-  type: ss
-  server: 18.195.55.29
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: SS-AdJLm
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8766
-  cipher: rc4-md5
-  password: efanccyun
-- name: SS-Pk42p
-  type: ss
-  server: 125.229.88.58
-  port: 10121
-  cipher: chacha20-ietf-poly1305
-  password: 5695443d-9206-49b5-99be-e1276218c54e
-- name: SS-oxgUb
-  type: ss
-  server: 118.170.200.223
-  port: 10031
-  cipher: chacha20-ietf-poly1305
-  password: b9d3c170-e6a5-45a3-bc37-f56892b9e819
-- name: SS-xiUAp
+  password: 140e4cb2-a874-414b-a58b-c0300720fa7d
+- name: SS-6ByaF
   type: ss
   server: cn01.efan8867801.xyz
   port: 8774
   cipher: rc4-md5
   password: efanccyun
-- name: SSR-P02G4
+- name: SS-qRsPp
+  type: ss
+  server: 125.231.72.120
+  port: 10065
+  cipher: chacha20-ietf-poly1305
+  password: e690cd6f-6c50-42e2-8b51-570e95a9be19
+- name: SS-Cfg0n
+  type: ss
+  server: 18.195.55.29
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: SS-noJIT
+  type: ss
+  server: 125.231.72.120
+  port: 10065
+  cipher: chacha20-ietf-poly1305
+  password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9
+- name: SS-l6bxD
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8766
+  cipher: rc4-md5
+  password: efanccyun
+- name: SS-wg7IY
+  type: ss
+  server: 125.231.72.120
+  port: 10065
+  cipher: chacha20-ietf-poly1305
+  password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9
+- name: SS-ka5Md
+  type: ss
+  server: 137.220.142.150
+  port: 443
+  cipher: aes-256-gcm
+  password: 8a6ca14c0936
+- name: SS-9PNLV
+  type: ss
+  server: 156.251.179.135
+  port: 443
+  cipher: aes-256-gcm
+  password: 2b5fad3874e5
+- name: SS-mJIX4
+  type: ss
+  server: kr2.qiangdong.xyz
+  port: 1052
+  cipher: aes-128-gcm
+  password: VXPipi29nxMO
+- name: SSR-WLEXo
   type: ssr
   server: ssr.762988.xyz
   port: 33336
@@ -120,49 +126,10 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-79Fm0
+- name: VMESS-IWZmf
   type: vmess
-  server: v10.heduian.link
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-vdbTV
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-jCyeG
-  type: vmess
-  server: 51.222.158.243
-  port: 8443
-  uuid: 4b0df213-0e59-4c16-b391-e0d97686bfa9
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: ''
-- name: VMESS-0NSSd
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
+  server: v35.heduian.link
+  port: 30835
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
@@ -171,25 +138,12 @@ proxies:
   ws-opts:
     path: /oooo
     headers:
-      Host: ocbc.com
-- name: VMESS-X68N5
+      Host: v35.heduian.link
+- name: VMESS-qOsOw
   type: vmess
-  server: 8.209.211.236
-  port: 34933
-  uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-BMrV3
-  type: vmess
-  server: 38.147.188.234
-  port: 15778
-  uuid: e4c54f8f-78bd-439d-8365-28f261078962
+  server: 43.247.134.80
+  port: 28677
+  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
   alterId: 0
   cipher: auto
   tls: false
@@ -198,72 +152,33 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-4ViLK
+- name: VMESS-80l3A
   type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-5KFLd
-  type: vmess
-  server: 47.239.183.87
-  port: 28590
-  uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-SSQbJ
-  type: vmess
-  server: 2001:bc8:32d7:30b::201
-  port: 40011
-  uuid: bd7c5633-70df-4d6d-b104-a3e9580498f7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /github.com/Alvin9999
-    headers:
-      Host: www.bing.com
-- name: VMESS-ohXvo
-  type: vmess
-  server: 38.147.188.234
-  port: 15778
-  uuid: e4c54f8f-78bd-439d-8365-28f261078962
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-FiNdG
-  type: vmess
-  server: 104.16.79.65
+  server: hkt.gotochinatown.net
   port: 80
-  uuid: 6acd1528-42cc-43cf-93a4-f36bd859f6d2
-  alterId: 0
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hkt.gotochinatown.net
+- name: VMESS-uPLpG
+  type: vmess
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  port: 80
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /index.html?ed=2048
+    path: /
     headers:
-      Host: 745019073041272025090210144391493.fr.chibaba.filegear-sg.me
-- name: VMESS-JoSKV
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-CdRvz
   type: vmess
   server: v24.heduian.link
   port: 30824
@@ -276,23 +191,75 @@ proxies:
     path: /oooo
     headers:
       Host: v24.heduian.link
-- name: VMESS-J1zg3
+- name: VMESS-SoDHf
   type: vmess
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-  port: 80
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  server: 62.146.235.193
+  port: 28011
+  uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a
   alterId: 0
+  cipher: none
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: VMESS-4TG6R
+  type: vmess
+  server: v39.heduian.link
+  port: 30839
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-c3kCJ
+  type: vmess
+  server: v29.heduian.link
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: none
   tls: false
   network: ws
   ws-opts:
-    path: /
+    path: /oooo
     headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-KlhA2
+      Host: ocbc.com
+- name: VMESS-wMa8z
   type: vmess
-  server: v39.heduian.link
-  port: 30839
+  server: 43.247.134.80
+  port: 28677
+  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-Ymr5j
+  type: vmess
+  server: 8.209.211.236
+  port: 34933
+  uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: kcp
+  kcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-SFRmF
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
@@ -302,20 +269,20 @@ proxies:
     path: /oooo
     headers:
       Host: baidu.com
-- name: VMESS-zMprS
+- name: VMESS-rlpal
   type: vmess
-  server: v39.heduian.link
-  port: 30839
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: 2001:bc8:32d7:30b::201
+  port: 40011
+  uuid: bd7c5633-70df-4d6d-b104-a3e9580498f7
+  alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-opts:
-    path: /oooo
+    path: /github.com/Alvin9999
     headers:
-      Host: baidu.com
-- name: VMESS-dtwHu
+      Host: www.bing.com
+- name: VMESS-pY9HU
   type: vmess
   server: v35.heduian.link
   port: 30835
@@ -328,323 +295,363 @@ proxies:
     path: /oooo
     headers:
       Host: v35.heduian.link
-- name: Trojan-zVfAT
-  type: trojan
-  server: 185.251.83.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /TelegramU0001F1E8U0001F1F3'
-- name: Trojan-cu4n3
-  type: trojan
-  server: 185.176.24.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-6EkY3
-  type: trojan
-  server: 194.76.18.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-GlH4N
-  type: trojan
-  server: 212.183.88.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-Q26a4
-  type: trojan
-  server: 185.251.81.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-JFvEN
-  type: trojan
-  server: 185.59.218.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-wQzNf
-  type: trojan
-  server: 192.0.54.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-GWxIO
-  type: trojan
-  server: 185.148.107.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 1, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /TelegramU0001F1E8U0001F1F3'
-- name: Trojan-alTSz
-  type: trojan
-  server: 188.42.88.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-M4MXD
-  type: trojan
-  server: xingxing.jiasu123.org
-  port: 1924
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-Pf96X
-  type: trojan
-  server: 192.200.160.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-WL9Cc
-  type: trojan
-  server: 193.124.224.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-VezMi
-  type: trojan
-  server: 185.251.82.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-vxKd3
-  type: trojan
-  server: 18.162.156.99
-  port: 441
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-Q6cNk
-  type: trojan
-  server: 194.76.18.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-bcxEj
-  type: trojan
-  server: xingxing.jiasu123.org
-  port: 3043
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-ufaCZ
-  type: trojan
-  server: 193.9.49.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-iLzsz
-  type: trojan
-  server: 18.162.147.157
+- name: VMESS-NYGPF
+  type: vmess
+  server: 47.239.183.87
+  port: 28590
+  uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: kcp
+  kcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-OK57k
+  type: vmess
+  server: 205.233.181.3
   port: 443
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-qyBB6
-  type: trojan
-  server: 185.176.26.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-tTxaw
-  type: trojan
-  server: xingxing.jiasu123.org
-  port: 1523
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-SKpPN
-  type: trojan
-  server: 185.148.106.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-D2v59
-  type: trojan
-  server: 192.0.63.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-d394X
-  type: trojan
-  server: 188.164.248.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-yZjp9
-  type: trojan
-  server: 195.13.55.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-8MAXV
-  type: trojan
-  server: 199.34.229.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-VEI6U
-  type: trojan
-  server: 185.148.106.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-v49lZ
-  type: trojan
-  server: 185.156.19.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-jp9iq
-  type: trojan
-  server: xingxing.jiasu123.org
-  port: 13345
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-Hx7iP
-  type: trojan
-  server: 209.94.90.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-bvTTH
-  type: trojan
-  server: 185.16.110.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-XOtyD
-  type: trojan
-  server: 195.13.44.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-hZq5h
-  type: trojan
-  server: 185.148.107.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 1, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /TelegramU0001F1E8U0001F1F3'
-- name: Trojan-uj23y
-  type: trojan
-  server: 195.26.229.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-ndPKJ
-  type: trojan
-  server: 185.251.83.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-gseuu
-  type: trojan
-  server: 199.68.156.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-TOOeA
-  type: trojan
-  server: 185.251.81.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-aTrHn
-  type: trojan
-  server: 185.7.240.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-MKkJu
-  type: trojan
-  server: xingxing.jiasu123.org
-  port: 4317
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-oSXQh
-  type: trojan
-  server: 185.7.240.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-3AJvX
-  type: trojan
-  server: 188.42.89.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-jLnlH
-  type: trojan
-  server: 195.13.54.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-08MG2
-  type: trojan
-  server: xingxing.jiasu123.org
-  port: 4801
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: 23.45.86.28'
-- name: Trojan-VuPEx
-  type: trojan
-  server: 185.148.107.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-RhUM9
-  type: trojan
-  server: 188.244.122.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-wGPtT
-  type: trojan
-  server: 188.42.145.195
-  port: 2096
-  password: slch2024
-  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
-    path: /Telegram🇨🇳'
-- name: Trojan-ExokJ
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /us.kkp.me.eu.org/aa
+    headers:
+      Host: farid.1.berozha.ir
+- name: Trojan-fvLNf
   type: trojan
   server: 199.34.230.195
   port: 2096
   password: slch2024
   params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
     path: /Telegram🇨🇳'
-- name: Trojan-O7kNE
+- name: Trojan-bkCLi
+  type: trojan
+  server: 185.148.106.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-BfmxN
+  type: trojan
+  server: 185.251.83.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-BfHz7
+  type: trojan
+  server: 18.162.156.99
+  port: 441
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-L3aAA
+  type: trojan
+  server: xingxing.jiasu123.org
+  port: 1924
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-rRYRT
+  type: trojan
+  server: 188.42.89.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-khiIk
+  type: trojan
+  server: 185.156.19.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-b2cic
+  type: trojan
+  server: 185.16.110.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-WIQgm
+  type: trojan
+  server: 185.16.110.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-cf92q
   type: trojan
   server: 185.251.80.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-tZzlM
+  type: trojan
+  server: 185.59.218.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-3f637
+  type: trojan
+  server: 185.238.228.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-qhjsl
+  type: trojan
+  server: 192.200.160.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-Kt1pL
+  type: trojan
+  server: xingxing.jiasu123.org
+  port: 46943
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-Ny00t
+  type: trojan
+  server: 212.183.88.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-7FWqW
+  type: trojan
+  server: xingxing.jiasu123.org
+  port: 4801
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-dKlHl
+  type: trojan
+  server: 185.148.104.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-D6hdr
+  type: trojan
+  server: 185.148.107.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-tM6uZ
+  type: trojan
+  server: 185.176.24.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-YL9Jt
+  type: trojan
+  server: 192.0.54.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-TWiMC
+  type: trojan
+  server: 194.76.18.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-dDWVV
+  type: trojan
+  server: 188.244.122.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-mPZqj
+  type: trojan
+  server: 185.7.240.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-IpaOn
+  type: trojan
+  server: 199.68.156.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-SD5a3
+  type: trojan
+  server: 185.251.80.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-w2WSr
+  type: trojan
+  server: 199.34.230.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-PkZpK
+  type: trojan
+  server: xingxing.jiasu123.org
+  port: 13345
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-Ivqil
+  type: trojan
+  server: 194.36.55.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-Ye6n6
+  type: trojan
+  server: xingxing.jiasu123.org
+  port: 3043
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-zsAQR
+  type: trojan
+  server: xingxing.jiasu123.org
+  port: 4317
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-xHXbz
+  type: trojan
+  server: 193.124.224.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-iK6nE
+  type: trojan
+  server: 185.251.82.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-sM1bg
+  type: trojan
+  server: 185.148.107.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 1, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /TelegramU0001F1E8U0001F1F3'
+- name: Trojan-aqTYR
+  type: trojan
+  server: 188.164.248.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-vGETI
+  type: trojan
+  server: 185.251.81.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-QDy8F
+  type: trojan
+  server: 195.26.229.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-l4j6X
+  type: trojan
+  server: 209.94.90.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-Ot1Fj
+  type: trojan
+  server: 193.9.49.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-xAEFT
+  type: trojan
+  server: 185.7.240.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-dzc9g
+  type: trojan
+  server: 185.238.228.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-en7Zm
+  type: trojan
+  server: 188.42.88.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-Meq4j
+  type: trojan
+  server: 185.251.83.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /TelegramU0001F1E8U0001F1F3'
+- name: Trojan-EHs8l
+  type: trojan
+  server: 193.124.224.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-DBKVI
+  type: trojan
+  server: 188.42.145.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-rMboC
+  type: trojan
+  server: 192.0.63.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-lAnft
+  type: trojan
+  server: 18.162.147.157
+  port: 443
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: 23.45.86.28'
+- name: Trojan-PVcTj
+  type: trojan
+  server: 195.13.45.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-XpuJ2
+  type: trojan
+  server: 212.183.88.195
+  port: 2096
+  password: slch2024
+  params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
+    path: /Telegram🇨🇳'
+- name: Trojan-mOAzF
+  type: trojan
+  server: 195.26.229.195
   port: 2096
   password: slch2024
   params: 'allowInsecure: 0, sni: ocost-dy.wmlefl.cc, type: ws, host: ocost-dy.wmlefl.cc,
@@ -653,79 +660,81 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-ahGY1
-  - SS-RGreo
-  - SS-dykpD
-  - SS-VXFLF
-  - SS-FzY1W
-  - SS-AdJLm
-  - SS-Pk42p
-  - SS-oxgUb
-  - SS-xiUAp
-  - SSR-P02G4
-  - VMESS-79Fm0
-  - VMESS-vdbTV
-  - VMESS-jCyeG
-  - VMESS-0NSSd
-  - VMESS-X68N5
-  - VMESS-BMrV3
-  - VMESS-4ViLK
-  - VMESS-5KFLd
-  - VMESS-SSQbJ
-  - VMESS-ohXvo
-  - VMESS-FiNdG
-  - VMESS-JoSKV
-  - VMESS-J1zg3
-  - VMESS-KlhA2
-  - VMESS-zMprS
-  - VMESS-dtwHu
-  - Trojan-zVfAT
-  - Trojan-cu4n3
-  - Trojan-6EkY3
-  - Trojan-GlH4N
-  - Trojan-Q26a4
-  - Trojan-JFvEN
-  - Trojan-wQzNf
-  - Trojan-GWxIO
-  - Trojan-alTSz
-  - Trojan-M4MXD
-  - Trojan-Pf96X
-  - Trojan-WL9Cc
-  - Trojan-VezMi
-  - Trojan-vxKd3
-  - Trojan-Q6cNk
-  - Trojan-bcxEj
-  - Trojan-ufaCZ
-  - Trojan-iLzsz
-  - Trojan-qyBB6
-  - Trojan-tTxaw
-  - Trojan-SKpPN
-  - Trojan-D2v59
-  - Trojan-d394X
-  - Trojan-yZjp9
-  - Trojan-8MAXV
-  - Trojan-VEI6U
-  - Trojan-v49lZ
-  - Trojan-jp9iq
-  - Trojan-Hx7iP
-  - Trojan-bvTTH
-  - Trojan-XOtyD
-  - Trojan-hZq5h
-  - Trojan-uj23y
-  - Trojan-ndPKJ
-  - Trojan-gseuu
-  - Trojan-TOOeA
-  - Trojan-aTrHn
-  - Trojan-MKkJu
-  - Trojan-oSXQh
-  - Trojan-3AJvX
-  - Trojan-jLnlH
-  - Trojan-08MG2
-  - Trojan-VuPEx
-  - Trojan-RhUM9
-  - Trojan-wGPtT
-  - Trojan-ExokJ
-  - Trojan-O7kNE
+  - SS-0fTWS
+  - SS-6ByaF
+  - SS-qRsPp
+  - SS-Cfg0n
+  - SS-noJIT
+  - SS-l6bxD
+  - SS-wg7IY
+  - SS-ka5Md
+  - SS-9PNLV
+  - SS-mJIX4
+  - SSR-WLEXo
+  - VMESS-IWZmf
+  - VMESS-qOsOw
+  - VMESS-80l3A
+  - VMESS-uPLpG
+  - VMESS-CdRvz
+  - VMESS-SoDHf
+  - VMESS-4TG6R
+  - VMESS-c3kCJ
+  - VMESS-wMa8z
+  - VMESS-Ymr5j
+  - VMESS-SFRmF
+  - VMESS-rlpal
+  - VMESS-pY9HU
+  - VMESS-NYGPF
+  - VMESS-OK57k
+  - Trojan-fvLNf
+  - Trojan-bkCLi
+  - Trojan-BfmxN
+  - Trojan-BfHz7
+  - Trojan-L3aAA
+  - Trojan-rRYRT
+  - Trojan-khiIk
+  - Trojan-b2cic
+  - Trojan-WIQgm
+  - Trojan-cf92q
+  - Trojan-tZzlM
+  - Trojan-3f637
+  - Trojan-qhjsl
+  - Trojan-Kt1pL
+  - Trojan-Ny00t
+  - Trojan-7FWqW
+  - Trojan-dKlHl
+  - Trojan-D6hdr
+  - Trojan-tM6uZ
+  - Trojan-YL9Jt
+  - Trojan-TWiMC
+  - Trojan-dDWVV
+  - Trojan-mPZqj
+  - Trojan-IpaOn
+  - Trojan-SD5a3
+  - Trojan-w2WSr
+  - Trojan-PkZpK
+  - Trojan-Ivqil
+  - Trojan-Ye6n6
+  - Trojan-zsAQR
+  - Trojan-xHXbz
+  - Trojan-iK6nE
+  - Trojan-sM1bg
+  - Trojan-aqTYR
+  - Trojan-vGETI
+  - Trojan-QDy8F
+  - Trojan-l4j6X
+  - Trojan-Ot1Fj
+  - Trojan-xAEFT
+  - Trojan-dzc9g
+  - Trojan-en7Zm
+  - Trojan-Meq4j
+  - Trojan-EHs8l
+  - Trojan-DBKVI
+  - Trojan-rMboC
+  - Trojan-lAnft
+  - Trojan-PVcTj
+  - Trojan-XpuJ2
+  - Trojan-mOAzF
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
