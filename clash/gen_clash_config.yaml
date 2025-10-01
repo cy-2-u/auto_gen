@@ -58,25 +58,19 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-yg1n3
-  type: ss
-  server: 71.19.148.74
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: gqkUCvmeOTghYJXF1YIuk5
-- name: SS-gTfXX
+- name: SS-xkQUt
   type: ss
   server: 104.192.226.106
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: SS-BNmRp
+- name: SS-lEASR
   type: ss
-  server: hackney-latest-strike.freesocks.work
-  port: 443
+  server: 78.40.117.109
+  port: 37538
   cipher: chacha20-ietf-poly1305
-  password: XUMTygEM1jVYIvysXKqA5T
-- name: SSR-zyVdm
+  password: RP767jpZVarzQ0iI0vbTuA
+- name: SSR-pal6f
   type: ssr
   server: ssr.762988.xyz
   port: 33336
@@ -84,33 +78,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-V2HPb
-  type: vmess
-  server: 94.131.111.195
-  port: 444
-  uuid: 8bbd9d8c-481b-49b6-8029-e4648f2ea31d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: VMESS-jQkQf
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: v29.heduian.link
-- name: VMESS-V0IV1
+- name: VMESS-odqg8
   type: vmess
   server: 2001:bc8:32d7:30b::201
   port: 40011
@@ -123,46 +91,7 @@ proxies:
     path: /github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-LPIFc
-  type: vmess
-  server: v8.heduian.link
-  port: 30808
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: v8.heduian.link
-- name: VMESS-4RjLg
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-ZtDNO
-  type: vmess
-  server: 0.0.0.0
-  port: 2
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-TDukm
+- name: VMESS-3b8Bc
   type: vmess
   server: 0.0.0.0
   port: 3
@@ -175,20 +104,20 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-W8eIZ
+- name: VMESS-2vCrk
   type: vmess
-  server: 172.82.65.77
-  port: 443
-  uuid: 1ecc7e61-d639-4e18-8cae-2cff9e787261
+  server: 0.0.0.0
+  port: 2
+  uuid: 88888888-8888-8888-8888-888888888888
   alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ZVrc7MGZcKzYE40sF9Z5
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
     headers:
-      Host: m16-9d86dc15-7d51-7138-bee5-645e0ef7936c.huangshang.pp.ua
-- name: VMESS-QZ4O6
+      Host: N/A
+- name: VMESS-w0T80
   type: vmess
   server: 0.0.0.0
   port: 1
@@ -201,33 +130,20 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-HgvcQ
+- name: VMESS-Bs2dV
   type: vmess
-  server: v10.heduian.link
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-eRsUd
-  type: vmess
-  server: 57.128.189.240
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 216.227.168.157
+  port: 45276
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
   alterId: 0
   cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /linkvws
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: ''
     headers:
       Host: ''
-- name: VMESS-qbXT7
+- name: VMESS-Ee7Zr
   type: vmess
   server: v8.heduian.link
   port: 30808
@@ -240,26 +156,75 @@ proxies:
     path: /oooo
     headers:
       Host: v8.heduian.link
+- name: VMESS-ceO2J
+  type: vmess
+  server: v10.heduian.link
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-8nXOE
+  type: vmess
+  server: 57.128.189.240
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: VMESS-neErm
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-m7Yhx
+  type: vmess
+  server: 94.131.111.195
+  port: 444
+  uuid: 8bbd9d8c-481b-49b6-8029-e4648f2ea31d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: ''
+    headers:
+      Host: ''
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-yg1n3
-  - SS-gTfXX
-  - SS-BNmRp
-  - SSR-zyVdm
-  - VMESS-V2HPb
-  - VMESS-jQkQf
-  - VMESS-V0IV1
-  - VMESS-LPIFc
-  - VMESS-4RjLg
-  - VMESS-ZtDNO
-  - VMESS-TDukm
-  - VMESS-W8eIZ
-  - VMESS-QZ4O6
-  - VMESS-HgvcQ
-  - VMESS-eRsUd
-  - VMESS-qbXT7
+  - SS-xkQUt
+  - SS-lEASR
+  - SSR-pal6f
+  - VMESS-odqg8
+  - VMESS-3b8Bc
+  - VMESS-2vCrk
+  - VMESS-w0T80
+  - VMESS-Bs2dV
+  - VMESS-Ee7Zr
+  - VMESS-ceO2J
+  - VMESS-8nXOE
+  - VMESS-neErm
+  - VMESS-m7Yhx
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
