@@ -58,37 +58,37 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-6xUR9
+- name: SS-N4P4T
   type: ss
-  server: 121.170.203.147
-  port: 2520
+  server: 103.186.154.198
+  port: 38388
   cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: SS-W5Uu7
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: SS-kuu9i
   type: ss
-  server: 3.250.25.159
+  server: 3.107.151.161
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: SS-Ttp8b
+- name: SS-yGJY3
   type: ss
-  server: 103.186.154.42
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: SS-Zwj0u
-  type: ss
-  server: 103.186.154.229
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-- name: SS-0Bjpc
+  server: tr.vpnsparta.pro
+  port: 57456
+  cipher: chacha20-ietf-poly1305
+  password: c40641c1f89e7acb
+- name: SS-nyU8y
   type: ss
   server: 103.103.245.158
   port: 443
   cipher: aes-256-gcm
   password: ccf426f1fe78
-- name: SSR-u3gDm
+- name: SS-qakO8
+  type: ss
+  server: 103.186.154.229
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: SSR-pb28b
   type: ssr
   server: ssr.762988.xyz
   port: 33336
@@ -96,7 +96,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-QXSJy
+- name: VMESS-gZ5YZ
   type: vmess
   server: hkt.gotochinatown.net
   port: 80
@@ -109,72 +109,7 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: VMESS-jqRGf
-  type: vmess
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  port: 80
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-DzlWn
-  type: vmess
-  server: 210.109.205.158
-  port: 55879
-  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-f2eH7
-  type: vmess
-  server: 13.231.211.146
-  port: 54483
-  uuid: dc2fd6a5-36fe-4b06-8b31-a5c5d26add98
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: kcp
-  kcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-1DI4N
-  type: vmess
-  server: 210.109.205.158
-  port: 55879
-  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-pdne0
-  type: vmess
-  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
-  port: 80
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-ewpW6
+- name: VMESS-KwACL
   type: vmess
   server: 2001:bc8:32d7:30b::201
   port: 40011
@@ -187,11 +122,37 @@ proxies:
     path: /github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-dRcTe
+- name: VMESS-GWzzs
   type: vmess
-  server: 43.207.83.60
-  port: 20932
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-Yjygs
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-NnuaI
+  type: vmess
+  server: 13.231.211.146
+  port: 54483
+  uuid: dc2fd6a5-36fe-4b06-8b31-a5c5d26add98
   alterId: 0
   cipher: auto
   tls: false
@@ -200,46 +161,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-EWmZA
-  type: vmess
-  server: v8.heduian.link
-  port: 30808
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: v8.heduian.link
-- name: VMESS-F3QPj
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-YwKEr
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-0mUtW
+- name: VMESS-ke2sc
   type: vmess
   server: v10.heduian.link
   port: 30807
@@ -252,98 +174,127 @@ proxies:
     path: /oooo
     headers:
       Host: baidu.com
-- name: Trojan-LH0Sn
-  type: trojan
-  server: 153.121.51.29
-  port: 409
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-FvRm4
+- name: VMESS-1w1fc
+  type: vmess
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  port: 80
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-16bOh
+  type: vmess
+  server: 43.207.83.60
+  port: 20932
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: kcp
+  kcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-HYWjS
+  type: vmess
+  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
+  port: 80
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
+- name: Trojan-5cgXu
   type: trojan
   server: 106.75.134.1
   port: 12000
   password: 2fd0d127-266d-4d0b-b453-f94659a132fc
   params: 'allowInsecure: 1, sni: aliyun.com'
-- name: Trojan-8s4r9
+- name: Trojan-andS4
   type: trojan
-  server: 106.75.134.1
-  port: 12000
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  params: 'allowInsecure: 1, sni: aliyun.com'
-- name: Trojan-y9Rck
-  type: trojan
-  server: 160.16.138.24
-  port: 1331
+  server: 160.16.124.55
+  port: 3160
   password: 253bc477d4e43c209f2d427272968280
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-VbSiu
-  type: trojan
-  server: 153.121.51.29
-  port: 1331
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.nintendogames.net'
-- name: Trojan-L3PNm
+- name: Trojan-j2VjK
   type: trojan
   server: 221.128.195.217
+  port: 444
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.nintendogames.net'
+- name: Trojan-4sg8e
+  type: trojan
+  server: 36.156.102.88
+  port: 1085
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.nintendogames.net'
+- name: Trojan-4fOZ2
+  type: trojan
+  server: 160.16.72.33
+  port: 2173
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 1, sni: www.nintendogames.net'
+- name: Trojan-r1NMu
+  type: trojan
+  server: 58.152.25.156
   port: 443
   password: 253bc477d4e43c209f2d427272968280
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-4l2rQ
+- name: Trojan-bmMR1
   type: trojan
-  server: 160.16.130.66
-  port: 4729
+  server: 160.16.124.55
+  port: 6752
   password: 253bc477d4e43c209f2d427272968280
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-yTEMh
+- name: Trojan-oKg86
   type: trojan
-  server: 126.116.225.149
-  port: 443
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.nintendogames.net'
-- name: Trojan-wEn6g
-  type: trojan
-  server: 160.16.236.32
-  port: 449
-  password: 253bc477d4e43c209f2d427272968280
-  params: 'allowInsecure: 1, sni: www.nintendogames.net'
-- name: Trojan-swggW
-  type: trojan
-  server: 160.16.130.66
+  server: 36.156.102.88
   port: 3296
+  password: 253bc477d4e43c209f2d427272968280
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-VhemD
+  type: trojan
+  server: 36.156.102.88
+  port: 1806
   password: 253bc477d4e43c209f2d427272968280
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-6xUR9
-  - SS-W5Uu7
-  - SS-Ttp8b
-  - SS-Zwj0u
-  - SS-0Bjpc
-  - SSR-u3gDm
-  - VMESS-QXSJy
-  - VMESS-jqRGf
-  - VMESS-DzlWn
-  - VMESS-f2eH7
-  - VMESS-1DI4N
-  - VMESS-pdne0
-  - VMESS-ewpW6
-  - VMESS-dRcTe
-  - VMESS-EWmZA
-  - VMESS-F3QPj
-  - VMESS-YwKEr
-  - VMESS-0mUtW
-  - Trojan-LH0Sn
-  - Trojan-FvRm4
-  - Trojan-8s4r9
-  - Trojan-y9Rck
-  - Trojan-VbSiu
-  - Trojan-L3PNm
-  - Trojan-4l2rQ
-  - Trojan-yTEMh
-  - Trojan-wEn6g
-  - Trojan-swggW
+  - SS-N4P4T
+  - SS-kuu9i
+  - SS-yGJY3
+  - SS-nyU8y
+  - SS-qakO8
+  - SSR-pb28b
+  - VMESS-gZ5YZ
+  - VMESS-KwACL
+  - VMESS-GWzzs
+  - VMESS-Yjygs
+  - VMESS-NnuaI
+  - VMESS-ke2sc
+  - VMESS-1w1fc
+  - VMESS-16bOh
+  - VMESS-HYWjS
+  - Trojan-5cgXu
+  - Trojan-andS4
+  - Trojan-j2VjK
+  - Trojan-4sg8e
+  - Trojan-4fOZ2
+  - Trojan-r1NMu
+  - Trojan-bmMR1
+  - Trojan-oKg86
+  - Trojan-VhemD
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
