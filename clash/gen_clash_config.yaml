@@ -58,31 +58,25 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-LgPXr
-  type: ss
-  server: uk.vpnsparta.pro
-  port: 57456
-  cipher: chacha20-ietf-poly1305
-  password: c40641c1f89e7acb
-- name: SS-s1LHn
+- name: SS-rJwEC
   type: ss
   server: 18.170.77.155
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: SS-FiOaY
-  type: ss
-  server: 103.103.245.158
-  port: 443
-  cipher: aes-256-gcm
-  password: ccf426f1fe78
-- name: SS-7JgUK
+- name: SS-g9svc
   type: ss
   server: 185.153.197.5
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: SSR-2gxEF
+- name: SS-cmJwp
+  type: ss
+  server: 103.103.245.158
+  port: 443
+  cipher: aes-256-gcm
+  password: ccf426f1fe78
+- name: SSR-GSzK3
   type: ssr
   server: ssr.762988.xyz
   port: 33336
@@ -90,7 +84,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-p5lPw
+- name: VMESS-jW8Ar
   type: vmess
   server: v29.heduian.link
   port: 30829
@@ -103,7 +97,7 @@ proxies:
     path: /oooo
     headers:
       Host: ocbc.com
-- name: VMESS-Wzx44
+- name: VMESS-E1dFY
   type: vmess
   server: 103.224.80.100
   port: 14994
@@ -116,46 +110,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-61m7j
-  type: vmess
-  server: 103.224.80.100
-  port: 14994
-  uuid: 40731c98-9514-4e75-b78e-58311d214095
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-LomOD
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-QS7RD
-  type: vmess
-  server: 2001:bc8:1203:209::50
-  port: 23008
-  uuid: e994b804-345c-4e8b-a827-7e005694d146
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /github.com/Alvin9999
-    headers:
-      Host: www.bing.com
-- name: VMESS-WMxkL
+- name: VMESS-5pV6T
   type: vmess
   server: v9.heduian.link
   port: 30809
@@ -168,568 +123,641 @@ proxies:
     path: /oooo
     headers:
       Host: baidu.com
-- name: Trojan-ayfhK
+- name: VMESS-sOMqD
+  type: vmess
+  server: 103.224.80.100
+  port: 14994
+  uuid: 40731c98-9514-4e75-b78e-58311d214095
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-tzFbN
+  type: vmess
+  server: 2001:bc8:1203:209::50
+  port: 23008
+  uuid: e994b804-345c-4e8b-a827-7e005694d146
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999
+    headers:
+      Host: www.bing.com
+- name: Trojan-C0xRc
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17007
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-KtWg4
   type: trojan
   server: jp01.weyaf9sdoh2h.space
-  port: 18033
+  port: 18062
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-0Q6Fh
+- name: Trojan-YDSTk
   type: trojan
-  server: 36.156.102.115
-  port: 26876
-  password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-KUAo0
+  server: jp02.weyaf9sdoh2h.space
+  port: 19015
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-IPJpG
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19011
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-wRejt
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17028
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-2BiFg
   type: trojan
   server: jp01.weyaf9sdoh2h.space
-  port: 18040
+  port: 18009
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-jBoCa
-  type: trojan
-  server: 160.16.116.227
-  port: 1331
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-vdFFl
-  type: trojan
-  server: 160.16.116.227
-  port: 2467
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-M7hWQ
+- name: Trojan-iZ2FB
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17092
+  port: 17059
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-Su1OP
+- name: Trojan-36thh
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17055
+  port: 17041
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-SysNt
-  type: trojan
-  server: 37.202.200.19
-  port: 15013
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'allowInsecure: 0, sni: jp02.weyaf9sdoh2h.space'
-- name: Trojan-jAp5r
-  type: trojan
-  server: 36.151.251.35
-  port: 24392
-  password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-nuKI4
+- name: Trojan-msdOb
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17096
+  port: 17024
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-qfuMj
+- name: Trojan-11yJv
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17076
+  port: 17014
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-PSMDG
+- name: Trojan-l9mUk
   type: trojan
   server: jp01.weyaf9sdoh2h.space
-  port: 18021
+  port: 18025
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-eaPBw
+- name: Trojan-fHktE
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19044
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: ''
+- name: Trojan-rzuuq
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17091
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-vtGWS
+  type: trojan
+  server: 160.16.116.227
+  port: 3161
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-CRUge
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18010
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-AdNmc
   type: trojan
   server: 36.151.251.23
   port: 4451
   password: BxceQaOe
   params: 'allowInsecure: 1'
-- name: Trojan-qoBqc
+- name: Trojan-gRZZV
   type: trojan
-  server: jp02.weyaf9sdoh2h.space
-  port: 19059
+  server: jp03.weyaf9sdoh2h.space
+  port: 17077
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-cHXVF
+- name: Trojan-VCpTU
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18048
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-yXlAz
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17078
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-V7Cv2
+  type: trojan
+  server: 160.16.89.176
+  port: 2381
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-BYo2g
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17023
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-5iuPf
+  type: trojan
+  server: 160.16.116.227
+  port: 5041
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  params: 'allowInsecure: 1, sni: www.nintendogames.net'
+- name: Trojan-zbgpo
   type: trojan
   server: jp02.weyaf9sdoh2h.space
-  port: 19067
+  port: 19039
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-bGnOk
+- name: Trojan-lWcK7
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19018
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-uV5b9
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17031
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'allowInsecure: 0, sni: TG.WangCai2'
+- name: Trojan-SFxmI
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17021
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-BG149
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19077
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'allowInsecure: 0, sni: TG.WangCai2'
+- name: Trojan-T1N3R
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17097
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'allowInsecure: 0, sni: TG.WangCai2'
+- name: Trojan-X9dZC
+  type: trojan
+  server: 36.151.251.23
+  port: 26876
+  password: BxceQaOe
+  params: 'allowInsecure: 1'
+- name: Trojan-vnkuR
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18060
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-vND0i
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19009
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-RpvIV
   type: trojan
   server: jp03.weyaf9sdoh2h.space
   port: 17069
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-HqM8s
+- name: Trojan-itudD
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17098
+  port: 17066
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-jkNxh
+- name: Trojan-zWIwU
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17016
+  port: 17038
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-fVVyL
+- name: Trojan-d03P0
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18042
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-YSlh7
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17037
+  port: 17086
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-F0CLs
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17002
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-3TXtN
+- name: Trojan-hYTZb
   type: trojan
   server: jp02.weyaf9sdoh2h.space
-  port: 19086
+  port: 19089
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-MUdgu
+  params: 'sni: TG.WangCai2'
+- name: Trojan-aUtdx
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18005
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-rA5Wi
+  type: trojan
+  server: 160.16.116.227
+  port: 2467
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-qjpCG
   type: trojan
   server: jp02.weyaf9sdoh2h.space
-  port: 19006
+  port: 19096
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-cr1jP
+- name: Trojan-kJWAC
   type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18076
+  server: 37.202.200.19
+  port: 15013
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-Q2YUe
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18074
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-3iVxK
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17043
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-ZSLID
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18018
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-PlkKA
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17070
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-O97UT
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18055
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-yG7ru
+  params: 'allowInsecure: 0, sni: jp02.weyaf9sdoh2h.space'
+- name: Trojan-rTl6t
   type: trojan
   server: jp01.weyaf9sdoh2h.space
   port: 18079
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-D7LEq
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17000
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-c8rp6
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18020
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-noHkj
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18094
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-FOSwm
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18053
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-52v4J
+- name: Trojan-eYdFZ
   type: trojan
   server: nop-55q.pages.dev
   port: 2053
   password: T@_WvT8Ho@LW%w_,
   params: 'allowInsecure: 0, sni: NOp-55q.pAgEs.dEv, type: ws, host: NOp-55q.pAgEs.dEv,
     path: /trGPZDfetEwuO25SAs'
-- name: Trojan-NlIav
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17032
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-FUJmm
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18083
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-xC6UF
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17041
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-MnylA
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17072
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-iBb5q
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18011
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-tTeTD
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18046
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-nyqIp
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17056
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-KIwV4
-  type: trojan
-  server: 58.152.110.83
-  port: 443
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'sni: www.nintendogames.net'
-- name: Trojan-AT7Z1
-  type: trojan
-  server: jp02.weyaf9sdoh2h.space
-  port: 19044
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: ''
-- name: Trojan-G4W7p
-  type: trojan
-  server: jp02.weyaf9sdoh2h.space
-  port: 19096
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-RtT7l
-  type: trojan
-  server: 160.16.116.227
-  port: 3161
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-NIBZp
+- name: Trojan-OIsRz
   type: trojan
   server: jp01.weyaf9sdoh2h.space
   port: 18043
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-eWobq
+- name: Trojan-aCCAQ
   type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17046
+  server: jp01.weyaf9sdoh2h.space
+  port: 18089
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-FgrwW
+- name: Trojan-108qV
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19024
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-8iLiO
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18090
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-9mAQ3
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18007
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-rVlY7
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19041
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-kOHWp
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19027
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-dtTWh
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17053
+  port: 17068
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-C0BzG
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17010
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-YytPN
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17099
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-ZBCMh
+- name: Trojan-vrma2
   type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17065
+  server: jp01.weyaf9sdoh2h.space
+  port: 18011
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-jiY3e
-  type: trojan
-  server: jp02.weyaf9sdoh2h.space
-  port: 19072
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-wja9j
+  params: 'allowInsecure: 0, sni: TG.WangCai2'
+- name: Trojan-dJfSl
   type: trojan
   server: jp02.weyaf9sdoh2h.space
-  port: 19056
+  port: 19002
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-tdScz
+- name: Trojan-FInBU
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18034
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-2JbZ7
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18022
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-wXnyO
+  type: trojan
+  server: 36.156.102.115
+  port: 26876
+  password: BxceQaOe
+  params: 'allowInsecure: 1'
+- name: Trojan-YsFBc
+  type: trojan
+  server: 37.202.200.19
+  port: 15013
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'allowInsecure: 0, sni: jp02.weyaf9sdoh2h.space'
+- name: Trojan-9Jv99
   type: trojan
   server: 36.151.251.35
   port: 811
   password: BxceQaOe
   params: 'allowInsecure: 1'
-- name: Trojan-Fd4LV
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18052
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-hvEeT
-  type: trojan
-  server: 160.16.116.227
-  port: 5321
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-PDu4s
+- name: Trojan-Rtyrk
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17062
+  port: 17055
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-AXGgT
+- name: Trojan-rOXo4
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17091
+  port: 17050
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-7I5SH
+- name: Trojan-UkldG
   type: trojan
   server: jp01.weyaf9sdoh2h.space
-  port: 18077
+  port: 18013
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
-- name: Trojan-oGwXB
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18035
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-cdaHE
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17029
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-PFIrJ
-  type: trojan
-  server: 36.151.251.23
-  port: 26876
-  password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-hMD89
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18037
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-vhdhD
-  type: trojan
-  server: 160.16.89.176
-  port: 2381
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-1N0Gx
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18057
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-7BJcU
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18003
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-JUhVW
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18036
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-xeFTU
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18099
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-M1pp1
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17054
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-6Dld4
-  type: trojan
-  server: jp02.weyaf9sdoh2h.space
-  port: 19011
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-pLG3Y
-  type: trojan
-  server: jp03.weyaf9sdoh2h.space
-  port: 17058
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-o5Jed
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18072
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-UXGXY
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18000
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'allowInsecure: 0, sni: TG.WangCai2'
-- name: Trojan-ixxE1
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18005
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-mPZm7
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18064
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-q8ydV
-  type: trojan
-  server: 36.151.251.23
-  port: 4451
-  password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-kF2BH
-  type: trojan
-  server: jp01.weyaf9sdoh2h.space
-  port: 18039
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  params: 'sni: TG.WangCai2'
-- name: Trojan-XbG47
+- name: Trojan-6HDTJ
   type: trojan
   server: 58.152.110.83
   port: 443
   password: ea39fa94f1ee00999337ea1fd3318e69
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-UfDCv
+- name: Trojan-87V8V
   type: trojan
-  server: 160.16.116.227
-  port: 5041
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'allowInsecure: 1, sni: www.nintendogames.net'
-- name: Trojan-diVca
+  server: 36.151.251.35
+  port: 24392
+  password: BxceQaOe
+  params: 'allowInsecure: 1'
+- name: Trojan-0WcD3
   type: trojan
   server: jp03.weyaf9sdoh2h.space
-  port: 17049
+  port: 17048
   password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
   params: 'sni: TG.WangCai2'
+- name: Trojan-5klI7
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19007
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-0S1r3
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17016
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-1mxsl
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18035
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-uttJl
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17035
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'allowInsecure: 0, sni: TG.WangCai2'
+- name: Trojan-4D6Vn
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18078
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-Pa0cR
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19028
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-Wdlmp
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17057
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-lS8Ma
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19047
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-Bmznj
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18080
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-imPHM
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18088
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-yWRgp
+  type: trojan
+  server: 160.16.116.227
+  port: 1331
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-Gq3IO
+  type: trojan
+  server: 160.16.116.227
+  port: 5321
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-tEHXG
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18064
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-d3TgQ
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18052
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-UEV4H
+  type: trojan
+  server: jp02.weyaf9sdoh2h.space
+  port: 19046
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-iYUwP
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18096
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-s5HO3
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17070
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-UWr4R
+  type: trojan
+  server: jp03.weyaf9sdoh2h.space
+  port: 17022
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'sni: TG.WangCai2'
+- name: Trojan-IcAqv
+  type: trojan
+  server: jp01.weyaf9sdoh2h.space
+  port: 18061
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  params: 'allowInsecure: 0, sni: TG.WangCai2'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-LgPXr
-  - SS-s1LHn
-  - SS-FiOaY
-  - SS-7JgUK
-  - SSR-2gxEF
-  - VMESS-p5lPw
-  - VMESS-Wzx44
-  - VMESS-61m7j
-  - VMESS-LomOD
-  - VMESS-QS7RD
-  - VMESS-WMxkL
-  - Trojan-ayfhK
-  - Trojan-0Q6Fh
-  - Trojan-KUAo0
-  - Trojan-jBoCa
-  - Trojan-vdFFl
-  - Trojan-M7hWQ
-  - Trojan-Su1OP
-  - Trojan-SysNt
-  - Trojan-jAp5r
-  - Trojan-nuKI4
-  - Trojan-qfuMj
-  - Trojan-PSMDG
-  - Trojan-eaPBw
-  - Trojan-qoBqc
-  - Trojan-cHXVF
-  - Trojan-bGnOk
-  - Trojan-HqM8s
-  - Trojan-jkNxh
-  - Trojan-fVVyL
-  - Trojan-F0CLs
-  - Trojan-3TXtN
-  - Trojan-MUdgu
-  - Trojan-cr1jP
-  - Trojan-Q2YUe
-  - Trojan-3iVxK
-  - Trojan-ZSLID
-  - Trojan-PlkKA
-  - Trojan-O97UT
-  - Trojan-yG7ru
-  - Trojan-D7LEq
-  - Trojan-c8rp6
-  - Trojan-noHkj
-  - Trojan-FOSwm
-  - Trojan-52v4J
-  - Trojan-NlIav
-  - Trojan-FUJmm
-  - Trojan-xC6UF
-  - Trojan-MnylA
-  - Trojan-iBb5q
-  - Trojan-tTeTD
-  - Trojan-nyqIp
-  - Trojan-KIwV4
-  - Trojan-AT7Z1
-  - Trojan-G4W7p
-  - Trojan-RtT7l
-  - Trojan-NIBZp
-  - Trojan-eWobq
-  - Trojan-FgrwW
-  - Trojan-ZBCMh
-  - Trojan-jiY3e
-  - Trojan-wja9j
-  - Trojan-tdScz
-  - Trojan-Fd4LV
-  - Trojan-hvEeT
-  - Trojan-PDu4s
-  - Trojan-AXGgT
-  - Trojan-7I5SH
-  - Trojan-oGwXB
-  - Trojan-cdaHE
-  - Trojan-PFIrJ
-  - Trojan-hMD89
-  - Trojan-vhdhD
-  - Trojan-1N0Gx
-  - Trojan-7BJcU
-  - Trojan-JUhVW
-  - Trojan-xeFTU
-  - Trojan-M1pp1
-  - Trojan-6Dld4
-  - Trojan-pLG3Y
-  - Trojan-o5Jed
-  - Trojan-UXGXY
-  - Trojan-ixxE1
-  - Trojan-mPZm7
-  - Trojan-q8ydV
-  - Trojan-kF2BH
-  - Trojan-XbG47
-  - Trojan-UfDCv
-  - Trojan-diVca
+  - SS-rJwEC
+  - SS-g9svc
+  - SS-cmJwp
+  - SSR-GSzK3
+  - VMESS-jW8Ar
+  - VMESS-E1dFY
+  - VMESS-5pV6T
+  - VMESS-sOMqD
+  - VMESS-tzFbN
+  - Trojan-C0xRc
+  - Trojan-KtWg4
+  - Trojan-YDSTk
+  - Trojan-IPJpG
+  - Trojan-wRejt
+  - Trojan-2BiFg
+  - Trojan-iZ2FB
+  - Trojan-36thh
+  - Trojan-msdOb
+  - Trojan-11yJv
+  - Trojan-l9mUk
+  - Trojan-fHktE
+  - Trojan-rzuuq
+  - Trojan-vtGWS
+  - Trojan-CRUge
+  - Trojan-AdNmc
+  - Trojan-gRZZV
+  - Trojan-VCpTU
+  - Trojan-yXlAz
+  - Trojan-V7Cv2
+  - Trojan-BYo2g
+  - Trojan-5iuPf
+  - Trojan-zbgpo
+  - Trojan-lWcK7
+  - Trojan-uV5b9
+  - Trojan-SFxmI
+  - Trojan-BG149
+  - Trojan-T1N3R
+  - Trojan-X9dZC
+  - Trojan-vnkuR
+  - Trojan-vND0i
+  - Trojan-RpvIV
+  - Trojan-itudD
+  - Trojan-zWIwU
+  - Trojan-d03P0
+  - Trojan-YSlh7
+  - Trojan-hYTZb
+  - Trojan-aUtdx
+  - Trojan-rA5Wi
+  - Trojan-qjpCG
+  - Trojan-kJWAC
+  - Trojan-rTl6t
+  - Trojan-eYdFZ
+  - Trojan-OIsRz
+  - Trojan-aCCAQ
+  - Trojan-108qV
+  - Trojan-8iLiO
+  - Trojan-9mAQ3
+  - Trojan-rVlY7
+  - Trojan-kOHWp
+  - Trojan-dtTWh
+  - Trojan-C0BzG
+  - Trojan-YytPN
+  - Trojan-vrma2
+  - Trojan-dJfSl
+  - Trojan-FInBU
+  - Trojan-2JbZ7
+  - Trojan-wXnyO
+  - Trojan-YsFBc
+  - Trojan-9Jv99
+  - Trojan-Rtyrk
+  - Trojan-rOXo4
+  - Trojan-UkldG
+  - Trojan-6HDTJ
+  - Trojan-87V8V
+  - Trojan-0WcD3
+  - Trojan-5klI7
+  - Trojan-0S1r3
+  - Trojan-1mxsl
+  - Trojan-uttJl
+  - Trojan-4D6Vn
+  - Trojan-Pa0cR
+  - Trojan-Wdlmp
+  - Trojan-lS8Ma
+  - Trojan-Bmznj
+  - Trojan-imPHM
+  - Trojan-yWRgp
+  - Trojan-Gq3IO
+  - Trojan-tEHXG
+  - Trojan-d3TgQ
+  - Trojan-UEV4H
+  - Trojan-iYUwP
+  - Trojan-s5HO3
+  - Trojan-UWr4R
+  - Trojan-IcAqv
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
