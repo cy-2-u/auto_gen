@@ -58,43 +58,37 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-U27mN
-  type: ss
-  server: liubu9.singdns.com
-  port: 17459
-  cipher: aes-128-gcm
-  password: 57bc0c04-8184-48f5-906b-897d095ed445
-- name: SS-kFxQG
-  type: ss
-  server: 3.112.229.1
-  port: 2377
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-- name: SS-sbSSL
-  type: ss
-  server: 185.153.197.5
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: SS-SNfu6
-  type: ss
-  server: 103.103.245.158
-  port: 443
-  cipher: aes-256-gcm
-  password: ccf426f1fe78
-- name: SS-tcqxi
+- name: SS-up4if
   type: ss
   server: 3.9.17.198
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: SS-inRje
+- name: SS-HD6ap
+  type: ss
+  server: 185.153.197.5
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: SS-JojJC
   type: ss
   server: 59.125.62.188
   port: 2377
   cipher: chacha20-ietf-poly1305
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-- name: VMESS-xuNQZ
+- name: SS-MmSnJ
+  type: ss
+  server: 103.103.245.158
+  port: 443
+  cipher: aes-256-gcm
+  password: ccf426f1fe78
+- name: SS-1PZJa
+  type: ss
+  server: 3.112.229.1
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- name: VMESS-sFNTo
   type: vmess
   server: 141.101.121.120
   port: 80
@@ -107,20 +101,7 @@ proxies:
     path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
     headers:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-- name: VMESS-GWI2x
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: ocbc.com
-- name: VMESS-ddmFe
+- name: VMESS-jsJ0O
   type: vmess
   server: v9.heduian.link
   port: 30809
@@ -133,7 +114,7 @@ proxies:
     path: /oooo
     headers:
       Host: baidu.com
-- name: VMESS-8QZZQ
+- name: VMESS-WHHXy
   type: vmess
   server: 2001:bc8:1203:209::50
   port: 23008
@@ -146,114 +127,164 @@ proxies:
     path: /github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-sHfIj
+- name: VMESS-6jGOU
   type: vmess
-  server: dd.openaccessnode.com
-  port: 5228
-  uuid: 6202ab99-7f57-0a6a-180a-e980b41f5789
+  server: 172.82.67.156.sslip.io
+  port: 443
+  uuid: 55821780-6970-49df-8a23-800c2c9b7d3a
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /SGBvMNdpPtNtvgyaVXm
+    headers:
+      Host: 172.82.67.156.sslip.io
+- name: VMESS-qJuri
+  type: vmess
+  server: v29.heduian.link
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: ocbc.com
+- name: VMESS-0f33e
+  type: vmess
+  server: 114.98.183.61
+  port: 47083
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
   alterId: 0
   cipher: none
   tls: false
   network: tcp
   tcp-opts:
-    path: ''
+    path: /
     headers:
-      Host: dd.openaccessnode.com
-- name: Trojan-3Nnot
+      Host: ''
+- name: Trojan-5HLT3
   type: trojan
-  server: 36.156.102.115
-  port: 26876
+  server: 153.121.53.187
+  port: 2145
   password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-N2qvA
+  params: 'sni: t.me%2Fripaojiedian'
+- name: Trojan-RyN1x
   type: trojan
-  server: 58.152.110.216
+  server: 219.79.165.55
   port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-LMGcx
+  type: trojan
+  server: 219.79.165.55
+  port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-L5MkD
+  type: trojan
+  server: 160.16.63.16
+  port: 2890
   password: 2274c52572e721086f8bd8f88984643c
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-ERvbB
+- name: Trojan-49Sjm
+  type: trojan
+  server: 35.77.94.201
+  port: 8112
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-9rKEc
+  type: trojan
+  server: 151.242.164.127
+  port: 3443
+  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
+  params: ''
+- name: Trojan-OD6wg
+  type: trojan
+  server: 18.163.122.76
+  port: 2173
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-tr34N
+  type: trojan
+  server: 153.121.65.107
+  port: 127
+  password: 2274c52572e721086f8bd8f88984643c
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-LuEzU
+  type: trojan
+  server: 58.152.26.173
+  port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-2BJjW
+  type: trojan
+  server: 116.49.237.130
+  port: 3579
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-9BNkz
+  type: trojan
+  server: 151.242.165.233
+  port: 3443
+  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
+  params: 'sni: origin-a.akamaihd.net'
+- name: Trojan-C3BSi
+  type: trojan
+  server: 58.152.26.173
+  port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-ct0kd
   type: trojan
   server: 89.110.116.141
   port: 443
   password: e812343b-61a1-46fd-b086-b1395d0eb7de
   params: 'allowInsecure: 0, sni: joss.gpj.web.id, type: ws, host: joss.gpj.web.id,
     path: /Free-VPN-CF-Geo-Project/89.110.116.141=443'
-- name: Trojan-ut0eA
-  type: trojan
-  server: 58.152.26.173
-  port: 443
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-ai4wW
-  type: trojan
-  server: 160.16.151.196
-  port: 4211
-  password: 2274c52572e721086f8bd8f88984643c
-  params: 'allowInsecure: 1, sni: www.nintendogames.net'
-- name: Trojan-gtyLn
-  type: trojan
-  server: 153.121.65.107
-  port: 127
-  password: 2274c52572e721086f8bd8f88984643c
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-O9mMn
+- name: Trojan-xY3QO
   type: trojan
   server: 95.182.120.208
   port: 2053
   password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
   params: 'allowInsecure: 0, sni: joss.gpj.web.id, type: ws, host: joss.gpj.web.id,
     path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053'
-- name: Trojan-JF99S
+- name: Trojan-Vhq6t
+  type: trojan
+  server: 153.121.65.107
+  port: 3169
+  password: 2274c52572e721086f8bd8f88984643c
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-gUfIs
+  type: trojan
+  server: 160.16.151.196
+  port: 4211
+  password: 2274c52572e721086f8bd8f88984643c
+  params: 'allowInsecure: 1, sni: www.nintendogames.net'
+- name: Trojan-4pwrt
+  type: trojan
+  server: 58.152.110.216
+  port: 443
+  password: 2274c52572e721086f8bd8f88984643c
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-N5V9c
   type: trojan
   server: 160.16.151.196
   port: 127
   password: 2274c52572e721086f8bd8f88984643c
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-tpfDB
+- name: Trojan-sbKD7
+  type: trojan
+  server: 36.156.102.115
+  port: 26876
+  password: BxceQaOe
+  params: 'allowInsecure: 1'
+- name: Trojan-IOKp4
   type: trojan
   server: 160.16.63.16
-  port: 3169
-  password: 2274c52572e721086f8bd8f88984643c
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-FdDs0
-  type: trojan
-  server: 151.242.164.127
-  port: 3443
-  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
-  params: 'allowInsecure: 1, sni: steampipe.akamaized.net'
-- name: Trojan-bFkNx
-  type: trojan
-  server: 35.77.94.201
-  port: 8112
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-HEmBm
-  type: trojan
-  server: 116.49.237.130
-  port: 3579
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-pLDcR
-  type: trojan
-  server: 18.163.122.76
-  port: 2173
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-YRM8e
-  type: trojan
-  server: 160.16.63.16
-  port: 2890
-  password: 2274c52572e721086f8bd8f88984643c
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-JbT24
-  type: trojan
-  server: 219.79.165.55
-  port: 443
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-obZ0n
-  type: trojan
-  server: 153.121.65.107
   port: 3169
   password: 2274c52572e721086f8bd8f88984643c
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
@@ -261,33 +292,37 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-U27mN
-  - SS-kFxQG
-  - SS-sbSSL
-  - SS-SNfu6
-  - SS-tcqxi
-  - SS-inRje
-  - VMESS-xuNQZ
-  - VMESS-GWI2x
-  - VMESS-ddmFe
-  - VMESS-8QZZQ
-  - VMESS-sHfIj
-  - Trojan-3Nnot
-  - Trojan-N2qvA
-  - Trojan-ERvbB
-  - Trojan-ut0eA
-  - Trojan-ai4wW
-  - Trojan-gtyLn
-  - Trojan-O9mMn
-  - Trojan-JF99S
-  - Trojan-tpfDB
-  - Trojan-FdDs0
-  - Trojan-bFkNx
-  - Trojan-HEmBm
-  - Trojan-pLDcR
-  - Trojan-YRM8e
-  - Trojan-JbT24
-  - Trojan-obZ0n
+  - SS-up4if
+  - SS-HD6ap
+  - SS-JojJC
+  - SS-MmSnJ
+  - SS-1PZJa
+  - VMESS-sFNTo
+  - VMESS-jsJ0O
+  - VMESS-WHHXy
+  - VMESS-6jGOU
+  - VMESS-qJuri
+  - VMESS-0f33e
+  - Trojan-5HLT3
+  - Trojan-RyN1x
+  - Trojan-LMGcx
+  - Trojan-L5MkD
+  - Trojan-49Sjm
+  - Trojan-9rKEc
+  - Trojan-OD6wg
+  - Trojan-tr34N
+  - Trojan-LuEzU
+  - Trojan-2BJjW
+  - Trojan-9BNkz
+  - Trojan-C3BSi
+  - Trojan-ct0kd
+  - Trojan-xY3QO
+  - Trojan-Vhq6t
+  - Trojan-gUfIs
+  - Trojan-4pwrt
+  - Trojan-N5V9c
+  - Trojan-sbKD7
+  - Trojan-IOKp4
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
