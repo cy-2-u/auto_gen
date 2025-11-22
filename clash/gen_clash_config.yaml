@@ -58,82 +58,31 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-Jak3f
+- name: SS-7MXa1
   type: ss
-  server: 15.204.247.49
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-- name: SS-2BoQZ
+  server: 118.253.180.20
+  port: 39695
+  cipher: chacha20-ietf-poly1305
+  password: cb794089-728d-4171-9b69-846abb413309
+- name: SS-ZuvDx
+  type: ss
+  server: 118.253.180.20
+  port: 39693
+  cipher: chacha20-ietf-poly1305
+  password: cb794089-728d-4171-9b69-846abb413309
+- name: SS-jPaVA
   type: ss
   server: 3.9.17.198
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: SS-PJ6og
-  type: ss
-  server: 144.217.164.29
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-- name: SS-DdApa
+- name: SS-LrhSJ
   type: ss
   server: 103.103.245.158
   port: 443
   cipher: aes-256-gcm
   password: ccf426f1fe78
-- name: SS-rbTun
-  type: ss
-  server: 103.219.103.217
-  port: 23344
-  cipher: aes-128-gcm
-  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
-- name: SS-Y1Gjc
-  type: ss
-  server: 57.128.214.100
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-- name: VMESS-FIScN
-  type: vmess
-  server: west_a.gaogroup.bid
-  port: 443
-  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ctzxvws
-    headers:
-      Host: ''
-- name: VMESS-4e4Wh
-  type: vmess
-  server: 43.163.203.24
-  port: 6600
-  uuid: 4945cf85-a9aa-433f-b845-4c06eda84e0a
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: VMESS-BQSNf
-  type: vmess
-  server: 113.57.36.148
-  port: 3304
-  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-C7gHU
+- name: VMESS-Zdv3d
   type: vmess
   server: 82.198.246.97
   port: 180
@@ -146,7 +95,20 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-gXEFi
+- name: VMESS-ms57S
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-oShpw
   type: vmess
   server: v9.heduian.link
   port: 30809
@@ -159,11 +121,11 @@ proxies:
     path: /oooo
     headers:
       Host: baidu.com
-- name: VMESS-prJaV
+- name: VMESS-ttEIR
   type: vmess
-  server: 113.57.36.148
-  port: 3304
-  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
   tls: false
@@ -172,169 +134,208 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: Trojan-7ewD3
-  type: trojan
-  server: 37.252.5.75
+- name: VMESS-7SXxN
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-E7cz0
+  type: vmess
+  server: node4.rtxconfigz.com
   port: 443
-  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443'
-- name: Trojan-97GtT
-  type: trojan
-  server: 81.91.214.162
-  port: 443
-  password: f583143c-2cbe-47f5-804d-27efa55442a1
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/81.91.214.162=443'
-- name: Trojan-6osab
-  type: trojan
-  server: 153.121.51.221
-  port: 1821
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-K53We
-  type: trojan
-  server: 91.103.253.193
-  port: 443
-  password: 1a758d17-149a-47f3-9336-d1cc33232cc9
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/91.103.253.193=443'
-- name: Trojan-0vYgF
-  type: trojan
-  server: 58.152.53.22
-  port: 443
-  password: BxceQaOe
-  params: 'sni: t.me%2Fripaojiedian'
-- name: Trojan-MzLiZ
-  type: trojan
-  server: 18.162.123.55
-  port: 2773
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-SJ8bJ
-  type: trojan
-  server: 58.152.25.241
-  port: 443
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-l7qSK
-  type: trojan
-  server: 51.15.210.1
-  port: 443
-  password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/51.15.210.1=443'
-- name: Trojan-gfert
-  type: trojan
-  server: 89.28.236.243
-  port: 443
-  password: 5c8c8b61-9b24-4c5a-b6ad-f6560df2e9d3
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443'
-- name: Trojan-oCJn8
-  type: trojan
-  server: 185.247.184.186
-  port: 8443
-  password: 2302eb2b-9401-4176-a4da-b41d4cd55756
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/185.247.184.186=8443'
-- name: Trojan-LVk4F
-  type: trojan
-  server: 160.16.89.176
-  port: 2760
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-sckJX
-  type: trojan
-  server: 116.49.237.130
-  port: 381
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-qVNO3
-  type: trojan
-  server: 54.199.75.230
-  port: 1331
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-fHrZK
-  type: trojan
-  server: 160.16.214.6
-  port: 2760
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-frqWF
-  type: trojan
-  server: 81.22.132.183
-  port: 443
-  password: ee339912-0c35-4fac-8d85-180b65bcd49c
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/81.22.132.183=443'
-- name: Trojan-x7PZ9
-  type: trojan
-  server: 160.16.204.136
-  port: 2890
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  params: 'allowInsecure: 1, sni: www.nintendogames.net'
-- name: Trojan-fUOe9
-  type: trojan
-  server: 45.159.251.8
-  port: 81
-  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81'
-- name: Trojan-DzIUP
-  type: trojan
-  server: 58.152.18.95
-  port: 443
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-HsygK
-  type: trojan
-  server: 160.16.89.176
-  port: 702
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-POMvo
-  type: trojan
-  server: 58.152.25.241
-  port: 443
-  password: BxceQaOe
-  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-rlj3j
-  type: trojan
-  server: os-2.rise-fuji.com
-  port: 443
-  password: Fn9TZuYXiFYhsyp65T
-  params: 'allowInsecure: 1, sni: os-2.rise-fuji.com'
-- name: Trojan-ZtIE2
-  type: trojan
-  server: 217.30.10.31
-  port: 8443
-  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
-  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
-    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443'
-- name: Trojan-wThqs
-  type: trojan
-  server: 160.16.204.136
-  port: 1331
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-SZhqo
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /@Malinda6104
+    headers:
+      Host: node4.rtxconfigz.com
+- name: VMESS-q2Qcs
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: none
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: ''
+    headers:
+      Host: trojan.burgerip.co.uk
+- name: Trojan-Gt1w4
   type: trojan
   server: 34.22.190.30
   port: 443
   password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
   params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
     path: /Free-VPN-CF-Geo-Project/34.22.190.30=443'
-- name: Trojan-NQHPl
+- name: Trojan-HeeyG
+  type: trojan
+  server: 160.16.196.59
+  port: 2890
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-DmJjT
+  type: trojan
+  server: 58.152.53.22
+  port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-No14m
+  type: trojan
+  server: 81.91.214.162
+  port: 443
+  password: f583143c-2cbe-47f5-804d-27efa55442a1
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/81.91.214.162=443'
+- name: Trojan-xU5Kb
+  type: trojan
+  server: 37.252.5.75
+  port: 443
+  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443'
+- name: Trojan-Idfb8
+  type: trojan
+  server: 160.16.223.205
+  port: 2760
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-aDCVE
+  type: trojan
+  server: 160.16.124.55
+  port: 702
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  params: 'allowInsecure: 1, sni: www.nintendogames.net'
+- name: Trojan-8nPgW
+  type: trojan
+  server: 160.16.136.130
+  port: 5552
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-PRltc
+  type: trojan
+  server: 51.15.210.1
+  port: 443
+  password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/51.15.210.1=443'
+- name: Trojan-8xkbH
+  type: trojan
+  server: 160.16.124.55
+  port: 3169
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-ngym5
+  type: trojan
+  server: os-2.rise-fuji.com
+  port: 443
+  password: Fn9TZuYXiFYhsyp65T
+  params: 'allowInsecure: 1, sni: os-2.rise-fuji.com'
+- name: Trojan-eTHIg
+  type: trojan
+  server: 217.30.10.31
+  port: 8443
+  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443'
+- name: Trojan-zADR5
+  type: trojan
+  server: 45.159.251.8
+  port: 81
+  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81'
+- name: Trojan-Ega2h
   type: trojan
   server: 58.152.25.241
   port: 443
   password: BxceQaOe
   params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
-- name: Trojan-buwfB
+- name: Trojan-l13T7
   type: trojan
-  server: 58.152.18.124
+  server: 160.16.233.76
+  port: 4012
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-QCwLn
+  type: trojan
+  server: 219.79.165.55
+  port: 443
+  password: BxceQaOe
+  params: 'sni: t.me%2Fripaojiedian'
+- name: Trojan-ea975
+  type: trojan
+  server: 116.49.237.130
+  port: 1691
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-7CleA
+  type: trojan
+  server: 95.40.7.3
+  port: 2773
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-vcZb7
+  type: trojan
+  server: 91.103.253.193
+  port: 443
+  password: 1a758d17-149a-47f3-9336-d1cc33232cc9
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/91.103.253.193=443'
+- name: Trojan-58mab
+  type: trojan
+  server: 58.152.25.241
+  port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-B3LNN
+  type: trojan
+  server: 58.152.18.95
+  port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me/ripaojiedian'
+- name: Trojan-mEpcy
+  type: trojan
+  server: 160.16.136.130
+  port: 1331
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-QYaqZ
+  type: trojan
+  server: 185.247.184.186
+  port: 8443
+  password: 2302eb2b-9401-4176-a4da-b41d4cd55756
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/185.247.184.186=8443'
+- name: Trojan-IKz3b
+  type: trojan
+  server: 81.22.132.183
+  port: 443
+  password: ee339912-0c35-4fac-8d85-180b65bcd49c
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/81.22.132.183=443'
+- name: Trojan-Tzzoc
+  type: trojan
+  server: 89.28.236.243
+  port: 443
+  password: 5c8c8b61-9b24-4c5a-b6ad-f6560df2e9d3
+  params: 'allowInsecure: 0, sni: joss.gpj1.web.id, type: ws, host: joss.gpj1.web.id,
+    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443'
+- name: Trojan-p5YRE
+  type: trojan
+  server: 58.152.18.98
   port: 443
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
@@ -342,44 +343,43 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-Jak3f
-  - SS-2BoQZ
-  - SS-PJ6og
-  - SS-DdApa
-  - SS-rbTun
-  - SS-Y1Gjc
-  - VMESS-FIScN
-  - VMESS-4e4Wh
-  - VMESS-BQSNf
-  - VMESS-C7gHU
-  - VMESS-gXEFi
-  - VMESS-prJaV
-  - Trojan-7ewD3
-  - Trojan-97GtT
-  - Trojan-6osab
-  - Trojan-K53We
-  - Trojan-0vYgF
-  - Trojan-MzLiZ
-  - Trojan-SJ8bJ
-  - Trojan-l7qSK
-  - Trojan-gfert
-  - Trojan-oCJn8
-  - Trojan-LVk4F
-  - Trojan-sckJX
-  - Trojan-qVNO3
-  - Trojan-fHrZK
-  - Trojan-frqWF
-  - Trojan-x7PZ9
-  - Trojan-fUOe9
-  - Trojan-DzIUP
-  - Trojan-HsygK
-  - Trojan-POMvo
-  - Trojan-rlj3j
-  - Trojan-ZtIE2
-  - Trojan-wThqs
-  - Trojan-SZhqo
-  - Trojan-NQHPl
-  - Trojan-buwfB
+  - SS-7MXa1
+  - SS-ZuvDx
+  - SS-jPaVA
+  - SS-LrhSJ
+  - VMESS-Zdv3d
+  - VMESS-ms57S
+  - VMESS-oShpw
+  - VMESS-ttEIR
+  - VMESS-7SXxN
+  - VMESS-E7cz0
+  - VMESS-q2Qcs
+  - Trojan-Gt1w4
+  - Trojan-HeeyG
+  - Trojan-DmJjT
+  - Trojan-No14m
+  - Trojan-xU5Kb
+  - Trojan-Idfb8
+  - Trojan-aDCVE
+  - Trojan-8nPgW
+  - Trojan-PRltc
+  - Trojan-8xkbH
+  - Trojan-ngym5
+  - Trojan-eTHIg
+  - Trojan-zADR5
+  - Trojan-Ega2h
+  - Trojan-l13T7
+  - Trojan-QCwLn
+  - Trojan-ea975
+  - Trojan-7CleA
+  - Trojan-vcZb7
+  - Trojan-58mab
+  - Trojan-B3LNN
+  - Trojan-mEpcy
+  - Trojan-QYaqZ
+  - Trojan-IKz3b
+  - Trojan-Tzzoc
+  - Trojan-p5YRE
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
